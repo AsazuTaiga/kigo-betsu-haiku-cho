@@ -1,0 +1,14 @@
+{
+  "primary": "#3598F3",
+  "theme": "#645FCE",
+  "weakTheme": "#E6E5FF",
+  "silent": "#DADADA",
+  "weakBlack": "#626262",
+  "danger": "#EB2A2A",
+  "focus": "#DCA3FF",
+  "spring": "#FEE3FF",
+  "summer": "#D1FFC9",
+  "fall": "#FFE4DE",
+  "winter": "#D7ECFF",
+  "newYear": "#EDE1FF"
+}
