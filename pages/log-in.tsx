@@ -8,7 +8,7 @@ const Login: NextPage = () => {
   return (
     <>
       <div className="container">
-        <img className="topLogo" src="/top-logo-260px.png"></img>
+        <img className="topLogo" src="/top-logo.svg"></img>
         <LogInForm />
         <Link href="/reset-password">
           <span className="link">パスワードをお忘れですか？</span>
@@ -29,7 +29,8 @@ const Login: NextPage = () => {
           padding: 20px;
         }
         .topLogo {
-          width: 250px;
+          width: 280px;
+          max-width: 90%;
           margin-bottom: 20px;
         }
         .link {

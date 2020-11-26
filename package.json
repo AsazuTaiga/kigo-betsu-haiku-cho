@@ -29,6 +29,7 @@
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
+    "ajv": "^6.12.6",
     "firebase": "^8.1.1",
     "firebase-admin": "^9.4.1",
     "js-cookie": "^2.2.1",

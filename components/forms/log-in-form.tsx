@@ -1,32 +1,61 @@
-import { useState } from 'react'
+import { useState, useContext } from 'react'
+import { useRouter } from 'next/router'
 import ValidationInput from '../inputs/validation-input'
 import LogInButton from '../buttons/log-in-button'
+import firebase from 'firebase/app'
+import 'firebase/auth'
+import 'firebase/database'
+import Validator from './validator'
+import UserContext from '../../contexts/user-context'
 
 const LogInForm: React.FC = () => {
+  const router = useRouter()
   const [email, setEmail] = useState('')
   const [isEmailInvalid, setIsEmailInvalid] = useState(false)
-  const [emailValidationMessage, setEmailValidationMessage] = useState(
-    'メールアドレスを入力してください。'
-  )
+  const [emailValidationMessage, setEmailValidationMessage] = useState('')
   const [password, setPassword] = useState('')
   const [isPasswordInvalid, setIsPasswordInvalid] = useState(false)
-  const [passwordValidationMessage, setPasswordValidationMessage] = useState(
-    'パスワードを入力してください。'
-  )
+  const [passwordValidationMessage, setPasswordValidationMessage] = useState('')
 
   const onLogInButtonClick: OnClick = (clickEvent) => {
     clickEvent.preventDefault()
     handleLogin()
   }
 
-  // wip
   const handleLogin = () => {
-    window.alert(`Eメールは${email}で、\nパスワードは${password}ですね！`)
+    if (!validate()) {
+      return
+    }
+    firebase
+      .auth()
+      .signInWithEmailAndPassword(email, password)
+      .then((response) => {
+        useContext(UserContext) // wip
+        window.alert(response)
 
-    setIsEmailInvalid(true)
-    setIsPasswordInvalid(true)
-    setEmailValidationMessage('メールアドレスの形式を確認してください。')
-    setPasswordValidationMessage('パスワードが短すぎます。')
+        router.push('/kigo')
+      })
+      .catch((error) => window.alert(error))
+  }
+
+  const validate = () => {
+    const emailValidationResult = Validator.test(email, 'email')
+    const passwordValidationResult = Validator.test(password, 'password')
+    if (!emailValidationResult.result) {
+      setIsEmailInvalid(true)
+      setEmailValidationMessage(emailValidationResult.message)
+    } else {
+      setIsEmailInvalid(false)
+      setEmailValidationMessage('')
+    }
+    if (!passwordValidationResult.result) {
+      setIsPasswordInvalid(true)
+      setPasswordValidationMessage(passwordValidationResult.message)
+    } else {
+      setIsPasswordInvalid(false)
+      setPasswordValidationMessage('')
+    }
+    return emailValidationResult.result && passwordValidationResult.result
   }
 
   return (
@@ -56,7 +85,7 @@ const LogInForm: React.FC = () => {
           max-width: 400px;
         }
       `}</style>
-      <style jsx-global>{`
+      <style jsx-global="true">{`
         .logInForm button, .logInForm input {
           width: 100%;
         }
