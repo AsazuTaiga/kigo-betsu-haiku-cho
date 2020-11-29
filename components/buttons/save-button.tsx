@@ -3,10 +3,11 @@ import Colors from '../../colors.json'
 
 type Props = {
   onClick?: OnClick
+  isLoading?: boolean
 }
 
 const SaveButton: React.FC<Props> = (props) => {
-  const { onClick } = { ...props }
+  const { onClick, isLoading } = { ...props }
   return (
     <BaseButton
       backgroundColor={Colors.primary}
@@ -14,6 +15,7 @@ const SaveButton: React.FC<Props> = (props) => {
       textContent="保存"
       onClick={onClick}
       type="submit"
+      isLoading={isLoading}
     ></BaseButton>
   )
 }

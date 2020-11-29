@@ -3,10 +3,11 @@ import Colors from '../../colors.json'
 
 type Props = {
   onClick?: OnClick
+  isLoading?: boolean
 }
 
 const LogInButton: React.FC<Props> = (props) => {
-  const { onClick } = { ...props }
+  const { onClick, isLoading } = { ...props }
   return (
     <BaseButton
       backgroundColor={Colors.theme}
@@ -14,6 +15,7 @@ const LogInButton: React.FC<Props> = (props) => {
       textContent="ログイン"
       onClick={onClick}
       type="submit"
+      isLoading={isLoading}
     ></BaseButton>
   )
 }

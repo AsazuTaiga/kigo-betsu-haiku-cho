@@ -10,6 +10,7 @@ import KigoLink from '../components/links/kigo-link'
 import BaseInput from '../components/inputs/base/base-input'
 import ValidationInput from '../components/inputs/validation-input'
 import DataLicense from '../components/texts/data-license'
+import AppHeader from '../components/headers/app-header'
 
 export const Home = (): JSX.Element => (
   <div className="container">
@@ -99,6 +100,7 @@ export const Home = (): JSX.Element => (
         isInvalid
       ></ValidationInput>
       <DataLicense />
+      <AppHeader />
     </main>
 
     <style jsx>{`

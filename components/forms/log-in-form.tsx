@@ -1,13 +1,15 @@
-import { useState } from 'react'
+import { useState, useContext } from 'react'
 import { useRouter } from 'next/router'
-import ValidationInput from '../inputs/validation-input'
-import LogInButton from '../buttons/log-in-button'
 import firebase from 'firebase/app'
 import 'firebase/auth'
 import 'firebase/database'
+import UserContext from '../../contexts/user-context'
+import ValidationInput from '../inputs/validation-input'
+import LogInButton from '../buttons/log-in-button'
 import Validator from './validator'
 
 const LogInForm: React.FC = () => {
+  const setUser = useContext(UserContext)[1]
   const router = useRouter()
   const [email, setEmail] = useState('')
   const [isEmailInvalid, setIsEmailInvalid] = useState(false)
@@ -15,29 +17,52 @@ const LogInForm: React.FC = () => {
   const [password, setPassword] = useState('')
   const [isPasswordInvalid, setIsPasswordInvalid] = useState(false)
   const [passwordValidationMessage, setPasswordValidationMessage] = useState('')
+  const [isLoading, setIsLoading] = useState(false)
 
-  const onLogInButtonClick: OnClick = (clickEvent) => {
-    clickEvent.preventDefault()
-    handleLogin()
-  }
-
-  const handleLogin = () => {
-    if (!validate()) {
+  const handleSubmit = (event) => {
+    event.preventDefault()
+    resetValidationState()
+    if (!validateEmail() || !validatePasswordEmpty()) {
       return
     }
+    setIsLoading(true)
     firebase
       .auth()
       .signInWithEmailAndPassword(email, password)
       .then((response) => {
-        window.alert(response)
+        setUser(response.user)
         router.push('/kigo')
       })
-      .catch((error) => window.alert(error))
+      .catch((error) => {
+        if (error.code === 'auth/user-not-found') {
+          setIsEmailInvalid(true)
+          setEmailValidationMessage(
+            'ユーザーが存在しません。メールアドレスを確認してください。'
+          )
+        }
+        if (error.code === 'auth/wrong-password') {
+          setIsPasswordInvalid(true)
+          setPasswordValidationMessage('パスワードが違います。')
+        }
+        if (error.code === 'auth/too-many-requests') {
+          setIsPasswordInvalid(true)
+          setPasswordValidationMessage(
+            'リクエスト過多のため一時的に制限されています。'
+          )
+        }
+      })
+      .finally(() => setIsLoading(false))
   }
 
-  const validate = () => {
+  const resetValidationState = () => {
+    setIsEmailInvalid(false)
+    setEmailValidationMessage('')
+    setIsPasswordInvalid(false)
+    setPasswordValidationMessage('')
+  }
+
+  const validateEmail = () => {
     const emailValidationResult = Validator.test(email, 'email')
-    const passwordValidationResult = Validator.test(password, 'password')
     if (!emailValidationResult.result) {
       setIsEmailInvalid(true)
       setEmailValidationMessage(emailValidationResult.message)
@@ -45,6 +70,11 @@ const LogInForm: React.FC = () => {
       setIsEmailInvalid(false)
       setEmailValidationMessage('')
     }
+    return emailValidationResult.result
+  }
+
+  const validatePasswordEmpty = () => {
+    const passwordValidationResult = Validator.testEmpty(password, 'password')
     if (!passwordValidationResult.result) {
       setIsPasswordInvalid(true)
       setPasswordValidationMessage(passwordValidationResult.message)
@@ -52,12 +82,12 @@ const LogInForm: React.FC = () => {
       setIsPasswordInvalid(false)
       setPasswordValidationMessage('')
     }
-    return emailValidationResult.result && passwordValidationResult.result
+    return passwordValidationResult.result
   }
 
   return (
     <>
-      <form className="logInForm">
+      <form className="logInForm" onSubmit={handleSubmit}>
         <ValidationInput
           validationMessage={emailValidationMessage}
           placeholder="メールアドレス"
@@ -74,7 +104,7 @@ const LogInForm: React.FC = () => {
           isInvalid={isPasswordInvalid}
           onChange={(changeEvent) => setPassword(changeEvent.target.value)}
         />
-        <LogInButton onClick={onLogInButtonClick}></LogInButton>
+        <LogInButton isLoading={isLoading}></LogInButton>
       </form>
       <style jsx>{`
         .logInForm {

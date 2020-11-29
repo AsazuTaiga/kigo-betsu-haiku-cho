@@ -4,8 +4,8 @@ import BaseTooltip from './base/base-tooltip'
 import colors from '../../colors.json'
 
 type Props = {
-  newerHandler: OnClickLI
-  olderHandler: OnClickLI
+  newerHandler: OnClick
+  olderHandler: OnClick
 }
 
 const SortTooltip: React.FC<Props> = (props) => {

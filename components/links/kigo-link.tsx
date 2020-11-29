@@ -9,7 +9,7 @@ const KigoLink: React.FC<Props> = (props) => {
   const { kigo } = { ...props }
   return (
     <>
-      <Link href={`/haiku-list/${encodeURIComponent(kigo.name)}`}>
+      <Link href={`/haiku/${encodeURIComponent(kigo.name)}`}>
         <button className={`kigo-link ${kigo.season}`}>{kigo.name}</button>
       </Link>
       <style jsx>{`

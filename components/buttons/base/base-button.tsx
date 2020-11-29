@@ -5,17 +5,29 @@ type Props = {
   textColor: string
   textContent: string | JSX.Element
   onClick: OnClick
+  isLoading?: boolean
   type: 'button' | 'submit' | 'reset'
 }
 
 const BaseButton: React.FC<Props> = (props) => {
-  const { backgroundColor, textColor, textContent, onClick } = {
+  const {
+    backgroundColor,
+    textColor,
+    textContent,
+    onClick,
+    isLoading,
+    type,
+  } = {
     ...props,
   }
   return (
     <>
-      <button className="commonButton" onClick={onClick}>
-        {textContent}
+      <button className="commonButton" onClick={onClick} type={type}>
+        {isLoading ? (
+          <img src="three-dots.svg" className="loading"></img>
+        ) : (
+          textContent
+        )}
       </button>
       <style jsx>{`
         .commonButton {
@@ -34,6 +46,9 @@ const BaseButton: React.FC<Props> = (props) => {
         }
         .commonButton:focus {
           box-shadow: 0 0 4px 2px ${colors.focus};
+        }
+        .loading {
+          height: 30%;
         }
       `}</style>
     </>

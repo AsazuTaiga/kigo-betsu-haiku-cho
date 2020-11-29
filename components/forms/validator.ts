@@ -12,6 +12,13 @@ class Validator {
     return { result: true }
   }
 
+  static testEmpty(value: string, valueType: 'email' | 'password') {
+    if (!value) {
+      return { result: false, message: Validator.message[valueType].required }
+    }
+    return { result: true }
+  }
+
   private static message = {
     email: {
       required: 'メールアドレスを入力してください。',

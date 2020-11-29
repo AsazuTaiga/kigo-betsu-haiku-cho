@@ -3,10 +3,11 @@ import Colors from '../../colors.json'
 
 type Props = {
   onClick?: OnClick
+  isLoading?: boolean
 }
 
 const CancelButton: React.FC<Props> = (props) => {
-  const { onClick } = { ...props }
+  const { onClick, isLoading } = { ...props }
   return (
     <BaseButton
       backgroundColor={Colors.silent}
@@ -14,6 +15,7 @@ const CancelButton: React.FC<Props> = (props) => {
       textContent="キャンセル"
       onClick={onClick}
       type="button"
+      isLoading={isLoading}
     ></BaseButton>
   )
 }

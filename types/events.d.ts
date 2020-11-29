@@ -7,4 +7,3 @@ type OnBlur = (event: React.FocusEvent<HTMLInputElement>) => void
 type OnFocus = (event: React.FocusEvent<HTMLInputElement>) => void
 type OnSubmit = (event: React.FormEvent<HTMLFormElement>) => void
 type OnClickDiv = (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => void
-type OnClickLI = (event: React.MouseEvent<HTMLLIElement, MouseEvent>) => void

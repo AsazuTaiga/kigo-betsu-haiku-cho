@@ -1,12 +1,12 @@
 import '../global.css'
 import firebase from 'firebase/app'
 import 'firebase/auth'
-import { useState, useEffect, createContext } from 'react'
+import { useState, useEffect } from 'react'
+import UserContext from '../contexts/user-context'
 
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps }) {
   const [user, setUser] = useState(null)
-  const UserContext = createContext(null)
 
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   const firebaseConfig = {
@@ -20,8 +20,10 @@ export default function MyApp({ Component, pageProps }) {
     measurementId: 'G-QF1V6NCF66',
   }
   useEffect(() => {
-    firebase.initializeApp(firebaseConfig)
-    firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL)
+    if (!firebase.apps.length) {
+      firebase.initializeApp(firebaseConfig)
+      firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL)
+    }
   })
   return (
     <UserContext.Provider value={[user, setUser]}>

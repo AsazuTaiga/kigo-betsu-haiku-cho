@@ -6,10 +6,10 @@ import BaseTooltip from './base/base-tooltip'
 import colors from '../../colors.json'
 
 type Props = {
-  copyHandler: OnClickLI
-  editHandler: OnClickLI
-  tweetHandler: OnClickLI
-  deleteHandler: OnClickLI
+  copyHandler: OnClick
+  editHandler: OnClick
+  tweetHandler: OnClick
+  deleteHandler: OnClick
 }
 
 const EditTooltip: React.FC<Props> = (props) => {

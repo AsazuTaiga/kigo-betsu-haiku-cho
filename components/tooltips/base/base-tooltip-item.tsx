@@ -5,7 +5,7 @@ export type Props = {
   text: string
   icon: JSX.Element // @material-ui/core/Icon Components
   isDanger?: boolean
-  onClick: OnClickLI
+  onClick: OnClick
 }
 
 const BaseTooltipItem: React.FC<Props> = (props) => {
@@ -13,13 +13,11 @@ const BaseTooltipItem: React.FC<Props> = (props) => {
   const isDangerClassName = isDanger ? 'isDanger' : ''
   return (
     <Fragment>
-      <li
-        className={`baseToolTipItem ${isDangerClassName}`}
-        onClick={onClick}
-        tabIndex={0}
-      >
-        <span className="icon">{icon}</span>
-        {text}
+      <li className={`baseToolTipItem ${isDangerClassName}`}>
+        <button className="button" onClick={onClick}>
+          <span className="icon">{icon}</span>
+          {text}
+        </button>
       </li>
       <style jsx>
         {`
@@ -27,19 +25,31 @@ const BaseTooltipItem: React.FC<Props> = (props) => {
             list-style: none;
             display: flex;
             cursor: pointer;
-            padding: 6px 10px 0px 10px;
             font-size: 16px;
             color: ${colors.weakBlack};
           }
-          .baseToolTipItem:hover {
+          .button {
+            padding: 4px 10px 4px 10px;
+            width: 100%;
+            background: inherit;
+            font: inherit;
+            color: inherit;
+            outline: inherit;
+            border: none;
+            cursor: inherit;
+            display: inherit;
+            align-items: center;
+          }
+          .button:hover {
             background-color: ${colors.silent};
           }
-          .baseToolTipItem:focus {
+          .button:focus {
             outline: none;
             background-color: ${colors.silent};
           }
           .icon {
             margin-right: 10px;
+            display: inherit;
           }
           .isDanger {
             color: ${colors.danger};

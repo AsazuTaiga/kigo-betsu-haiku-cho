@@ -3,10 +3,11 @@ import Colors from '../../colors.json'
 
 type Props = {
   onClick?: OnClick
+  isLoading?: boolean
 }
 
 const RegisterButton: React.FC<Props> = (props) => {
-  const { onClick } = { ...props }
+  const { onClick, isLoading } = { ...props }
   return (
     <BaseButton
       backgroundColor={Colors.theme}
@@ -14,6 +15,7 @@ const RegisterButton: React.FC<Props> = (props) => {
       textContent="新規登録"
       onClick={onClick}
       type="submit"
+      isLoading={isLoading}
     ></BaseButton>
   )
 }
