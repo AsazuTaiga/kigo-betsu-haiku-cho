@@ -1,4 +1,4 @@
-import { useState, useContext } from 'react'
+import { useState } from 'react'
 import { useRouter } from 'next/router'
 import ValidationInput from '../inputs/validation-input'
 import LogInButton from '../buttons/log-in-button'
@@ -6,7 +6,6 @@ import firebase from 'firebase/app'
 import 'firebase/auth'
 import 'firebase/database'
 import Validator from './validator'
-import UserContext from '../../contexts/user-context'
 
 const LogInForm: React.FC = () => {
   const router = useRouter()
@@ -30,9 +29,7 @@ const LogInForm: React.FC = () => {
       .auth()
       .signInWithEmailAndPassword(email, password)
       .then((response) => {
-        useContext(UserContext) // wip
         window.alert(response)
-
         router.push('/kigo')
       })
       .catch((error) => window.alert(error))

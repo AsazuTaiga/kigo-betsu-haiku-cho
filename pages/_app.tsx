@@ -1,11 +1,13 @@
 import '../global.css'
 import firebase from 'firebase/app'
 import 'firebase/auth'
-import { useEffect } from 'react'
-import UserContext from '../contexts/user-context'
+import { useState, useEffect, createContext } from 'react'
 
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps }) {
+  const [user, setUser] = useState(null)
+  const UserContext = createContext(null)
+
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   const firebaseConfig = {
     apiKey: 'AIzaSyCv_OXhiG-PpQB-0Sd8AT5b6y_6W-L5yYY',
@@ -21,9 +23,8 @@ export default function MyApp({ Component, pageProps }) {
     firebase.initializeApp(firebaseConfig)
     firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL)
   })
-
   return (
-    <UserContext.Provider value={[]}>
+    <UserContext.Provider value={[user, setUser]}>
       <Component {...pageProps} />
     </UserContext.Provider>
   )

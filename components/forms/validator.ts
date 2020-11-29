@@ -3,7 +3,7 @@ class Validator {
     if (!value) {
       return { result: false, message: Validator.message[valueType].required }
     }
-    if (valueType === 'password' && value.length < 9) {
+    if (valueType === 'password' && value.length < 8) {
       return { result: false, message: Validator.message.password.tooShort }
     }
     if (!Validator.pattern[valueType].test(value)) {
@@ -26,7 +26,7 @@ class Validator {
 
   private static pattern = {
     email: /[\w\-._]+@[\w\-._]+\.[A-Za-z]+/,
-    password: /^(?=.*?[a-z])(?=.*?[A-Z])(?=.*?\d)[a-zA-Z\d]$/,
+    password: /^(?=.*?[a-z])(?=.*?[A-Z])(?=.*?\d)[a-zA-Z\d]{8,}$/,
   }
 }
 
