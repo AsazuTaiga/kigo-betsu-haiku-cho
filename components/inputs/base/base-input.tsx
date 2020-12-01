@@ -17,7 +17,7 @@ const BaseInput: React.FC<Props> = (props) => {
         placeholder={placeholder}
         name={name}
         type={type}
-        onChange={ onChange }
+        onChange={onChange}
       ></input>
       <style jsx>{`
         .baseInput {

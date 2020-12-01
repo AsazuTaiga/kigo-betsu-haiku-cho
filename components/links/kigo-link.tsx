@@ -9,39 +9,54 @@ const KigoLink: React.FC<Props> = (props) => {
   const { kigo } = { ...props }
   return (
     <>
-      <Link href={`/haiku/${encodeURIComponent(kigo.name)}`}>
-        <button className={`kigo-link ${kigo.season}`}>{kigo.name}</button>
-      </Link>
+      <div className="linkWrap">
+        <Link href={`/haiku/${encodeURIComponent(kigo.name)}`}>
+          <button className={`kigoLink`}>
+            <span className="linkText">{kigo.name}</span>
+          </button>
+        </Link>
+      </div>
       <style jsx>{`
-        .kigo-link {
+        .linkWrap {
+          flex: 1 1 auto;
+          margin: 8px 4px;
+        }
+        .kigoLink {
+          position: relative;
           height: 42px;
+          width: 100%;
+          padding: 10px 16px;
           font-size: 18px;
-          border: none;
-          border-radius: 4px;
           cursor: pointer;
-          transition: filter 0.2s ease;
           outline: none;
+          color: ${colors.kigoLinkText};
+          font-weight: bold;
+          border: none;
+          background: white;
+          overflow: hidden;
+          transition: color 0.3s ease-in-out;
         }
-        .kigo-link:hover {
-          filter: brightness(1.05);
+        .linkText {
+          position: relative;
         }
-        .kigo-link:focus {
+        .kigoLink:before {
+          position: absolute;
+          left: 0;
+          top: calc(100% - 2px);
+          content: '';
+          transition: top 0.2s ease-in-out;
+          width: 100%;
+          height: 100%;
+          background: ${colors[kigo.season]};
+        }
+        .kigoLink:hover:before {
+          top: 0;
+        }
+        .kigoLink:hover {
+          color: ${colors.weakBlack};
+        }
+        .kigoLink:focus {
           box-shadow: 0 0 4px 2px ${colors.focus};
-        }
-        .spring {
-          background-color: ${colors.spring};
-        }
-        .summer {
-          background-color: ${colors.summer};
-        }
-        .fall {
-          background-color: ${colors.fall};
-        }
-        .winter {
-          background-color: ${colors.winter};
-        }
-        .newYear {
-          background-color: ${colors.newYear};
         }
       `}</style>
     </>
