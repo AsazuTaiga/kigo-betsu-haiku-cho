@@ -32,6 +32,7 @@ const LogInForm: React.FC = () => {
         router.push('/kigo')
       })
       .catch((error) => {
+        setIsLoading(false)
         if (error.code === 'auth/user-not-found') {
           setIsEmailInvalid(true)
           setEmailValidationMessage(
@@ -49,7 +50,6 @@ const LogInForm: React.FC = () => {
           )
         }
       })
-      .finally(() => setIsLoading(false))
   }
 
   const resetValidationState = () => {

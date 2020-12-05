@@ -59,17 +59,17 @@ const KigoList: React.FC<Props> = (props) => {
           .showMore {
             width: 100%;
             height: 40px;
-            border-radius: 40px;
+            border-radius: 4px;
             background: white;
-            border: 1px solid ${colors.theme};
+            border: none;
             color: ${colors.theme};
             outline: none;
             font-size: 18px;
-            font-weigth: bold;
+            font-weight: bold;
             margin-top: 16px;
             margin-bottom: 40px;
             cursor: pointer;
-            transition: all 0.2s ease-in-out;
+            box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.25);
           }
           .showMore:focus {
             background: ${colors.weakTheme};

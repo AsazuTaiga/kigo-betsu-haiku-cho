@@ -40,7 +40,7 @@ const BaseTooltipItem: React.FC<Props> = (props) => {
             display: inherit;
             align-items: center;
           }
-          .button:active {
+          .button:hover {
             background-color: ${colors.silent};
           }
           .button:focus {

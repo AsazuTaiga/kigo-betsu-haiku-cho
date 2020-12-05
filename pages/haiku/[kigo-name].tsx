@@ -2,6 +2,9 @@ import { NextPage } from 'next'
 import AppHeader from '../../components/headers/app-header'
 import KigoDetail from '../../components/texts/kigo-detail'
 
+//wip
+import WriteHaikuButton from '../../components/buttons/write-haiku-button'
+
 const Kigo: NextPage = () => {
   return (
     <>
@@ -18,6 +21,11 @@ const Kigo: NextPage = () => {
               bodai: ['test'],
             }}
           ></KigoDetail>
+          <WriteHaikuButton
+            onClick={() => window.alert('hoge')}
+            visibility="visible"
+            isDisabled={false}
+          ></WriteHaikuButton>
         </main>
       </div>
 
