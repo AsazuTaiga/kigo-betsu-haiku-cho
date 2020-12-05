@@ -17,21 +17,24 @@ const AppHeader: React.FC = () => {
           onClick={toggleIsMenuOpen}
           tabIndex={1}
         >
-          <img src="menu.svg" alt="メニュー"></img>
+          <img src="/menu.svg" alt="メニュー"></img>
         </button>
         <Link href="/kigo">
-          <img className="titleLogo" src="header.svg" alt="季語別俳句帖"></img>
+          <img className="titleLogo" src="/header.svg" alt="季語別俳句帖"></img>
         </Link>
         <div
           className="modal"
           onClick={toggleIsMenuOpen}
-          style={{ display: isMenuOpen ? 'block' : 'none' }}
+          style={
+            isMenuOpen ? { visibility: 'visible' } : { visibility: 'hidden' }
+          }
         >
           <MenuTooltip
             configHandler={() => router.push('/config')}
             logOutHandler={() => router.push('/config#log-out')}
             termsHandler={() => router.push('/site')}
             privacyHandler={() => router.push('/site#privacy')}
+            visibility={isMenuOpen ? 'visible' : 'hidden'}
           ></MenuTooltip>
         </div>
       </header>
@@ -64,6 +67,9 @@ const AppHeader: React.FC = () => {
           transition: background 0.1s ease;
         }
         .menuButton.isOpen {
+          background-color: ${colors.silent};
+        }
+        .menuButton:focus {
           background-color: ${colors.silent};
         }
         .modal {

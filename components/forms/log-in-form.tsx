@@ -1,15 +1,13 @@
-import { useState, useContext } from 'react'
+import { useState } from 'react'
 import { useRouter } from 'next/router'
 import firebase from 'firebase/app'
 import 'firebase/auth'
 import 'firebase/database'
-import UserContext from '../../contexts/user-context'
 import ValidationInput from '../inputs/validation-input'
 import LogInButton from '../buttons/log-in-button'
 import Validator from './validator'
 
 const LogInForm: React.FC = () => {
-  const setUser = useContext(UserContext)[1]
   const router = useRouter()
   const [email, setEmail] = useState('')
   const [isEmailInvalid, setIsEmailInvalid] = useState(false)
@@ -30,7 +28,7 @@ const LogInForm: React.FC = () => {
       .auth()
       .signInWithEmailAndPassword(email, password)
       .then((response) => {
-        setUser(response.user)
+        sessionStorage.setItem('currentUser', JSON.stringify(response))
         router.push('/kigo')
       })
       .catch((error) => {

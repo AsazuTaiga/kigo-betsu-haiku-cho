@@ -10,12 +10,20 @@ type Props = {
   editHandler: OnClick
   tweetHandler: OnClick
   deleteHandler: OnClick
+  visibility: 'visible' | 'hidden'
 }
 
 const EditTooltip: React.FC<Props> = (props) => {
-  const { copyHandler, editHandler, tweetHandler, deleteHandler } = { ...props }
+  const {
+    copyHandler,
+    editHandler,
+    tweetHandler,
+    deleteHandler,
+    visibility,
+  } = { ...props }
   return (
     <BaseTooltip
+      visibility={visibility}
       innerTooltipAttrs={[
         {
           text: '編集',

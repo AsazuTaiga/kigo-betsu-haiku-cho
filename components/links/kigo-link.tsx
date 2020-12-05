@@ -20,6 +20,7 @@ const KigoLink: React.FC<Props> = (props) => {
         .linkWrap {
           flex: 1 1 auto;
           margin: 8px 4px;
+          animation: fade 0.8s ease;
         }
         .kigoLink {
           position: relative;
@@ -32,12 +33,13 @@ const KigoLink: React.FC<Props> = (props) => {
           color: ${colors.kigoLinkText};
           font-weight: bold;
           border: none;
-          background: white;
+          background: transparent;
           overflow: hidden;
-          transition: color 0.3s ease-in-out;
         }
         .linkText {
           position: relative;
+          display: inline-block;
+          transition: transform 0.1s ease;
         }
         .kigoLink:before {
           position: absolute;
@@ -47,16 +49,35 @@ const KigoLink: React.FC<Props> = (props) => {
           transition: top 0.2s ease-in-out;
           width: 100%;
           height: 100%;
-          background: ${colors[kigo.season]};
+          background: repeating-linear-gradient(
+            45deg,
+            ${colors[kigo.season]} 0,
+            ${colors[kigo.season]} 4px,
+            ${colors[kigo.season] + '99'} 4px,
+            ${colors[kigo.season] + '99'} 8px
+          );
         }
         .kigoLink:hover:before {
           top: 0;
         }
-        .kigoLink:hover {
-          color: ${colors.weakBlack};
+        .kigoLink:hover .linkText {
+          transform: scale(1.2);
         }
-        .kigoLink:focus {
-          box-shadow: 0 0 4px 2px ${colors.focus};
+        .kigoLink:focus:before {
+          top: 0;
+        }
+        .kigoLink:focus .linkText {
+          transform: scale(1.2);
+        }
+        @keyframes fade {
+          0% {
+            opacity: 0;
+            transform: translateY(10px);
+          }
+          100% {
+            opacity: 1;
+            transform: translateY(0);
+          }
         }
       `}</style>
     </>

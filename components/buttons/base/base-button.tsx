@@ -41,7 +41,7 @@ const BaseButton: React.FC<Props> = (props) => {
           font-size: 16px;
           transition: filter 0.2s ease;
         }
-        .commonButton:hover {
+        commonButton:acitive {
           filter: brightness(1.1);
         }
         .commonButton:focus {

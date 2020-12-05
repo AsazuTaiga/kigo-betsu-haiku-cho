@@ -1,8 +1,10 @@
 type Kigo = {
   id: number
   name: string
-  season: 'spring' | 'summer' | 'fall' | 'winter' | 'newYear'
+  season: Season
   yomigana?: string
   kyukana?: string
-  bodai?: [string]
+  bodai?: Array<string>
 }
+
+type Season = 'spring' | 'summer' | 'fall' | 'winter' | 'newYear'

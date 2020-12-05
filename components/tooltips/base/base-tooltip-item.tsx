@@ -4,8 +4,8 @@ import colors from '../../../colors.json'
 export type Props = {
   text: string
   icon: JSX.Element // @material-ui/core/Icon Components
-  isDanger?: boolean
   onClick: OnClick
+  isDanger?: boolean
 }
 
 const BaseTooltipItem: React.FC<Props> = (props) => {
@@ -40,7 +40,7 @@ const BaseTooltipItem: React.FC<Props> = (props) => {
             display: inherit;
             align-items: center;
           }
-          .button:hover {
+          .button:active {
             background-color: ${colors.silent};
           }
           .button:focus {

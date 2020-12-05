@@ -9,16 +9,24 @@ type Props = {
   logOutHandler: OnClick
   termsHandler: OnClick
   privacyHandler: OnClick
+  visibility: 'visible' | 'hidden'
 }
 
 const MenuTooltip: React.FC<Props> = (props) => {
-  const { configHandler, logOutHandler, termsHandler, privacyHandler } = {
+  const {
+    configHandler,
+    logOutHandler,
+    termsHandler,
+    privacyHandler,
+    visibility,
+  } = {
     ...props,
   }
   return (
     <>
       <div className="wrapper">
         <BaseTooltip
+          visibility={visibility}
           innerTooltipAttrs={[
             {
               text: '詳細設定',

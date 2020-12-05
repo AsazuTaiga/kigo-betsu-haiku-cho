@@ -33,7 +33,7 @@ const DataLicense: React.FC = () => (
         text-decoration: none;
         color: ${colors.primary};
       }
-      .dataBaseLink:hover {
+      .dataBaseLink:active {
         text-decoration: underline ${colors.primary};
       }
     `}</style>
