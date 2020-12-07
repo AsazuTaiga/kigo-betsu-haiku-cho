@@ -1,0 +1,8654 @@
+[
+  {
+    "name": "アイスコーヒー",
+    "yomigana": "あいすこーひー",
+    "kyukana": "",
+    "bodai": [
+      "アイスティー",
+      "冷しコーヒー",
+      "冷し紅茶"
+    ],
+    "season": "summer",
+    "id": 621
+  },
+  {
+    "name": "愛鳥週間",
+    "yomigana": "あいちょうしゅうかん",
+    "kyukana": "あいてうしうかん",
+    "bodai": [
+      "バードウィーク",
+      "バードデー",
+      "鳥の日"
+    ],
+    "season": "summer",
+    "id": 622
+  },
+  {
+    "name": "青蘆",
+    "yomigana": "あおあし",
+    "kyukana": "あをあし",
+    "bodai": [
+      "青葦",
+      "蘆茂る"
+    ],
+    "season": "summer",
+    "id": 623
+  },
+  {
+    "name": "青嵐",
+    "yomigana": "あおあらし",
+    "kyukana": "あをあらし",
+    "bodai": [
+      "風青し",
+      "夏嵐"
+    ],
+    "season": "summer",
+    "id": 624
+  },
+  {
+    "name": "葵",
+    "yomigana": "あおい",
+    "kyukana": "あふひ",
+    "bodai": [
+      "花葵",
+      "銭葵",
+      "蜀葵（からあおい）",
+      "立葵"
+    ],
+    "season": "summer",
+    "id": 625
+  },
+  {
+    "name": "葵祭",
+    "yomigana": "あおいまつり",
+    "kyukana": "あふひまつり",
+    "bodai": [
+      "賀茂祭",
+      "北祭",
+      "賀茂葵",
+      "懸葵"
+    ],
+    "season": "summer",
+    "id": 626
+  },
+  {
+    "name": "青梅",
+    "yomigana": "あおうめ",
+    "kyukana": "あをうめ",
+    "bodai": [
+      "梅の実",
+      "実梅",
+      "小梅"
+    ],
+    "season": "summer",
+    "id": 627
+  },
+  {
+    "name": "青柿",
+    "yomigana": "あおがき",
+    "kyukana": "あをがき",
+    "bodai": [
+      "柿青し"
+    ],
+    "season": "summer",
+    "id": 628
+  },
+  {
+    "name": "梧桐",
+    "yomigana": "あおぎり",
+    "kyukana": "あをぎり",
+    "bodai": [
+      "梧桐（ごとう）"
+    ],
+    "season": "summer",
+    "id": 629
+  },
+  {
+    "name": "青胡桃",
+    "yomigana": "あおくるみ",
+    "kyukana": "",
+    "bodai": [
+      "生胡桃"
+    ],
+    "season": "summer",
+    "id": 630
+  },
+  {
+    "name": "青鷺",
+    "yomigana": "あおさぎ",
+    "kyukana": "あをさぎ",
+    "season": "summer",
+    "id": 631,
+    "bodai": []
+  },
+  {
+    "name": "青山河",
+    "yomigana": "あおさんが",
+    "kyukana": "あをさんが",
+    "season": "summer",
+    "id": 632,
+    "bodai": []
+  },
+  {
+    "name": "青山椒",
+    "yomigana": "あおさんしょう",
+    "kyukana": "あをさんせう",
+    "season": "summer",
+    "id": 633,
+    "bodai": []
+  },
+  {
+    "name": "青芝",
+    "yomigana": "あおしば",
+    "kyukana": "",
+    "bodai": [
+      "夏芝"
+    ],
+    "season": "summer",
+    "id": 634
+  },
+  {
+    "name": "青芒",
+    "yomigana": "あおすすき",
+    "kyukana": "あをすすき",
+    "bodai": [
+      "芒茂る"
+    ],
+    "season": "summer",
+    "id": 635
+  },
+  {
+    "name": "青簾",
+    "yomigana": "あおすだれ",
+    "kyukana": "",
+    "bodai": [
+      "簾",
+      "竹簾",
+      "葭簾",
+      "伊予簾",
+      "絵簾",
+      "板簾",
+      "古簾"
+    ],
+    "season": "summer",
+    "id": 636
+  },
+  {
+    "name": "青田",
+    "yomigana": "あおた",
+    "kyukana": "あをた",
+    "bodai": [
+      "青田風",
+      "青田波",
+      "青田道"
+    ],
+    "season": "summer",
+    "id": 637
+  },
+  {
+    "name": "青竹",
+    "yomigana": "あおたけ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 638,
+    "bodai": []
+  },
+  {
+    "name": "青畳",
+    "yomigana": "あおだたみ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 639,
+    "bodai": []
+  },
+  {
+    "name": "青蔦",
+    "yomigana": "あおつた",
+    "kyukana": "あをつた",
+    "bodai": [
+      "蔦茂る"
+    ],
+    "season": "summer",
+    "id": 640
+  },
+  {
+    "name": "青唐辛子",
+    "yomigana": "あおとうがらし",
+    "kyukana": "あおたうがらし",
+    "bodai": [
+      "青唐辛",
+      "青蕃椒",
+      "葉唐辛子"
+    ],
+    "season": "summer",
+    "id": 641
+  },
+  {
+    "name": "青野",
+    "yomigana": "あおの",
+    "kyukana": "",
+    "season": "summer",
+    "id": 642,
+    "bodai": []
+  },
+  {
+    "name": "青葉",
+    "yomigana": "あおば",
+    "kyukana": "",
+    "bodai": [
+      "青葉山",
+      "青葉風",
+      "青葉時雨",
+      "青時雨",
+      "青葉雨"
+    ],
+    "season": "summer",
+    "id": 643
+  },
+  {
+    "name": "青葉木菟",
+    "yomigana": "あおばずく",
+    "kyukana": "あをばづく",
+    "season": "summer",
+    "id": 644,
+    "bodai": []
+  },
+  {
+    "name": "青葡萄",
+    "yomigana": "あおぶどう",
+    "kyukana": "",
+    "season": "summer",
+    "id": 645,
+    "bodai": []
+  },
+  {
+    "name": "青鬼灯",
+    "yomigana": "あおほほづき",
+    "kyukana": "あをほほづき",
+    "bodai": [
+      "青酸漿"
+    ],
+    "season": "summer",
+    "id": 646
+  },
+  {
+    "name": "青みどろ",
+    "yomigana": "あおみどろ",
+    "kyukana": "あをみどろ",
+    "bodai": [
+      "青味泥（あおみどろ）"
+    ],
+    "season": "summer",
+    "id": 647
+  },
+  {
+    "name": "青桃",
+    "yomigana": "あおもも",
+    "kyukana": "",
+    "season": "summer",
+    "id": 648,
+    "bodai": []
+  },
+  {
+    "name": "青林檎",
+    "yomigana": "あおりんご",
+    "kyukana": "",
+    "season": "summer",
+    "id": 649,
+    "bodai": []
+  },
+  {
+    "name": "赤鱏",
+    "yomigana": "あかえい",
+    "kyukana": "あかえひ",
+    "bodai": [
+      "えひ",
+      "えひ"
+    ],
+    "season": "summer",
+    "id": 650
+  },
+  {
+    "name": "藜",
+    "yomigana": "あかざ",
+    "kyukana": "",
+    "bodai": [
+      "しろざ"
+    ],
+    "season": "summer",
+    "id": 651
+  },
+  {
+    "name": "アカシアの花",
+    "yomigana": "あかしあのはな",
+    "kyukana": "",
+    "bodai": [
+      "ニセアカシアの花",
+      "針槐の花"
+    ],
+    "season": "summer",
+    "id": 652
+  },
+  {
+    "name": "秋近し",
+    "yomigana": "あきちかし",
+    "kyukana": "",
+    "bodai": [
+      "秋を待つ",
+      "秋隣"
+    ],
+    "season": "summer",
+    "id": 653
+  },
+  {
+    "name": "麻",
+    "yomigana": "あさ",
+    "kyukana": "",
+    "bodai": [
+      "大麻",
+      "麻の葉",
+      "麻刈",
+      "麻引",
+      "麻の花",
+      "麻畠"
+    ],
+    "season": "summer",
+    "id": 654
+  },
+  {
+    "name": "朝顔",
+    "yomigana": "あさがお",
+    "kyukana": "あさがほ",
+    "bodai": [
+      "牽牛花",
+      "蕣（あさがお）",
+      "朝顔の実",
+      "種朝顔"
+    ],
+    "season": "summer",
+    "id": 655
+  },
+  {
+    "name": "朝顔市",
+    "yomigana": "あさがおいち",
+    "kyukana": "あさがほいち",
+    "season": "summer",
+    "id": 656,
+    "bodai": []
+  },
+  {
+    "name": "朝曇",
+    "yomigana": "あさぐもり",
+    "kyukana": "",
+    "season": "summer",
+    "id": 657,
+    "bodai": []
+  },
+  {
+    "name": "朝凪",
+    "yomigana": "あさなぎ",
+    "kyukana": "",
+    "bodai": [
+      "朝凪ぐ"
+    ],
+    "season": "summer",
+    "id": 658
+  },
+  {
+    "name": "朝焼",
+    "yomigana": "あさやけ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 659,
+    "bodai": []
+  },
+  {
+    "name": "鯵",
+    "yomigana": "あじ",
+    "kyukana": "あぢ",
+    "bodai": [
+      "真鯵",
+      "室鯵",
+      "夕鯵",
+      "鯵売"
+    ],
+    "season": "summer",
+    "id": 660
+  },
+  {
+    "name": "紫陽花",
+    "yomigana": "あじさい",
+    "kyukana": "",
+    "bodai": [
+      "四葩（よひら）",
+      "七変化（しちへんげ）"
+    ],
+    "season": "summer",
+    "id": 661
+  },
+  {
+    "name": "鯵刺",
+    "yomigana": "あじさし",
+    "kyukana": "あぢさし",
+    "bodai": [
+      "鮎刺",
+      "鮎鷹"
+    ],
+    "season": "summer",
+    "id": 662
+  },
+  {
+    "name": "東踊",
+    "yomigana": "あずまおどり",
+    "kyukana": "あづまをどり",
+    "season": "summer",
+    "id": 663,
+    "bodai": []
+  },
+  {
+    "name": "汗",
+    "yomigana": "あせ",
+    "kyukana": "",
+    "bodai": [
+      "汗ばむ",
+      "玉の汗",
+      "汗疹",
+      "汗水",
+      "汗みどろ"
+    ],
+    "season": "summer",
+    "id": 664
+  },
+  {
+    "name": "汗拭ひ",
+    "yomigana": "あせぬぐい",
+    "kyukana": "あせぬぐひ",
+    "bodai": [
+      "ハンカチーフ",
+      "ハンカチ",
+      "汗ふき",
+      "汗手拭"
+    ],
+    "season": "summer",
+    "id": 665
+  },
+  {
+    "name": "汗疹",
+    "yomigana": "あせも",
+    "kyukana": "",
+    "bodai": [
+      "あせぼ"
+    ],
+    "season": "summer",
+    "id": 666
+  },
+  {
+    "name": "暑し",
+    "yomigana": "あつし",
+    "kyukana": "",
+    "bodai": [
+      "暑さ",
+      "暑",
+      "暑気",
+      "炎暑",
+      "炎ゆ",
+      "熱帯夜"
+    ],
+    "season": "summer",
+    "id": 667
+  },
+  {
+    "name": "穴子",
+    "yomigana": "あなご",
+    "kyukana": "",
+    "bodai": [
+      "海鰻",
+      "うみうなぎ"
+    ],
+    "season": "summer",
+    "id": 668
+  },
+  {
+    "name": "油照",
+    "yomigana": "あぶらでり",
+    "kyukana": "",
+    "bodai": [
+      "脂照"
+    ],
+    "season": "summer",
+    "id": 669
+  },
+  {
+    "name": "雨蛙",
+    "yomigana": "あまがえる",
+    "kyukana": "あまがへる",
+    "bodai": [
+      "枝蛙",
+      "青蛙",
+      "夏蛙"
+    ],
+    "season": "summer",
+    "id": 670
+  },
+  {
+    "name": "雨乞",
+    "yomigana": "あまごい",
+    "kyukana": "あまごひ",
+    "bodai": [
+      "祈雨",
+      "雨の祈"
+    ],
+    "season": "summer",
+    "id": 671
+  },
+  {
+    "name": "甘酒",
+    "yomigana": "あまざけ",
+    "kyukana": "",
+    "bodai": [
+      "一夜酒"
+    ],
+    "season": "summer",
+    "id": 672
+  },
+  {
+    "name": "アマリリス",
+    "yomigana": "あまりりす",
+    "kyukana": "",
+    "season": "summer",
+    "id": 673,
+    "bodai": []
+  },
+  {
+    "name": "網戸",
+    "yomigana": "あみど",
+    "kyukana": "",
+    "bodai": [
+      "網障子"
+    ],
+    "season": "summer",
+    "id": 674
+  },
+  {
+    "name": "飴湯",
+    "yomigana": "あめゆ",
+    "kyukana": "",
+    "bodai": [
+      "冷し飴"
+    ],
+    "season": "summer",
+    "id": 675
+  },
+  {
+    "name": "水馬",
+    "yomigana": "あめんぼう",
+    "kyukana": "あめんばう",
+    "bodai": [
+      "あめんぼ",
+      "みずすまし",
+      "水蜘蛛"
+    ],
+    "season": "summer",
+    "id": 676
+  },
+  {
+    "name": "あやめ",
+    "yomigana": "あやめ",
+    "kyukana": "",
+    "bodai": [
+      "渓孫",
+      "花あやめ"
+    ],
+    "season": "summer",
+    "id": 677
+  },
+  {
+    "name": "鮎",
+    "yomigana": "あゆ",
+    "kyukana": "",
+    "bodai": [
+      "香魚",
+      "年魚",
+      "鮎の宿"
+    ],
+    "season": "summer",
+    "id": 678
+  },
+  {
+    "name": "鮎釣",
+    "yomigana": "あゆつり",
+    "kyukana": "",
+    "bodai": [
+      "鮎漁",
+      "囮鮎",
+      "鮎釣解禁",
+      "川明",
+      "鮎狩"
+    ],
+    "season": "summer",
+    "id": 679
+  },
+  {
+    "name": "洗膾",
+    "yomigana": "あらひ",
+    "kyukana": "",
+    "bodai": [
+      "洗鯉",
+      "洗鱸",
+      "洗鯛",
+      "生作り"
+    ],
+    "season": "summer",
+    "id": 680
+  },
+  {
+    "name": "荒布",
+    "yomigana": "あらめ",
+    "kyukana": "",
+    "bodai": [
+      "黒菜",
+      "荒布刈る",
+      "荒布干す"
+    ],
+    "season": "summer",
+    "id": 681
+  },
+  {
+    "name": "蟻",
+    "yomigana": "あり",
+    "kyukana": "",
+    "bodai": [
+      "山蟻",
+      "蟻の道",
+      "蟻の塔",
+      "蟻塚",
+      "蟻の列",
+      "蟻の門渡り"
+    ],
+    "season": "summer",
+    "id": 682
+  },
+  {
+    "name": "蟻地獄",
+    "yomigana": "ありじごく",
+    "kyukana": "ありぢごく",
+    "bodai": [
+      "あとすざり",
+      "擂鉢虫",
+      "あとさり虫"
+    ],
+    "season": "summer",
+    "id": 683
+  },
+  {
+    "name": "袷",
+    "yomigana": "あわせ",
+    "kyukana": "あはせ",
+    "bodai": [
+      "素袷",
+      "初袷",
+      "綿抜",
+      "古袷"
+    ],
+    "season": "summer",
+    "id": 684
+  },
+  {
+    "name": "鮑",
+    "yomigana": "あわび",
+    "kyukana": "あはび",
+    "bodai": [
+      "鮑取",
+      "鮑海女"
+    ],
+    "season": "summer",
+    "id": 685
+  },
+  {
+    "name": "安居",
+    "yomigana": "あんご",
+    "kyukana": "",
+    "bodai": [
+      "夏安居",
+      "雨安居",
+      "夏げ",
+      "一夏",
+      "夏行",
+      "夏籠",
+      "夏断",
+      "夏入",
+      "結夏",
+      "解夏",
+      "夏百合",
+      "夏書",
+      "夏花"
+    ],
+    "season": "summer",
+    "id": 686
+  },
+  {
+    "name": "杏",
+    "yomigana": "あんず",
+    "kyukana": "",
+    "bodai": [
+      "杏子",
+      "からもも",
+      "杏の実"
+    ],
+    "season": "summer",
+    "id": 687
+  },
+  {
+    "name": "誘蛾燈",
+    "yomigana": "いうがとう",
+    "kyukana": "",
+    "season": "summer",
+    "id": 688,
+    "bodai": []
+  },
+  {
+    "name": "烏賊釣",
+    "yomigana": "いかつり",
+    "kyukana": "",
+    "bodai": [
+      "烏賊釣火",
+      "烏賊火",
+      "烏賊釣舟"
+    ],
+    "season": "summer",
+    "id": 689
+  },
+  {
+    "name": "藺刈",
+    "yomigana": "いかり",
+    "kyukana": "ゐかり",
+    "bodai": [
+      "藺草刈",
+      "藺干す",
+      "藺車"
+    ],
+    "season": "summer",
+    "id": 690
+  },
+  {
+    "name": "泉",
+    "yomigana": "いずみ",
+    "kyukana": "いづみ",
+    "season": "summer",
+    "id": 691,
+    "bodai": []
+  },
+  {
+    "name": "虎杖の花",
+    "yomigana": "いたどりのはな",
+    "kyukana": "",
+    "bodai": [
+      "紅虎杖"
+    ],
+    "season": "summer",
+    "id": 692
+  },
+  {
+    "name": "苺",
+    "yomigana": "いちご",
+    "kyukana": "",
+    "bodai": [
+      "覆盆子",
+      "苺摘み",
+      "苺畑",
+      "草苺"
+    ],
+    "season": "summer",
+    "id": 693
+  },
+  {
+    "name": "鳶尾草",
+    "yomigana": "いちはつ",
+    "kyukana": "",
+    "bodai": [
+      "一八",
+      "紫羅傘（いちはつ）"
+    ],
+    "season": "summer",
+    "id": 694
+  },
+  {
+    "name": "厳島管絃祭",
+    "yomigana": "いつくしまかんげんさい",
+    "kyukana": "いつくしまくわんげんさい",
+    "bodai": [
+      "厳島祭"
+    ],
+    "season": "summer",
+    "id": 695
+  },
+  {
+    "name": "糸取",
+    "yomigana": "いととり",
+    "kyukana": "",
+    "bodai": [
+      "糸引",
+      "糸取鍋",
+      "糸取女",
+      "糸取歌"
+    ],
+    "season": "summer",
+    "id": 696
+  },
+  {
+    "name": "糸蜻蛉",
+    "yomigana": "いととんぼ",
+    "kyukana": "",
+    "bodai": [
+      "燈心蜻蛉",
+      "とうずみ蜻蛉",
+      "とうすみ"
+    ],
+    "season": "summer",
+    "id": 697
+  },
+  {
+    "name": "糸みみず",
+    "yomigana": "いとみみず",
+    "kyukana": "",
+    "season": "summer",
+    "id": 698,
+    "bodai": []
+  },
+  {
+    "name": "藺の花",
+    "yomigana": "いのはな",
+    "kyukana": "ゐのはな",
+    "bodai": [
+      "藺草",
+      "燈心草",
+      "燈心草の花",
+      "藺田"
+    ],
+    "season": "summer",
+    "id": 699
+  },
+  {
+    "name": "ゐもり",
+    "yomigana": "いもり",
+    "kyukana": "ゐもり",
+    "bodai": [
+      "井守",
+      "赤腹"
+    ],
+    "season": "summer",
+    "id": 700
+  },
+  {
+    "name": "岩魚",
+    "yomigana": "いわな",
+    "kyukana": "いはな",
+    "bodai": [
+      "嘉魚",
+      "巌魚",
+      "岩魚釣"
+    ],
+    "season": "summer",
+    "id": 701
+  },
+  {
+    "name": "鵜",
+    "yomigana": "う",
+    "kyukana": "",
+    "bodai": [
+      "海鵜",
+      "河鵜"
+    ],
+    "season": "summer",
+    "id": 702
+  },
+  {
+    "name": "茴香の花",
+    "yomigana": "ういきょうのはな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 703,
+    "bodai": []
+  },
+  {
+    "name": "植田",
+    "yomigana": "うえだ",
+    "kyukana": "うゑだ",
+    "season": "summer",
+    "id": 704,
+    "bodai": []
+  },
+  {
+    "name": "鵜飼",
+    "yomigana": "うかい",
+    "kyukana": "うかひ",
+    "bodai": [
+      "徒歩鵜",
+      "鵜匠",
+      "鵜遣",
+      "鵜縄",
+      "荒鵜",
+      "疲れ鵜",
+      "鵜籠",
+      "鵜舟",
+      "鵜篝"
+    ],
+    "season": "summer",
+    "id": 705
+  },
+  {
+    "name": "萍",
+    "yomigana": "うきくさ",
+    "kyukana": "",
+    "bodai": [
+      "浮草",
+      "根無草",
+      "萍の花"
+    ],
+    "season": "summer",
+    "id": 706
+  },
+  {
+    "name": "浮巣",
+    "yomigana": "うきす",
+    "kyukana": "",
+    "bodai": [
+      "鳰の浮巣",
+      "鳰の巣"
+    ],
+    "season": "summer",
+    "id": 707
+  },
+  {
+    "name": "浮人形",
+    "yomigana": "うきにんぎょう",
+    "kyukana": "うきにんぎやう",
+    "bodai": [
+      "浮いて来い"
+    ],
+    "season": "summer",
+    "id": 708
+  },
+  {
+    "name": "薄翅蜉蝣",
+    "yomigana": "うすばかげろう",
+    "kyukana": "うすばかげろふ",
+    "season": "summer",
+    "id": 709,
+    "bodai": []
+  },
+  {
+    "name": "羅",
+    "yomigana": "うすもの",
+    "kyukana": "",
+    "bodai": [
+      "絽",
+      "紗",
+      "軽羅",
+      "薄衣"
+    ],
+    "season": "summer",
+    "id": 710
+  },
+  {
+    "name": "打水",
+    "yomigana": "うちみず",
+    "kyukana": "うちみづ",
+    "bodai": [
+      "水を打つ",
+      "水撒き"
+    ],
+    "season": "summer",
+    "id": 711
+  },
+  {
+    "name": "団扇",
+    "yomigana": "うちわ",
+    "kyukana": "うちは",
+    "bodai": [
+      "白団扇",
+      "絵団扇",
+      "渋団扇",
+      "古団扇",
+      "団扇掛"
+    ],
+    "season": "summer",
+    "id": 712
+  },
+  {
+    "name": "空蟬",
+    "yomigana": "うつせみ",
+    "kyukana": "",
+    "bodai": [
+      "蟬の殻",
+      "蟬の脱殻"
+    ],
+    "season": "summer",
+    "id": 713
+  },
+  {
+    "name": "靭草",
+    "yomigana": "うつぼぐさ",
+    "kyukana": "",
+    "bodai": [
+      "空穂草",
+      "夏枯草"
+    ],
+    "season": "summer",
+    "id": 714
+  },
+  {
+    "name": "卯月",
+    "yomigana": "うづき",
+    "kyukana": "",
+    "bodai": [
+      "卯の花月"
+    ],
+    "season": "summer",
+    "id": 715
+  },
+  {
+    "name": "独活の花",
+    "yomigana": "うどのはな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 716,
+    "bodai": []
+  },
+  {
+    "name": "優曇華",
+    "yomigana": "うどんげ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 717,
+    "bodai": []
+  },
+  {
+    "name": "鰻",
+    "yomigana": "うなぎ",
+    "kyukana": "",
+    "bodai": [
+      "鰻"
+    ],
+    "season": "summer",
+    "id": 718
+  },
+  {
+    "name": "卯波",
+    "yomigana": "うなみ",
+    "kyukana": "",
+    "bodai": [
+      "皐月波"
+    ],
+    "season": "summer",
+    "id": 719
+  },
+  {
+    "name": "卯の花",
+    "yomigana": "うのはな",
+    "kyukana": "",
+    "bodai": [
+      "空木の花",
+      "花うつぎ",
+      "姫うつぎ",
+      "山卯木",
+      "卯の花垣"
+    ],
+    "season": "summer",
+    "id": 720
+  },
+  {
+    "name": "卯の花腐し",
+    "yomigana": "うのはなくたし",
+    "kyukana": "",
+    "season": "summer",
+    "id": 721,
+    "bodai": []
+  },
+  {
+    "name": "海亀",
+    "yomigana": "うみがめ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 722,
+    "bodai": []
+  },
+  {
+    "name": "海猫",
+    "yomigana": "うみねこ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 723,
+    "bodai": []
+  },
+  {
+    "name": "海の日",
+    "yomigana": "うみのひ",
+    "kyukana": "",
+    "bodai": [
+      "海の記念日"
+    ],
+    "season": "summer",
+    "id": 724
+  },
+  {
+    "name": "海開き",
+    "yomigana": "うみびらき",
+    "kyukana": "",
+    "season": "summer",
+    "id": 725,
+    "bodai": []
+  },
+  {
+    "name": "海酸漿",
+    "yomigana": "うみほおずき",
+    "kyukana": "うみほほづき",
+    "season": "summer",
+    "id": 726,
+    "bodai": []
+  },
+  {
+    "name": "梅酒",
+    "yomigana": "うめしゅ",
+    "kyukana": "うめしゆ",
+    "bodai": [
+      "梅酒",
+      "梅焼酎"
+    ],
+    "season": "summer",
+    "id": 727
+  },
+  {
+    "name": "梅干",
+    "yomigana": "うめぼし",
+    "kyukana": "",
+    "bodai": [
+      "梅干す",
+      "梅漬",
+      "夜干の梅",
+      "干梅",
+      "梅筵",
+      "梅酢"
+    ],
+    "season": "summer",
+    "id": 728
+  },
+  {
+    "name": "瓜",
+    "yomigana": "うり",
+    "kyukana": "",
+    "bodai": [
+      "初瓜",
+      "瓜作り",
+      "瓜畑"
+    ],
+    "season": "summer",
+    "id": 729
+  },
+  {
+    "name": "瓜の花",
+    "yomigana": "うりのはな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 730,
+    "bodai": []
+  },
+  {
+    "name": "瓜番",
+    "yomigana": "うりばん",
+    "kyukana": "",
+    "bodai": [
+      "瓜守",
+      "瓜小屋",
+      "瓜番小屋"
+    ],
+    "season": "summer",
+    "id": 731
+  },
+  {
+    "name": "瓜揉み",
+    "yomigana": "うりもみ",
+    "kyukana": "",
+    "bodai": [
+      "瓜揉む",
+      "揉瓜",
+      "胡瓜揉み"
+    ],
+    "season": "summer",
+    "id": 732
+  },
+  {
+    "name": "漆掻",
+    "yomigana": "うるしかき",
+    "kyukana": "",
+    "bodai": [
+      "漆取る"
+    ],
+    "season": "summer",
+    "id": 733
+  },
+  {
+    "name": "雲海",
+    "yomigana": "うんかい",
+    "kyukana": "",
+    "season": "summer",
+    "id": 734,
+    "bodai": []
+  },
+  {
+    "name": "えごの花",
+    "yomigana": "えごのはな",
+    "kyukana": "",
+    "bodai": [
+      "山苣の花"
+    ],
+    "season": "summer",
+    "id": 735
+  },
+  {
+    "name": "えぞにうの花",
+    "yomigana": "えぞにうの花",
+    "kyukana": "",
+    "bodai": [
+      "蝦夷丹生（えぞにう）の花",
+      "にうのはな"
+    ],
+    "season": "summer",
+    "id": 736
+  },
+  {
+    "name": "金雀枝",
+    "yomigana": "えにしだ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 737,
+    "bodai": []
+  },
+  {
+    "name": "槐の花",
+    "yomigana": "えんじゅのはな",
+    "kyukana": "",
+    "bodai": [
+      "花槐"
+    ],
+    "season": "summer",
+    "id": 738
+  },
+  {
+    "name": "炎昼",
+    "yomigana": "えんちゅう",
+    "kyukana": "えんちう",
+    "bodai": [
+      "夏の昼"
+    ],
+    "season": "summer",
+    "id": 739
+  },
+  {
+    "name": "炎宙",
+    "yomigana": "えんちゅう",
+    "kyukana": "",
+    "season": "summer",
+    "id": 740,
+    "bodai": []
+  },
+  {
+    "name": "炎天",
+    "yomigana": "えんてん",
+    "kyukana": "",
+    "bodai": [
+      "炎気",
+      "炎天下"
+    ],
+    "season": "summer",
+    "id": 741
+  },
+  {
+    "name": "豌豆",
+    "yomigana": "えんどう",
+    "kyukana": "ゑんどう",
+    "bodai": [
+      "莢豌豆"
+    ],
+    "season": "summer",
+    "id": 742
+  },
+  {
+    "name": "花魁草",
+    "yomigana": "おいらんそう",
+    "kyukana": "おいらんさう",
+    "bodai": [
+      "草夾竹桃"
+    ],
+    "season": "summer",
+    "id": 743
+  },
+  {
+    "name": "扇",
+    "yomigana": "おうぎ",
+    "kyukana": "あふぎ",
+    "bodai": [
+      "扇子",
+      "白扇",
+      "絵扇",
+      "古扇"
+    ],
+    "season": "summer",
+    "id": 744
+  },
+  {
+    "name": "黄蜀葵",
+    "yomigana": "おうしょくき",
+    "kyukana": "わうしょくき",
+    "bodai": [
+      "とろろあおい"
+    ],
+    "season": "summer",
+    "id": 745
+  },
+  {
+    "name": "楝の花",
+    "yomigana": "おうちのはな",
+    "kyukana": "あうちのはな",
+    "bodai": [
+      "樗の花",
+      "花樗",
+      "栴檀の花"
+    ],
+    "season": "summer",
+    "id": 746
+  },
+  {
+    "name": "桜桃忌",
+    "yomigana": "おうとうき",
+    "kyukana": "あうたうき",
+    "bodai": [
+      "太宰忌"
+    ],
+    "season": "summer",
+    "id": 747
+  },
+  {
+    "name": "車前草の花",
+    "yomigana": "おおばこのはな",
+    "kyukana": "おほばこのはな",
+    "bodai": [
+      "大車前",
+      "おんばこ",
+      "かへるば"
+    ],
+    "season": "summer",
+    "id": 748
+  },
+  {
+    "name": "大山蓮華",
+    "yomigana": "おおやまれんげ",
+    "kyukana": "",
+    "bodai": [
+      "天花女"
+    ],
+    "season": "summer",
+    "id": 749
+  },
+  {
+    "name": "大瑠璃",
+    "yomigana": "おおるり",
+    "kyukana": "おほるり",
+    "bodai": [
+      "瑠璃"
+    ],
+    "season": "summer",
+    "id": 750
+  },
+  {
+    "name": "沖膾",
+    "yomigana": "おきなます",
+    "kyukana": "",
+    "season": "summer",
+    "id": 751,
+    "bodai": []
+  },
+  {
+    "name": "沖縄慰霊の日",
+    "yomigana": "おきなわいれいのひ",
+    "kyukana": "おきなはゐれいのひ",
+    "bodai": [
+      "沖縄忌"
+    ],
+    "season": "summer",
+    "id": 752
+  },
+  {
+    "name": "オクラ",
+    "yomigana": "おくら",
+    "kyukana": "",
+    "season": "summer",
+    "id": 753,
+    "bodai": []
+  },
+  {
+    "name": "含羞草",
+    "yomigana": "おじぎそう",
+    "kyukana": "おじぎさう",
+    "bodai": [
+      "眠草"
+    ],
+    "season": "summer",
+    "id": 754
+  },
+  {
+    "name": "御田植",
+    "yomigana": "おたうえ",
+    "kyukana": "おたうゑ",
+    "bodai": [
+      "御田",
+      "神植",
+      "御田祭"
+    ],
+    "season": "summer",
+    "id": 755
+  },
+  {
+    "name": "落し文",
+    "yomigana": "おとしぶみ",
+    "kyukana": "",
+    "bodai": [
+      "鶯のおとし文",
+      "時鳥の落し文"
+    ],
+    "season": "summer",
+    "id": 756
+  },
+  {
+    "name": "踊子草",
+    "yomigana": "おどりこそう",
+    "kyukana": "をどりこさう",
+    "bodai": [
+      "踊草",
+      "踊花"
+    ],
+    "season": "summer",
+    "id": 757
+  },
+  {
+    "name": "お花畑",
+    "yomigana": "おはなばたけ",
+    "kyukana": "",
+    "bodai": [
+      "お花畠"
+    ],
+    "season": "summer",
+    "id": 758
+  },
+  {
+    "name": "お化け屋敷",
+    "yomigana": "おばけやしき",
+    "kyukana": "",
+    "bodai": [
+      "幽霊",
+      "肝試",
+      "怪談",
+      "百物語"
+    ],
+    "season": "summer",
+    "id": 759
+  },
+  {
+    "name": "沢瀉",
+    "yomigana": "おもだか",
+    "kyukana": "",
+    "bodai": [
+      "花慈姑"
+    ],
+    "season": "summer",
+    "id": 760
+  },
+  {
+    "name": "泳ぎ",
+    "yomigana": "およぎ",
+    "kyukana": "",
+    "bodai": [
+      "水泳",
+      "水練",
+      "遊泳",
+      "競泳",
+      "遠泳",
+      "ダイビング",
+      "浮輪"
+    ],
+    "season": "summer",
+    "id": 761
+  },
+  {
+    "name": "蚊",
+    "yomigana": "か",
+    "kyukana": "",
+    "season": "summer",
+    "id": 762,
+    "bodai": []
+  },
+  {
+    "name": "蚕の上蔟",
+    "yomigana": "かいこのあがり",
+    "kyukana": "かひこのあがり",
+    "bodai": [
+      "上蔟"
+    ],
+    "season": "summer",
+    "id": 763
+  },
+  {
+    "name": "海水着",
+    "yomigana": "かいすいぎ",
+    "kyukana": "",
+    "bodai": [
+      "水着",
+      "海水帽",
+      "ビキニ",
+      "ハイレグ"
+    ],
+    "season": "summer",
+    "id": 764
+  },
+  {
+    "name": "海水浴",
+    "yomigana": "かいすいよく",
+    "kyukana": "",
+    "bodai": [
+      "潮浴び",
+      "海の家"
+    ],
+    "season": "summer",
+    "id": 765
+  },
+  {
+    "name": "夏期講習会",
+    "yomigana": "かきこうしゅうかい",
+    "kyukana": "かきかうしふくわい",
+    "bodai": [
+      "夏期大学"
+    ],
+    "season": "summer",
+    "id": 766
+  },
+  {
+    "name": "燕子花",
+    "yomigana": "かきつばた",
+    "kyukana": "",
+    "bodai": [
+      "杜若"
+    ],
+    "season": "summer",
+    "id": 767
+  },
+  {
+    "name": "柿の花",
+    "yomigana": "かきのはな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 768,
+    "bodai": []
+  },
+  {
+    "name": "柿若葉",
+    "yomigana": "かきわかば",
+    "kyukana": "",
+    "season": "summer",
+    "id": 769,
+    "bodai": []
+  },
+  {
+    "name": "霍乱",
+    "yomigana": "かくらん",
+    "kyukana": "くわくらん",
+    "season": "summer",
+    "id": 770,
+    "bodai": []
+  },
+  {
+    "name": "籠枕",
+    "yomigana": "かごまくら",
+    "kyukana": "",
+    "bodai": [
+      "籐枕",
+      "陶枕"
+    ],
+    "season": "summer",
+    "id": 771
+  },
+  {
+    "name": "樫若葉",
+    "yomigana": "かしわかば",
+    "kyukana": "",
+    "bodai": [
+      "樫茂る",
+      "青樫"
+    ],
+    "season": "summer",
+    "id": 772
+  },
+  {
+    "name": "柏餅",
+    "yomigana": "かしわもち",
+    "kyukana": "かしはもち",
+    "season": "summer",
+    "id": 773,
+    "bodai": []
+  },
+  {
+    "name": "河鹿",
+    "yomigana": "かじか",
+    "kyukana": "",
+    "bodai": [
+      "河鹿蛙",
+      "河鹿笛"
+    ],
+    "season": "summer",
+    "id": 774
+  },
+  {
+    "name": "風薫る",
+    "yomigana": "かぜかおる",
+    "kyukana": "かぜかをる",
+    "bodai": [
+      "薫風",
+      "薫る風"
+    ],
+    "season": "summer",
+    "id": 775
+  },
+  {
+    "name": "風死す",
+    "yomigana": "かぜしす",
+    "kyukana": "",
+    "season": "summer",
+    "id": 776,
+    "bodai": []
+  },
+  {
+    "name": "片蔭",
+    "yomigana": "かたかげ",
+    "kyukana": "",
+    "bodai": [
+      "日陰",
+      "片かげり"
+    ],
+    "season": "summer",
+    "id": 777
+  },
+  {
+    "name": "蝸牛",
+    "yomigana": "かたつむり",
+    "kyukana": "",
+    "bodai": [
+      "蝸牛",
+      "ででむし",
+      "でんでんむし"
+    ],
+    "season": "summer",
+    "id": 778
+  },
+  {
+    "name": "酢漿の花",
+    "yomigana": "かたばみのはな",
+    "kyukana": "",
+    "bodai": [
+      "酢漿草"
+    ],
+    "season": "summer",
+    "id": 779
+  },
+  {
+    "name": "帷子",
+    "yomigana": "かたびら",
+    "kyukana": "",
+    "bodai": [
+      "白帷子",
+      "染帷子",
+      "黄帷子"
+    ],
+    "season": "summer",
+    "id": 780
+  },
+  {
+    "name": "郭公",
+    "yomigana": "かっこう",
+    "kyukana": "くわくこう",
+    "bodai": [
+      "閑古鳥",
+      "かつこ鳥"
+    ],
+    "season": "summer",
+    "id": 781
+  },
+  {
+    "name": "河童忌",
+    "yomigana": "かっぱき",
+    "kyukana": "かつぱき",
+    "bodai": [
+      "我鬼忌",
+      "龍之介忌"
+    ],
+    "season": "summer",
+    "id": 782
+  },
+  {
+    "name": "鰹",
+    "yomigana": "かつお",
+    "kyukana": "かつを",
+    "bodai": [
+      "松魚",
+      "鰹釣",
+      "鰹船"
+    ],
+    "season": "summer",
+    "id": 783
+  },
+  {
+    "name": "蟹",
+    "yomigana": "かに",
+    "kyukana": "",
+    "bodai": [
+      "山蟹",
+      "沢蟹",
+      "川蟹",
+      "磯蟹"
+    ],
+    "season": "summer",
+    "id": 784
+  },
+  {
+    "name": "黴",
+    "yomigana": "かび",
+    "kyukana": "",
+    "bodai": [
+      "青黴",
+      "毛黴",
+      "麹黴",
+      "黴の宿",
+      "黴の香"
+    ],
+    "season": "summer",
+    "id": 785
+  },
+  {
+    "name": "兜虫",
+    "yomigana": "かぶとむし",
+    "kyukana": "",
+    "bodai": [
+      "甲虫　さいかち虫　鍬形"
+    ],
+    "season": "summer",
+    "id": 786
+  },
+  {
+    "name": "南瓜の花",
+    "yomigana": "かぼちゃのはな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 787,
+    "bodai": []
+  },
+  {
+    "name": "蟷螂生る",
+    "yomigana": "かまきりうまる",
+    "kyukana": "",
+    "bodai": [
+      "蟷螂生る",
+      "子かまきり"
+    ],
+    "season": "summer",
+    "id": 788
+  },
+  {
+    "name": "髪洗う",
+    "yomigana": "かみあらう",
+    "kyukana": "かみあらふ",
+    "bodai": [
+      "洗ひ髪",
+      "髪洗ふ"
+    ],
+    "season": "summer",
+    "id": 789
+  },
+  {
+    "name": "天牛",
+    "yomigana": "かみきり",
+    "kyukana": "",
+    "bodai": [
+      "髪切虫",
+      "かみきり"
+    ],
+    "season": "summer",
+    "id": 790
+  },
+  {
+    "name": "雷",
+    "yomigana": "かみなり",
+    "kyukana": "",
+    "bodai": [
+      "神鳴",
+      "雷",
+      "いかづち",
+      "はたた神",
+      "雷鳴",
+      "遠雷",
+      "軽雷",
+      "落雷",
+      "雷雨",
+      "日雷"
+    ],
+    "season": "summer",
+    "id": 791
+  },
+  {
+    "name": "亀の子",
+    "yomigana": "かめのこ",
+    "kyukana": "",
+    "bodai": [
+      "銭亀"
+    ],
+    "season": "summer",
+    "id": 792
+  },
+  {
+    "name": "蚊帳",
+    "yomigana": "かや",
+    "kyukana": "",
+    "bodai": [
+      "かや",
+      "枕蚊帳",
+      "母衣蚊帳"
+    ],
+    "season": "summer",
+    "id": 793
+  },
+  {
+    "name": "蚊帳吊草",
+    "yomigana": "かやつりぐさ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 794,
+    "bodai": []
+  },
+  {
+    "name": "蚊遣火",
+    "yomigana": "かやりび",
+    "kyukana": "",
+    "bodai": [
+      "蚊遣",
+      "蚊火",
+      "蚊取線香"
+    ],
+    "season": "summer",
+    "id": 795
+  },
+  {
+    "name": "烏瓜の花",
+    "yomigana": "からすうりのはな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 796,
+    "bodai": []
+  },
+  {
+    "name": "鴉の子",
+    "yomigana": "からすのこ",
+    "kyukana": "",
+    "bodai": [
+      "烏の子",
+      "子烏",
+      "親烏"
+    ],
+    "season": "summer",
+    "id": 797
+  },
+  {
+    "name": "空梅雨",
+    "yomigana": "からつゆ",
+    "kyukana": "",
+    "bodai": [
+      "旱梅雨"
+    ],
+    "season": "summer",
+    "id": 798
+  },
+  {
+    "name": "軽鳧の子",
+    "yomigana": "かるのこ",
+    "kyukana": "",
+    "bodai": [
+      "軽鴨の子"
+    ],
+    "season": "summer",
+    "id": 799
+  },
+  {
+    "name": "川狩",
+    "yomigana": "かわがり",
+    "kyukana": "かはがり",
+    "bodai": [
+      "投網",
+      "川干",
+      "毒流し",
+      "かへぼり",
+      "瀬干し"
+    ],
+    "season": "summer",
+    "id": 800
+  },
+  {
+    "name": "翡翠",
+    "yomigana": "かわせみ",
+    "kyukana": "かはせみ",
+    "bodai": [
+      "川蝉",
+      "せうびん",
+      "翡翠"
+    ],
+    "season": "summer",
+    "id": 801
+  },
+  {
+    "name": "川蜻蛉",
+    "yomigana": "かわとんぼ",
+    "kyukana": "かはとんぼ",
+    "bodai": [
+      "おはぐろとんぼ",
+      "おはぐろ",
+      "かねつけ蜻蛉"
+    ],
+    "season": "summer",
+    "id": 802
+  },
+  {
+    "name": "川開",
+    "yomigana": "かわびらき",
+    "kyukana": "かはびらき",
+    "bodai": [
+      "両国の川開"
+    ],
+    "season": "summer",
+    "id": 803
+  },
+  {
+    "name": "河骨",
+    "yomigana": "かわほね",
+    "kyukana": "かはほね",
+    "bodai": [
+      "かうほね"
+    ],
+    "season": "summer",
+    "id": 804
+  },
+  {
+    "name": "萱草の花",
+    "yomigana": "かんぞうのはな",
+    "kyukana": "",
+    "bodai": [
+      "ひるな",
+      "花萱草",
+      "忘草",
+      "藪萱草"
+    ],
+    "season": "summer",
+    "id": 805
+  },
+  {
+    "name": "干瓢剥く",
+    "yomigana": "かんぴょうむく",
+    "kyukana": "かんぺうむく",
+    "bodai": [
+      "干瓢干す",
+      "新干瓢"
+    ],
+    "season": "summer",
+    "id": 806
+  },
+  {
+    "name": "カーネーション",
+    "yomigana": "かーねーしょん",
+    "kyukana": "",
+    "bodai": [
+      "和蘭石竹"
+    ],
+    "season": "summer",
+    "id": 807
+  },
+  {
+    "name": "蛾",
+    "yomigana": "が",
+    "kyukana": "",
+    "season": "summer",
+    "id": 808,
+    "bodai": []
+  },
+  {
+    "name": "金銀蓮花",
+    "yomigana": "ががぶた",
+    "kyukana": "",
+    "bodai": [
+      "鏡蓋"
+    ],
+    "season": "summer",
+    "id": 809
+  },
+  {
+    "name": "ががんぼ",
+    "yomigana": "ががんぼ",
+    "kyukana": "",
+    "bodai": [
+      "蚊蜻蛉",
+      "蚊の姥",
+      "大蚊"
+    ],
+    "season": "summer",
+    "id": 810
+  },
+  {
+    "name": "額の花",
+    "yomigana": "がくのはな",
+    "kyukana": "",
+    "bodai": [
+      "額紫陽花"
+    ],
+    "season": "summer",
+    "id": 811
+  },
+  {
+    "name": "ガタリンピック",
+    "yomigana": "がたりんぴっく",
+    "kyukana": "",
+    "season": "summer",
+    "id": 812,
+    "bodai": []
+  },
+  {
+    "name": "がまずみの花",
+    "yomigana": "がまずみのはな",
+    "kyukana": "",
+    "bodai": [
+      "莢迷（がまずみ）の花、鎌酸実（がまずみ）の花"
+    ],
+    "season": "summer",
+    "id": 813
+  },
+  {
+    "name": "蒲の穂",
+    "yomigana": "がまのほ",
+    "kyukana": "",
+    "bodai": [
+      "蒲の花",
+      "蒲",
+      "御簾草"
+    ],
+    "season": "summer",
+    "id": 814
+  },
+  {
+    "name": "鑑真忌",
+    "yomigana": "がんじんき",
+    "kyukana": "",
+    "season": "summer",
+    "id": 815,
+    "bodai": []
+  },
+  {
+    "name": "岩菲",
+    "yomigana": "がんぴ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 816,
+    "bodai": []
+  },
+  {
+    "name": "木苺",
+    "yomigana": "きいちご",
+    "kyukana": "",
+    "season": "summer",
+    "id": 817,
+    "bodai": []
+  },
+  {
+    "name": "喜雨",
+    "yomigana": "きう",
+    "kyukana": "",
+    "bodai": [
+      "雨喜び"
+    ],
+    "season": "summer",
+    "id": 818
+  },
+  {
+    "name": "胡瓜",
+    "yomigana": "きうり",
+    "kyukana": "",
+    "season": "summer",
+    "id": 819,
+    "bodai": []
+  },
+  {
+    "name": "胡瓜の花",
+    "yomigana": "きうりのはな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 820,
+    "bodai": []
+  },
+  {
+    "name": "菊挿す",
+    "yomigana": "きくさす",
+    "kyukana": "",
+    "bodai": [
+      "菊挿芽",
+      "挿菊"
+    ],
+    "season": "summer",
+    "id": 821
+  },
+  {
+    "name": "木耳",
+    "yomigana": "きくらげ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 822,
+    "bodai": []
+  },
+  {
+    "name": "鱚",
+    "yomigana": "きす",
+    "kyukana": "",
+    "bodai": [
+      "きすご",
+      "鱚釣"
+    ],
+    "season": "summer",
+    "id": 823
+  },
+  {
+    "name": "帰省",
+    "yomigana": "きせい",
+    "kyukana": "",
+    "bodai": [
+      "帰省子"
+    ],
+    "season": "summer",
+    "id": 824
+  },
+  {
+    "name": "狐の提燈",
+    "yomigana": "きつねのちょうちん",
+    "kyukana": "きつねのちやうちん",
+    "bodai": [
+      "宝鐸草の花"
+    ],
+    "season": "summer",
+    "id": 825
+  },
+  {
+    "name": "キャベツ",
+    "yomigana": "きゃべつ",
+    "kyukana": "",
+    "bodai": [
+      "甘藍",
+      "玉菜",
+      "牡丹菜"
+    ],
+    "season": "summer",
+    "id": 826
+  },
+  {
+    "name": "キャンプ",
+    "yomigana": "きゃんぷ",
+    "kyukana": "",
+    "bodai": [
+      "キャンピング",
+      "テント",
+      "バンガロー",
+      "キャンプ村",
+      "キャンプファイヤー"
+    ],
+    "season": "summer",
+    "id": 827
+  },
+  {
+    "name": "鏡太郎忌",
+    "yomigana": "きょうたろうき",
+    "kyukana": "",
+    "season": "summer",
+    "id": 828,
+    "bodai": []
+  },
+  {
+    "name": "夾竹桃",
+    "yomigana": "きょうちくとう",
+    "kyukana": "けふちくとう",
+    "bodai": [
+      "桃葉紅（とうようこう）"
+    ],
+    "season": "summer",
+    "id": 829
+  },
+  {
+    "name": "桐の花",
+    "yomigana": "きりのはな",
+    "kyukana": "",
+    "bodai": [
+      "花桐"
+    ],
+    "season": "summer",
+    "id": 830
+  },
+  {
+    "name": "金魚",
+    "yomigana": "きんぎょ",
+    "kyukana": "きんぎよ",
+    "bodai": [
+      "和金",
+      "琉金",
+      "蘭鋳",
+      "出目金",
+      "金魚鉢"
+    ],
+    "season": "summer",
+    "id": 831
+  },
+  {
+    "name": "金魚売",
+    "yomigana": "きんぎょうり",
+    "kyukana": "きんぎようり",
+    "bodai": [
+      "金魚すくい"
+    ],
+    "season": "summer",
+    "id": 832
+  },
+  {
+    "name": "金魚草",
+    "yomigana": "きんぎょそう",
+    "kyukana": "きんぎょさう",
+    "season": "summer",
+    "id": 833,
+    "bodai": []
+  },
+  {
+    "name": "金魚玉",
+    "yomigana": "きんぎょだま",
+    "kyukana": "きんぎよだま",
+    "bodai": [
+      "金魚鉢"
+    ],
+    "season": "summer",
+    "id": 834
+  },
+  {
+    "name": "祇園祭",
+    "yomigana": "ぎおんまつり",
+    "kyukana": "ぎをんまつり",
+    "bodai": [
+      "祇園会",
+      "祇園御霊会",
+      "天王祭",
+      "山鉾",
+      "祇園囃子",
+      "祇園太鼓",
+      "祇園山笠",
+      "鉾祭",
+      "鉾立",
+      "弦召"
+    ],
+    "season": "summer",
+    "id": 835
+  },
+  {
+    "name": "羊蹄の花",
+    "yomigana": "ぎしぎしのはな",
+    "kyukana": "",
+    "bodai": [
+      "野大黄"
+    ],
+    "season": "summer",
+    "id": 836
+  },
+  {
+    "name": "擬宝珠の花",
+    "yomigana": "ぎぼうしのはな",
+    "kyukana": "",
+    "bodai": [
+      "花擬宝珠",
+      "ぎぼし"
+    ],
+    "season": "summer",
+    "id": 837
+  },
+  {
+    "name": "牛馬冷す",
+    "yomigana": "ぎゅうばひやす",
+    "kyukana": "ぎうばひやす",
+    "bodai": [
+      "牛冷す",
+      "馬冷す",
+      "牛洗ふ",
+      "馬洗ふ"
+    ],
+    "season": "summer",
+    "id": 838
+  },
+  {
+    "name": "行水",
+    "yomigana": "ぎょうずい",
+    "kyukana": "ぎやうずい",
+    "season": "summer",
+    "id": 839,
+    "bodai": []
+  },
+  {
+    "name": "水鶏",
+    "yomigana": "くいな",
+    "kyukana": "くひな",
+    "bodai": [
+      "水鶏笛"
+    ],
+    "season": "summer",
+    "id": 840
+  },
+  {
+    "name": "草いきれ",
+    "yomigana": "くさいきれ",
+    "kyukana": "",
+    "bodai": [
+      "草のいきれ"
+    ],
+    "season": "summer",
+    "id": 841
+  },
+  {
+    "name": "草孵蝣",
+    "yomigana": "くさかげろう",
+    "kyukana": "くさかげろふ",
+    "bodai": [
+      "臭浮蝣"
+    ],
+    "season": "summer",
+    "id": 842
+  },
+  {
+    "name": "草刈",
+    "yomigana": "くさかり",
+    "kyukana": "",
+    "bodai": [
+      "朝草刈",
+      "草刈女",
+      "草刈籠"
+    ],
+    "season": "summer",
+    "id": 843
+  },
+  {
+    "name": "草茂る",
+    "yomigana": "くさしげる",
+    "kyukana": "",
+    "bodai": [
+      "茂る草"
+    ],
+    "season": "summer",
+    "id": 844
+  },
+  {
+    "name": "草田男忌",
+    "yomigana": "くさたおき",
+    "kyukana": "くさたをき",
+    "season": "summer",
+    "id": 845,
+    "bodai": []
+  },
+  {
+    "name": "草取",
+    "yomigana": "くさとり",
+    "kyukana": "",
+    "bodai": [
+      "草むしり",
+      "除草"
+    ],
+    "season": "summer",
+    "id": 846
+  },
+  {
+    "name": "草笛",
+    "yomigana": "くさぶえ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 847,
+    "bodai": []
+  },
+  {
+    "name": "草矢",
+    "yomigana": "くさや",
+    "kyukana": "",
+    "season": "summer",
+    "id": 848,
+    "bodai": []
+  },
+  {
+    "name": "孔雀草",
+    "yomigana": "くじゃくそう",
+    "kyukana": "くじゃくさう",
+    "bodai": [
+      "波斯菊",
+      "蛇の目草"
+    ],
+    "season": "summer",
+    "id": 849
+  },
+  {
+    "name": "薬玉",
+    "yomigana": "くすだま",
+    "kyukana": "",
+    "bodai": [
+      "長命縷",
+      "五月玉"
+    ],
+    "season": "summer",
+    "id": 850
+  },
+  {
+    "name": "薬狩",
+    "yomigana": "くすりがり",
+    "kyukana": "",
+    "bodai": [
+      "薬猟"
+    ],
+    "season": "summer",
+    "id": 851
+  },
+  {
+    "name": "樟若葉",
+    "yomigana": "くすわかば",
+    "kyukana": "",
+    "bodai": [
+      "楠若葉",
+      "楠茂る",
+      "青楠"
+    ],
+    "season": "summer",
+    "id": 852
+  },
+  {
+    "name": "葛饅頭",
+    "yomigana": "くずまんじゅう",
+    "kyukana": "くずまんぢゆう",
+    "bodai": [
+      "葛桜"
+    ],
+    "season": "summer",
+    "id": 853
+  },
+  {
+    "name": "葛水",
+    "yomigana": "くずみず",
+    "kyukana": "くずみづ",
+    "season": "summer",
+    "id": 854,
+    "bodai": []
+  },
+  {
+    "name": "葛餅",
+    "yomigana": "くずもち",
+    "kyukana": "",
+    "bodai": [
+      "葛練",
+      "葛切"
+    ],
+    "season": "summer",
+    "id": 855
+  },
+  {
+    "name": "梔子の花",
+    "yomigana": "くちなしのはな",
+    "kyukana": "",
+    "bodai": [
+      "梔子",
+      "山梔子"
+    ],
+    "season": "summer",
+    "id": 856
+  },
+  {
+    "name": "蜘蛛",
+    "yomigana": "くも",
+    "kyukana": "",
+    "bodai": [
+      "袋蜘蛛",
+      "蜘蛛の囲",
+      "蜘蛛の巣",
+      "蜘蛛の糸",
+      "蜘蛛の子",
+      "女郎蜘蛛"
+    ],
+    "season": "summer",
+    "id": 857
+  },
+  {
+    "name": "雲の峰",
+    "yomigana": "くものみね",
+    "kyukana": "",
+    "bodai": [
+      "入道雲",
+      "積乱雲",
+      "雷雲",
+      "峰雲"
+    ],
+    "season": "summer",
+    "id": 858
+  },
+  {
+    "name": "海月",
+    "yomigana": "くらげ",
+    "kyukana": "",
+    "bodai": [
+      "水母",
+      "水月"
+    ],
+    "season": "summer",
+    "id": 859
+  },
+  {
+    "name": "競馬",
+    "yomigana": "くらべうま",
+    "kyukana": "",
+    "bodai": [
+      "賀茂の競馬",
+      "きそひ馬"
+    ],
+    "season": "summer",
+    "id": 860
+  },
+  {
+    "name": "鞍馬の竹伐",
+    "yomigana": "くらまのたけきり",
+    "kyukana": "",
+    "bodai": [
+      "竹伐",
+      "竹伐会",
+      "蓮華会"
+    ],
+    "season": "summer",
+    "id": 861
+  },
+  {
+    "name": "栗の花",
+    "yomigana": "くりのはな",
+    "kyukana": "",
+    "bodai": [
+      "花栗",
+      "栗咲く"
+    ],
+    "season": "summer",
+    "id": 862
+  },
+  {
+    "name": "胡桃の花",
+    "yomigana": "くるみのはな",
+    "kyukana": "",
+    "bodai": [
+      "花胡桃"
+    ],
+    "season": "summer",
+    "id": 863
+  },
+  {
+    "name": "黒鯛",
+    "yomigana": "くろだい",
+    "kyukana": "くろだひ",
+    "bodai": [
+      "ちぬ",
+      "ちぬ釣"
+    ],
+    "season": "summer",
+    "id": 864
+  },
+  {
+    "name": "黒南風",
+    "yomigana": "くろはえ",
+    "kyukana": "",
+    "bodai": [
+      "白南風"
+    ],
+    "season": "summer",
+    "id": 865
+  },
+  {
+    "name": "桑の実",
+    "yomigana": "くわのみ",
+    "kyukana": "くはのみ",
+    "bodai": [
+      "桑いちご"
+    ],
+    "season": "summer",
+    "id": 866
+  },
+  {
+    "name": "グラジオラス",
+    "yomigana": "ぐらじおらす",
+    "kyukana": "",
+    "bodai": [
+      "唐菖蒲",
+      "和蘭あやめ"
+    ],
+    "season": "summer",
+    "id": 867
+  },
+  {
+    "name": "競渡",
+    "yomigana": "けいと",
+    "kyukana": "",
+    "bodai": [
+      "ペーロン",
+      "ペーロン船",
+      "ハーリー",
+      "爬竜船"
+    ],
+    "season": "summer",
+    "id": 868
+  },
+  {
+    "name": "罌栗の花",
+    "yomigana": "けしのはな",
+    "kyukana": "",
+    "bodai": [
+      "芥子の花",
+      "花罌栗",
+      "芥子"
+    ],
+    "season": "summer",
+    "id": 869
+  },
+  {
+    "name": "罌栗坊主",
+    "yomigana": "けしぼうず",
+    "kyukana": "",
+    "bodai": [
+      "芥子坊主",
+      "罌栗の実"
+    ],
+    "season": "summer",
+    "id": 870
+  },
+  {
+    "name": "毛虫",
+    "yomigana": "けむし",
+    "kyukana": "",
+    "bodai": [
+      "毛虫焼く"
+    ],
+    "season": "summer",
+    "id": 871
+  },
+  {
+    "name": "螻蛄",
+    "yomigana": "けら",
+    "kyukana": "",
+    "season": "summer",
+    "id": 872,
+    "bodai": []
+  },
+  {
+    "name": "健吉忌",
+    "yomigana": "けんきちき",
+    "kyukana": "",
+    "season": "summer",
+    "id": 873,
+    "bodai": []
+  },
+  {
+    "name": "夏書",
+    "yomigana": "げがき",
+    "kyukana": "",
+    "season": "summer",
+    "id": 874,
+    "bodai": []
+  },
+  {
+    "name": "夏至",
+    "yomigana": "げし",
+    "kyukana": "",
+    "season": "summer",
+    "id": 875,
+    "bodai": []
+  },
+  {
+    "name": "蚰蜒",
+    "yomigana": "げじげじ",
+    "kyukana": "げぢげぢ",
+    "season": "summer",
+    "id": 876,
+    "bodai": []
+  },
+  {
+    "name": "月下美人",
+    "yomigana": "げっかびじん",
+    "kyukana": "",
+    "season": "summer",
+    "id": 877,
+    "bodai": []
+  },
+  {
+    "name": "源五郎",
+    "yomigana": "げんごろう",
+    "kyukana": "げんごらう",
+    "season": "summer",
+    "id": 878,
+    "bodai": []
+  },
+  {
+    "name": "げんのしようこ",
+    "yomigana": "げんのしようこ",
+    "kyukana": "",
+    "bodai": [
+      "現の証拠",
+      "神輿草"
+    ],
+    "season": "summer",
+    "id": 879
+  },
+  {
+    "name": "原爆忌",
+    "yomigana": "げんばくき",
+    "kyukana": "",
+    "bodai": [
+      "原爆の日",
+      "広島忌",
+      "長崎忌"
+    ],
+    "season": "summer",
+    "id": 880
+  },
+  {
+    "name": "鯉幟",
+    "yomigana": "こいのぼり",
+    "kyukana": "こひのぼり",
+    "bodai": [
+      "五月鯉",
+      "吹流し",
+      "矢車"
+    ],
+    "season": "summer",
+    "id": 881
+  },
+  {
+    "name": "紅蜀葵",
+    "yomigana": "こうしょくき",
+    "kyukana": "",
+    "bodai": [
+      "もみじあおい（もみぢあふひ）"
+    ],
+    "season": "summer",
+    "id": 882
+  },
+  {
+    "name": "香水",
+    "yomigana": "こうすい",
+    "kyukana": "かうすい",
+    "bodai": [
+      "掛香"
+    ],
+    "season": "summer",
+    "id": 883
+  },
+  {
+    "name": "蝙蝠",
+    "yomigana": "こうもり",
+    "kyukana": "かうもり",
+    "bodai": [
+      "かはほり",
+      "蚊喰鳥"
+    ],
+    "season": "summer",
+    "id": 884
+  },
+  {
+    "name": "氷水",
+    "yomigana": "こおりみず",
+    "kyukana": "こほりみづ",
+    "bodai": [
+      "削氷",
+      "かき氷",
+      "夏氷",
+      "氷小豆",
+      "氷苺",
+      "氷店"
+    ],
+    "season": "summer",
+    "id": 885
+  },
+  {
+    "name": "金亀子",
+    "yomigana": "こがねむし",
+    "kyukana": "",
+    "bodai": [
+      "黄金虫",
+      "かなぶん",
+      "ぶんぶん",
+      "ぶんぶん虫"
+    ],
+    "season": "summer",
+    "id": 886
+  },
+  {
+    "name": "穀象",
+    "yomigana": "こくぞう",
+    "kyukana": "",
+    "bodai": [
+      "穀象虫",
+      "米の虫"
+    ],
+    "season": "summer",
+    "id": 887
+  },
+  {
+    "name": "苔の花",
+    "yomigana": "こけのはな",
+    "kyukana": "",
+    "bodai": [
+      "花苔"
+    ],
+    "season": "summer",
+    "id": 888
+  },
+  {
+    "name": "木下闇",
+    "yomigana": "こしたやみ",
+    "kyukana": "",
+    "bodai": [
+      "木の下闇",
+      "下闇",
+      "青葉闇",
+      "木暮",
+      "木暮る",
+      "木暗し"
+    ],
+    "season": "summer",
+    "id": 889
+  },
+  {
+    "name": "子供の日",
+    "yomigana": "こどものひ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 890,
+    "bodai": []
+  },
+  {
+    "name": "木葉木菟",
+    "yomigana": "このはずく",
+    "kyukana": "このはづく",
+    "bodai": [
+      "仏法僧",
+      "声の仏法僧"
+    ],
+    "season": "summer",
+    "id": 891
+  },
+  {
+    "name": "小判草",
+    "yomigana": "こばんそう",
+    "kyukana": "こばんさう",
+    "bodai": [
+      "俵麦"
+    ],
+    "season": "summer",
+    "id": 892
+  },
+  {
+    "name": "駒繋",
+    "yomigana": "こまつなぎ",
+    "kyukana": "",
+    "bodai": [
+      "うまつなぎ"
+    ],
+    "season": "summer",
+    "id": 893
+  },
+  {
+    "name": "駒鳥",
+    "yomigana": "こまどり",
+    "kyukana": "",
+    "bodai": [
+      "こま"
+    ],
+    "season": "summer",
+    "id": 894
+  },
+  {
+    "name": "米搗虫",
+    "yomigana": "こめつきむし",
+    "kyukana": "",
+    "bodai": [
+      "叩頭虫"
+    ],
+    "season": "summer",
+    "id": 895
+  },
+  {
+    "name": "更衣",
+    "yomigana": "ころもがえ",
+    "kyukana": "ころもがへ",
+    "bodai": [
+      "衣更ふ"
+    ],
+    "season": "summer",
+    "id": 896
+  },
+  {
+    "name": "昆虫採集",
+    "yomigana": "こんちゅうさいしゅう",
+    "kyukana": "こんちゆうさいしふ",
+    "bodai": [
+      "捕虫網",
+      "毒瓶"
+    ],
+    "season": "summer",
+    "id": 897
+  },
+  {
+    "name": "昆布刈る",
+    "yomigana": "こんぶかる",
+    "kyukana": "",
+    "bodai": [
+      "昆布干す",
+      "昆布船"
+    ],
+    "season": "summer",
+    "id": 898
+  },
+  {
+    "name": "五位鷺",
+    "yomigana": "ごいさぎ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 899,
+    "bodai": []
+  },
+  {
+    "name": "五月",
+    "yomigana": "ごがつ",
+    "kyukana": "ごぐわつ",
+    "bodai": [
+      "五月来る",
+      "聖五月"
+    ],
+    "season": "summer",
+    "id": 900
+  },
+  {
+    "name": "ごきぶり",
+    "yomigana": "ごきぶり",
+    "kyukana": "",
+    "bodai": [
+      "油虫",
+      "ごきかぶり"
+    ],
+    "season": "summer",
+    "id": 901
+  },
+  {
+    "name": "極暑",
+    "yomigana": "ごくしょ",
+    "kyukana": "ごくしよ",
+    "bodai": [
+      "酷暑",
+      "劫暑"
+    ],
+    "season": "summer",
+    "id": 902
+  },
+  {
+    "name": "胡麻の花",
+    "yomigana": "ごまのはな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 903,
+    "bodai": []
+  },
+  {
+    "name": "御来迎",
+    "yomigana": "ごらいごう",
+    "kyukana": "ごらいがう",
+    "bodai": [
+      "御来光",
+      "円虹"
+    ],
+    "season": "summer",
+    "id": 904
+  },
+  {
+    "name": "鮴汁",
+    "yomigana": "ごりじる",
+    "kyukana": "",
+    "season": "summer",
+    "id": 905,
+    "bodai": []
+  },
+  {
+    "name": "サイダー",
+    "yomigana": "さいだー",
+    "kyukana": "",
+    "bodai": [
+      "冷しサイダー"
+    ],
+    "season": "summer",
+    "id": 906
+  },
+  {
+    "name": "早乙女",
+    "yomigana": "さおとめ",
+    "kyukana": "さをとめ",
+    "bodai": [
+      "植女",
+      "五月女"
+    ],
+    "season": "summer",
+    "id": 907
+  },
+  {
+    "name": "鷺草",
+    "yomigana": "さぎそう",
+    "kyukana": "さぎさう",
+    "season": "summer",
+    "id": 908,
+    "bodai": []
+  },
+  {
+    "name": "桜の実",
+    "yomigana": "さくらのみ",
+    "kyukana": "",
+    "bodai": [
+      "実桜"
+    ],
+    "season": "summer",
+    "id": 909
+  },
+  {
+    "name": "さくらんぼ",
+    "yomigana": "さくらんぼ",
+    "kyukana": "",
+    "bodai": [
+      "桜桃の実",
+      "桜桃"
+    ],
+    "season": "summer",
+    "id": 910
+  },
+  {
+    "name": "皐月",
+    "yomigana": "さつき",
+    "kyukana": "",
+    "bodai": [
+      "五月",
+      "早苗月"
+    ],
+    "season": "summer",
+    "id": 911
+  },
+  {
+    "name": "さつき",
+    "yomigana": "さつき",
+    "kyukana": "",
+    "bodai": [
+      "杜鵑花",
+      "皐月",
+      "五月躑躅"
+    ],
+    "season": "summer",
+    "id": 912
+  },
+  {
+    "name": "五月富士",
+    "yomigana": "さつきふじ",
+    "kyukana": "",
+    "bodai": [
+      "皐月富士",
+      "雪解富士",
+      "夏富士"
+    ],
+    "season": "summer",
+    "id": 913
+  },
+  {
+    "name": "五月闇",
+    "yomigana": "さつきやみ",
+    "kyukana": "",
+    "bodai": [
+      "梅雨闇",
+      "夏闇"
+    ],
+    "season": "summer",
+    "id": 914
+  },
+  {
+    "name": "早苗",
+    "yomigana": "さなえ",
+    "kyukana": "さなへ",
+    "bodai": [
+      "捨苗",
+      "苗篭",
+      "早苗束",
+      "苗運び",
+      "早苗取",
+      "早苗舟",
+      "若苗",
+      "玉苗"
+    ],
+    "season": "summer",
+    "id": 915
+  },
+  {
+    "name": "早苗饗",
+    "yomigana": "さなぶり",
+    "kyukana": "",
+    "season": "summer",
+    "id": 916,
+    "bodai": []
+  },
+  {
+    "name": "鯖",
+    "yomigana": "さば",
+    "kyukana": "",
+    "bodai": [
+      "鯖釣",
+      "鯖火"
+    ],
+    "season": "summer",
+    "id": 917
+  },
+  {
+    "name": "仙人掌の花",
+    "yomigana": "さぼてんのはな",
+    "kyukana": "",
+    "bodai": [
+      "覇王樹"
+    ],
+    "season": "summer",
+    "id": 918
+  },
+  {
+    "name": "五月雨",
+    "yomigana": "さみだれ",
+    "kyukana": "",
+    "bodai": [
+      "五月雨",
+      "さみだる"
+    ],
+    "season": "summer",
+    "id": 919
+  },
+  {
+    "name": "晒井",
+    "yomigana": "さらしい",
+    "kyukana": "さらしゐ",
+    "bodai": [
+      "井戸替",
+      "井戸浚"
+    ],
+    "season": "summer",
+    "id": 920
+  },
+  {
+    "name": "沙羅双樹",
+    "yomigana": "さらそうじゅ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 921,
+    "bodai": []
+  },
+  {
+    "name": "沙羅の花",
+    "yomigana": "さらのはな",
+    "kyukana": "",
+    "bodai": [
+      "夏椿",
+      "あからぎ",
+      "さるなめ",
+      "姫沙羅"
+    ],
+    "season": "summer",
+    "id": 922
+  },
+  {
+    "name": "松蘿",
+    "yomigana": "さるおがせ",
+    "kyukana": "さるをがせ",
+    "bodai": [
+      "猿麻桛、さがりごけ"
+    ],
+    "season": "summer",
+    "id": 923
+  },
+  {
+    "name": "百日紅",
+    "yomigana": "さるすべり",
+    "kyukana": "",
+    "bodai": [
+      "百日紅",
+      "白さるすべり",
+      "さるすべり"
+    ],
+    "season": "summer",
+    "id": 924
+  },
+  {
+    "name": "サルビア",
+    "yomigana": "さるびあ",
+    "kyukana": "",
+    "bodai": [
+      "緋衣草"
+    ],
+    "season": "summer",
+    "id": 925
+  },
+  {
+    "name": "サングラス",
+    "yomigana": "さんぐらす",
+    "kyukana": "",
+    "season": "summer",
+    "id": 926,
+    "bodai": []
+  },
+  {
+    "name": "三光鳥",
+    "yomigana": "さんこうちょう",
+    "kyukana": "さんくわうてう",
+    "season": "summer",
+    "id": 927,
+    "bodai": []
+  },
+  {
+    "name": "三光鳥",
+    "yomigana": "さんこうちょう",
+    "kyukana": "",
+    "season": "summer",
+    "id": 928,
+    "bodai": []
+  },
+  {
+    "name": "山椒魚",
+    "yomigana": "さんしょううお",
+    "kyukana": "さんせううを",
+    "bodai": [
+      "はんざき"
+    ],
+    "season": "summer",
+    "id": 929
+  },
+  {
+    "name": "三社祭",
+    "yomigana": "さんじゃまつり",
+    "kyukana": "さんじやまつり",
+    "bodai": [
+      "浅草祭"
+    ],
+    "season": "summer",
+    "id": 930
+  },
+  {
+    "name": "撒水車",
+    "yomigana": "さんすいしゃ",
+    "kyukana": "さんすいしや",
+    "season": "summer",
+    "id": 931,
+    "bodai": []
+  },
+  {
+    "name": "三伏",
+    "yomigana": "さんぷく",
+    "kyukana": "",
+    "bodai": [
+      "初伏",
+      "中伏",
+      "末伏"
+    ],
+    "season": "summer",
+    "id": 932
+  },
+  {
+    "name": "サーフィン",
+    "yomigana": "さーふぃん",
+    "kyukana": "",
+    "bodai": [
+      "波乗",
+      "サーファー",
+      "ボードデーリング",
+      "水上スキー"
+    ],
+    "season": "summer",
+    "id": 933
+  },
+  {
+    "name": "石榴の花",
+    "yomigana": "ざくろのはな",
+    "kyukana": "",
+    "bodai": [
+      "花石榴"
+    ],
+    "season": "summer",
+    "id": 934
+  },
+  {
+    "name": "椎の花",
+    "yomigana": "しいのはな",
+    "kyukana": "しひのはな",
+    "bodai": [
+      "花椎"
+    ],
+    "season": "summer",
+    "id": 935
+  },
+  {
+    "name": "椎若葉",
+    "yomigana": "しいわかば",
+    "kyukana": "",
+    "bodai": [
+      "椎茂る",
+      "青椎"
+    ],
+    "season": "summer",
+    "id": 936
+  },
+  {
+    "name": "鹿の子",
+    "yomigana": "しかのこ",
+    "kyukana": "",
+    "bodai": [
+      "鹿の子",
+      "子鹿",
+      "親鹿"
+    ],
+    "season": "summer",
+    "id": 937
+  },
+  {
+    "name": "茂り",
+    "yomigana": "しげり",
+    "kyukana": "",
+    "bodai": [
+      "茂る",
+      "茂み",
+      "茂し"
+    ],
+    "season": "summer",
+    "id": 938
+  },
+  {
+    "name": "四十雀",
+    "yomigana": "しじゅうから",
+    "kyukana": "しじふから",
+    "season": "summer",
+    "id": 939,
+    "bodai": []
+  },
+  {
+    "name": "紫蘇",
+    "yomigana": "しそ",
+    "kyukana": "",
+    "bodai": [
+      "赤紫蘇",
+      "青紫蘇",
+      "花紫蘇"
+    ],
+    "season": "summer",
+    "id": 940
+  },
+  {
+    "name": "滴り",
+    "yomigana": "したたり",
+    "kyukana": "",
+    "season": "summer",
+    "id": 941,
+    "bodai": []
+  },
+  {
+    "name": "七月",
+    "yomigana": "しちがつ",
+    "kyukana": "しちぐわつ",
+    "season": "summer",
+    "id": 942,
+    "bodai": []
+  },
+  {
+    "name": "紙魚",
+    "yomigana": "しみ",
+    "kyukana": "",
+    "bodai": [
+      "衣魚",
+      "きらら",
+      "雲母虫"
+    ],
+    "season": "summer",
+    "id": 943
+  },
+  {
+    "name": "清水",
+    "yomigana": "しみず",
+    "kyukana": "しみづ",
+    "bodai": [
+      "真清水",
+      "山清水",
+      "岩清水",
+      "苔清水",
+      "草清水"
+    ],
+    "season": "summer",
+    "id": 944
+  },
+  {
+    "name": "繍線菊",
+    "yomigana": "しもつけ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 945,
+    "bodai": []
+  },
+  {
+    "name": "著莪の花",
+    "yomigana": "しゃがのはな",
+    "kyukana": "",
+    "bodai": [
+      "胡蝶花"
+    ],
+    "season": "summer",
+    "id": 946
+  },
+  {
+    "name": "尺蠖",
+    "yomigana": "しゃくとり",
+    "kyukana": "しやくとり",
+    "bodai": [
+      "尺取虫",
+      "寸取虫"
+    ],
+    "season": "summer",
+    "id": 947
+  },
+  {
+    "name": "石楠花",
+    "yomigana": "しゃくなげ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 948,
+    "bodai": []
+  },
+  {
+    "name": "芍薬",
+    "yomigana": "しゃくやく",
+    "kyukana": "",
+    "season": "summer",
+    "id": 949,
+    "bodai": []
+  },
+  {
+    "name": "蝦蛄",
+    "yomigana": "しゃこ",
+    "kyukana": "しやこ",
+    "season": "summer",
+    "id": 950,
+    "bodai": []
+  },
+  {
+    "name": "秋櫻子忌",
+    "yomigana": "しゅうおうしき",
+    "kyukana": "しうあうしき",
+    "bodai": [
+      "喜雨亭忌",
+      "紫陽花忌",
+      "群青忌"
+    ],
+    "season": "summer",
+    "id": 951
+  },
+  {
+    "name": "修司忌",
+    "yomigana": "しゅうじき",
+    "kyukana": "",
+    "bodai": [
+      "寺山忌",
+      "修司の忌"
+    ],
+    "season": "summer",
+    "id": 952
+  },
+  {
+    "name": "楸邨忌",
+    "yomigana": "しゅうそんき",
+    "kyukana": "しうそんき",
+    "bodai": [
+      "達谷忌"
+    ],
+    "season": "summer",
+    "id": 953
+  },
+  {
+    "name": "棕櫚の花",
+    "yomigana": "しゅろのはな",
+    "kyukana": "",
+    "bodai": [
+      "椶櫚の花"
+    ],
+    "season": "summer",
+    "id": 954
+  },
+  {
+    "name": "焼酎",
+    "yomigana": "しょうちゅう",
+    "kyukana": "せうちう",
+    "bodai": [
+      "泡盛"
+    ],
+    "season": "summer",
+    "id": 955
+  },
+  {
+    "name": "白菖",
+    "yomigana": "しょうぶ",
+    "kyukana": "",
+    "bodai": [
+      "菖蒲",
+      "あやめぐさ"
+    ],
+    "season": "summer",
+    "id": 956
+  },
+  {
+    "name": "菖蒲酒",
+    "yomigana": "しょうぶざけ",
+    "kyukana": "しやうぶざけ",
+    "season": "summer",
+    "id": 957,
+    "bodai": []
+  },
+  {
+    "name": "菖蒲葺く",
+    "yomigana": "しょうぶふく",
+    "kyukana": "しやうぶふく",
+    "bodai": [
+      "菖蒲挿す",
+      "軒菖蒲"
+    ],
+    "season": "summer",
+    "id": 958
+  },
+  {
+    "name": "菖蒲湯",
+    "yomigana": "しょうぶゆ",
+    "kyukana": "しやうぶゆ",
+    "bodai": [
+      "菖蒲風呂"
+    ],
+    "season": "summer",
+    "id": 959
+  },
+  {
+    "name": "小満",
+    "yomigana": "しょうまん",
+    "kyukana": "せうまん",
+    "season": "summer",
+    "id": 960,
+    "bodai": []
+  },
+  {
+    "name": "蟭螟",
+    "yomigana": "しょうめい",
+    "kyukana": "せうめい",
+    "season": "summer",
+    "id": 961,
+    "bodai": []
+  },
+  {
+    "name": "初夏",
+    "yomigana": "しょか",
+    "kyukana": "しよか",
+    "bodai": [
+      "初夏",
+      "夏初め",
+      "首夏",
+      "孟夏"
+    ],
+    "season": "summer",
+    "id": 962
+  },
+  {
+    "name": "暑気中り",
+    "yomigana": "しょきあたり",
+    "kyukana": "しよきあたり",
+    "bodai": [
+      "暑さ負け"
+    ],
+    "season": "summer",
+    "id": 963
+  },
+  {
+    "name": "暑気払い",
+    "yomigana": "しょきばらい",
+    "kyukana": "しよきばらひ",
+    "bodai": [
+      "暑気下し"
+    ],
+    "season": "summer",
+    "id": 964
+  },
+  {
+    "name": "暑中見舞",
+    "yomigana": "しょちゅうみまい",
+    "kyukana": "しよちゆうみまひ",
+    "bodai": [
+      "土用見舞",
+      "夏見舞",
+      "残暑見舞"
+    ],
+    "season": "summer",
+    "id": 965
+  },
+  {
+    "name": "白鷺",
+    "yomigana": "しらさぎ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 966,
+    "bodai": []
+  },
+  {
+    "name": "白玉",
+    "yomigana": "しらたま",
+    "kyukana": "",
+    "bodai": [
+      "氷白玉"
+    ],
+    "season": "summer",
+    "id": 967
+  },
+  {
+    "name": "紫蘭",
+    "yomigana": "しらん",
+    "kyukana": "",
+    "season": "summer",
+    "id": 968,
+    "bodai": []
+  },
+  {
+    "name": "代掻く",
+    "yomigana": "しろかく",
+    "kyukana": "",
+    "bodai": [
+      "代掻",
+      "田掻く",
+      "田掻馬",
+      "田掻牛",
+      "代馬",
+      "代牛",
+      "田水張る",
+      "代田"
+    ],
+    "season": "summer",
+    "id": 969
+  },
+  {
+    "name": "白絣",
+    "yomigana": "しろがすり",
+    "kyukana": "",
+    "bodai": [
+      "白地"
+    ],
+    "season": "summer",
+    "id": 970
+  },
+  {
+    "name": "白靴",
+    "yomigana": "しろぐつ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 971,
+    "bodai": []
+  },
+  {
+    "name": "新藷",
+    "yomigana": "しんいも",
+    "kyukana": "",
+    "bodai": [
+      "走り藷",
+      "新じゃが",
+      "新馬鈴薯"
+    ],
+    "season": "summer",
+    "id": 972
+  },
+  {
+    "name": "新樹",
+    "yomigana": "しんじゅ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 973,
+    "bodai": []
+  },
+  {
+    "name": "新茶",
+    "yomigana": "しんちゃ",
+    "kyukana": "しんちや",
+    "bodai": [
+      "走り茶",
+      "茶詰",
+      "古茶"
+    ],
+    "season": "summer",
+    "id": 974
+  },
+  {
+    "name": "新緑",
+    "yomigana": "しんりょく",
+    "kyukana": "",
+    "bodai": [
+      "緑さす"
+    ],
+    "season": "summer",
+    "id": 975
+  },
+  {
+    "name": "森林浴",
+    "yomigana": "しんりんよく",
+    "kyukana": "",
+    "season": "summer",
+    "id": 976,
+    "bodai": []
+  },
+  {
+    "name": "慈悲心鳥",
+    "yomigana": "じひしんちょう",
+    "kyukana": "じひしんてう",
+    "bodai": [
+      "十一"
+    ],
+    "season": "summer",
+    "id": 977
+  },
+  {
+    "name": "馬鈴薯の花",
+    "yomigana": "じゃがいものはな",
+    "kyukana": "",
+    "bodai": [
+      "じやがたらの花"
+    ],
+    "season": "summer",
+    "id": 978
+  },
+  {
+    "name": "十薬",
+    "yomigana": "じゅうやく",
+    "kyukana": "じふやく",
+    "bodai": [
+      "どくだみ",
+      "どくだみの花"
+    ],
+    "season": "summer",
+    "id": 979
+  },
+  {
+    "name": "蓴菜",
+    "yomigana": "じゅんさい",
+    "kyukana": "",
+    "bodai": [
+      "蓴",
+      "蓴の花",
+      "蓴採る",
+      "蓴舟"
+    ],
+    "season": "summer",
+    "id": 980
+  },
+  {
+    "name": "ジューンドロップ",
+    "yomigana": "じゅーんどろっぷ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 981,
+    "bodai": []
+  },
+  {
+    "name": "上布",
+    "yomigana": "じょうふ",
+    "kyukana": "じやうふ",
+    "bodai": [
+      "越後上布",
+      "薩摩上布"
+    ],
+    "season": "summer",
+    "id": 982
+  },
+  {
+    "name": "溽暑",
+    "yomigana": "じょくしょ",
+    "kyukana": "じよくしよ",
+    "season": "summer",
+    "id": 983,
+    "bodai": []
+  },
+  {
+    "name": "海霧",
+    "yomigana": "じり",
+    "kyukana": "",
+    "bodai": [
+      "海霧（かいむ）",
+      "海霧（うみぎり）",
+      "ガス"
+    ],
+    "season": "summer",
+    "id": 984
+  },
+  {
+    "name": "甚平",
+    "yomigana": "じんべい",
+    "kyukana": "",
+    "bodai": [
+      "甚兵衛",
+      "じんべ"
+    ],
+    "season": "summer",
+    "id": 985
+  },
+  {
+    "name": "西瓜",
+    "yomigana": "すいか",
+    "kyukana": "すいくわ",
+    "bodai": [
+      "西瓜畑",
+      "西瓜番"
+    ],
+    "season": "summer",
+    "id": 986
+  },
+  {
+    "name": "忍冬の花",
+    "yomigana": "すいかずらのはな",
+    "kyukana": "",
+    "bodai": [
+      "忍冬"
+    ],
+    "season": "summer",
+    "id": 987
+  },
+  {
+    "name": "水中花",
+    "yomigana": "すいちゅうか",
+    "kyukana": "すいちゆうくわ",
+    "bodai": [
+      "酒中花"
+    ],
+    "season": "summer",
+    "id": 988
+  },
+  {
+    "name": "水中眼鏡",
+    "yomigana": "すいちゅうめがね",
+    "kyukana": "すいちゆうめがね",
+    "bodai": [
+      "水眼鏡"
+    ],
+    "season": "summer",
+    "id": 989
+  },
+  {
+    "name": "水飯",
+    "yomigana": "すいはん",
+    "kyukana": "",
+    "bodai": [
+      "水飯",
+      "洗ひ飯",
+      "水漬"
+    ],
+    "season": "summer",
+    "id": 990
+  },
+  {
+    "name": "睡蓮",
+    "yomigana": "すいれん",
+    "kyukana": "",
+    "bodai": [
+      "ひつじぐさ"
+    ],
+    "season": "summer",
+    "id": 991
+  },
+  {
+    "name": "すぐり",
+    "yomigana": "すぐり",
+    "kyukana": "",
+    "bodai": [
+      "カシス",
+      "くろすぐり",
+      "すぐりの実",
+      "グーズベリー",
+      "カラント",
+      "カーランツ",
+      "ふさすぐり"
+    ],
+    "season": "summer",
+    "id": 992
+  },
+  {
+    "name": "鮓",
+    "yomigana": "すし",
+    "kyukana": "",
+    "bodai": [
+      "鮨",
+      "馴鮓",
+      "押鮓",
+      "握鮓",
+      "早鮓",
+      "一夜鮓",
+      "巻鮓"
+    ],
+    "season": "summer",
+    "id": 993
+  },
+  {
+    "name": "涼し",
+    "yomigana": "すずし",
+    "kyukana": "",
+    "bodai": [
+      "朝涼",
+      "夕涼",
+      "晩涼",
+      "夜涼",
+      "涼風"
+    ],
+    "season": "summer",
+    "id": 994
+  },
+  {
+    "name": "篠の子",
+    "yomigana": "すずのこ",
+    "kyukana": "",
+    "bodai": [
+      "笹の子",
+      "芽笹"
+    ],
+    "season": "summer",
+    "id": 995
+  },
+  {
+    "name": "納涼",
+    "yomigana": "すずみ",
+    "kyukana": "",
+    "bodai": [
+      "納涼",
+      "門涼み",
+      "橋涼み",
+      "夕涼み",
+      "夜涼み",
+      "涼み台",
+      "納涼船"
+    ],
+    "season": "summer",
+    "id": 996
+  },
+  {
+    "name": "鈴蘭",
+    "yomigana": "すずらん",
+    "kyukana": "",
+    "bodai": [
+      "君影草"
+    ],
+    "season": "summer",
+    "id": 997
+  },
+  {
+    "name": "すててこ",
+    "yomigana": "すててこ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 998,
+    "bodai": []
+  },
+  {
+    "name": "李",
+    "yomigana": "すもも",
+    "kyukana": "",
+    "season": "summer",
+    "id": 999,
+    "bodai": []
+  },
+  {
+    "name": "諏訪の御柱祭",
+    "yomigana": "すわのおんばしらまつり",
+    "kyukana": "すはのおんばしらまつり",
+    "bodai": [
+      "御柱祭",
+      "諏訪祭"
+    ],
+    "season": "summer",
+    "id": 1000
+  },
+  {
+    "name": "盛夏",
+    "yomigana": "せいか",
+    "kyukana": "",
+    "bodai": [
+      "夏旺ん",
+      "真夏",
+      "真夏日"
+    ],
+    "season": "summer",
+    "id": 1001
+  },
+  {
+    "name": "石菖",
+    "yomigana": "せきしょう",
+    "kyukana": "せきしやう",
+    "bodai": [
+      "石あやめ"
+    ],
+    "season": "summer",
+    "id": 1002
+  },
+  {
+    "name": "石竹",
+    "yomigana": "せきちく",
+    "kyukana": "",
+    "bodai": [
+      "唐撫子"
+    ],
+    "season": "summer",
+    "id": 1003
+  },
+  {
+    "name": "雪渓",
+    "yomigana": "せっけい",
+    "kyukana": "せつけい",
+    "season": "summer",
+    "id": 1004,
+    "bodai": []
+  },
+  {
+    "name": "蟬",
+    "yomigana": "せみ",
+    "kyukana": "",
+    "bodai": [
+      "油蟬",
+      "みんみん",
+      "熊蟬",
+      "にいにい蟬",
+      "唖蟬",
+      "初蟬",
+      "朝蟬",
+      "夕蟬",
+      "夜蟬",
+      "蟬時雨",
+      "落蟬",
+      "蝉"
+    ],
+    "season": "summer",
+    "id": 1005
+  },
+  {
+    "name": "蝉丸忌",
+    "yomigana": "せみまるき",
+    "kyukana": "",
+    "bodai": [
+      "蝉丸祭"
+    ],
+    "season": "summer",
+    "id": 1006
+  },
+  {
+    "name": "セル",
+    "yomigana": "せる",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1007,
+    "bodai": []
+  },
+  {
+    "name": "千日草",
+    "yomigana": "せんにちそう",
+    "kyukana": "せんにちさう",
+    "bodai": [
+      "千日紅"
+    ],
+    "season": "summer",
+    "id": 1008
+  },
+  {
+    "name": "扇風機",
+    "yomigana": "せんぷうき",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1009,
+    "bodai": []
+  },
+  {
+    "name": "宗吾忌",
+    "yomigana": "そうごき",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1010,
+    "bodai": []
+  },
+  {
+    "name": "蒼朮を焚く",
+    "yomigana": "そうじゅつをたく",
+    "kyukana": "さうじゆつをたく",
+    "bodai": [
+      "をけらたく",
+      "うけら焼く"
+    ],
+    "season": "summer",
+    "id": 1011
+  },
+  {
+    "name": "走馬灯",
+    "yomigana": "そうまとう",
+    "kyukana": "",
+    "bodai": [
+      "回り灯篭"
+    ],
+    "season": "summer",
+    "id": 1012
+  },
+  {
+    "name": "蚕豆",
+    "yomigana": "そらまめ",
+    "kyukana": "",
+    "bodai": [
+      "空豆",
+      "はじき豆"
+    ],
+    "season": "summer",
+    "id": 1013
+  },
+  {
+    "name": "ソーダ水",
+    "yomigana": "そーだすい",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1014,
+    "bodai": []
+  },
+  {
+    "name": "泰山木の花",
+    "yomigana": "たいざんぼくのはな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1015,
+    "bodai": []
+  },
+  {
+    "name": "大暑",
+    "yomigana": "たいしょ",
+    "kyukana": "たいしよ",
+    "season": "summer",
+    "id": 1016,
+    "bodai": []
+  },
+  {
+    "name": "田植",
+    "yomigana": "たうえ",
+    "kyukana": "たうゑ",
+    "bodai": [
+      "田植笠",
+      "田植歌",
+      "田植時"
+    ],
+    "season": "summer",
+    "id": 1017
+  },
+  {
+    "name": "多佳子忌",
+    "yomigana": "たかこき",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1018,
+    "bodai": []
+  },
+  {
+    "name": "たかし忌",
+    "yomigana": "たかしき",
+    "kyukana": "",
+    "bodai": [
+      "牡丹忌"
+    ],
+    "season": "summer",
+    "id": 1019
+  },
+  {
+    "name": "簟",
+    "yomigana": "たかむしろ",
+    "kyukana": "",
+    "bodai": [
+      "竹筵",
+      "籐筵"
+    ],
+    "season": "summer",
+    "id": 1020
+  },
+  {
+    "name": "滝",
+    "yomigana": "たき",
+    "kyukana": "",
+    "bodai": [
+      "瀑",
+      "瀑布",
+      "飛瀑",
+      "滝壷",
+      "滝しぶき",
+      "滝風",
+      "滝道",
+      "男滝",
+      "女滝",
+      "滝見",
+      "滝見茶屋"
+    ],
+    "season": "summer",
+    "id": 1021
+  },
+  {
+    "name": "滝浴び",
+    "yomigana": "たきあび",
+    "kyukana": "",
+    "bodai": [
+      "滝垢離",
+      "滝行",
+      "滝行者"
+    ],
+    "season": "summer",
+    "id": 1022
+  },
+  {
+    "name": "薪能",
+    "yomigana": "たきぎのう",
+    "kyukana": "",
+    "bodai": [
+      "興福寺の薪能",
+      "若宮能",
+      "芝能",
+      "薪猿楽"
+    ],
+    "season": "summer",
+    "id": 1023
+  },
+  {
+    "name": "滝殿",
+    "yomigana": "たきどの",
+    "kyukana": "",
+    "bodai": [
+      "泉殿",
+      "釣殿",
+      "水殿",
+      "水亭"
+    ],
+    "season": "summer",
+    "id": 1024
+  },
+  {
+    "name": "田草取",
+    "yomigana": "たぐさとり",
+    "kyukana": "",
+    "bodai": [
+      "田草引く",
+      "一番草",
+      "二番草",
+      "三番草"
+    ],
+    "season": "summer",
+    "id": 1025
+  },
+  {
+    "name": "竹落葉",
+    "yomigana": "たけおちば",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1026,
+    "bodai": []
+  },
+  {
+    "name": "竹煮草",
+    "yomigana": "たけにぐさ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1027,
+    "bodai": []
+  },
+  {
+    "name": "竹の皮脱ぐ",
+    "yomigana": "たけのかわぬぐ",
+    "kyukana": "たけのかはぬぐ",
+    "bodai": [
+      "竹皮を脱ぐ",
+      "竹の皮散る",
+      "竹の皮"
+    ],
+    "season": "summer",
+    "id": 1028
+  },
+  {
+    "name": "筍",
+    "yomigana": "たけのこ",
+    "kyukana": "",
+    "bodai": [
+      "笋",
+      "竹の子",
+      "たかんな",
+      "たかうな"
+    ],
+    "season": "summer",
+    "id": 1029
+  },
+  {
+    "name": "筍飯",
+    "yomigana": "たけのこめし",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1030,
+    "bodai": []
+  },
+  {
+    "name": "蛸",
+    "yomigana": "たこ",
+    "kyukana": "",
+    "bodai": [
+      "章魚",
+      "真蛸",
+      "麦藁蛸"
+    ],
+    "season": "summer",
+    "id": 1031
+  },
+  {
+    "name": "蓼",
+    "yomigana": "たで",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1032,
+    "bodai": []
+  },
+  {
+    "name": "霊棚",
+    "yomigana": "たまだな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1033,
+    "bodai": []
+  },
+  {
+    "name": "玉葱",
+    "yomigana": "たまねぎ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1034,
+    "bodai": []
+  },
+  {
+    "name": "玉巻く芭蕉",
+    "yomigana": "たままくばしょう",
+    "kyukana": "",
+    "bodai": [
+      "芭蕉の巻葉",
+      "玉解く芭蕉"
+    ],
+    "season": "summer",
+    "id": 1035
+  },
+  {
+    "name": "玉虫",
+    "yomigana": "たまむし",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1036,
+    "bodai": []
+  },
+  {
+    "name": "田水沸く",
+    "yomigana": "たみずわく",
+    "kyukana": "たみづわく",
+    "season": "summer",
+    "id": 1037,
+    "bodai": []
+  },
+  {
+    "name": "端午",
+    "yomigana": "たんご",
+    "kyukana": "",
+    "bodai": [
+      "端午の節句",
+      "五月の節句",
+      "菖蒲の日",
+      "初節句"
+    ],
+    "season": "summer",
+    "id": 1038
+  },
+  {
+    "name": "橙の花",
+    "yomigana": "だいだいのはな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1039,
+    "bodai": []
+  },
+  {
+    "name": "ダリア",
+    "yomigana": "だりあ",
+    "kyukana": "",
+    "bodai": [
+      "天竺牡丹"
+    ],
+    "season": "summer",
+    "id": 1040
+  },
+  {
+    "name": "竹婦人",
+    "yomigana": "ちくふじん",
+    "kyukana": "",
+    "bodai": [
+      "竹夫人",
+      "抱籠",
+      "添寝籠"
+    ],
+    "season": "summer",
+    "id": 1041
+  },
+  {
+    "name": "父の日",
+    "yomigana": "ちちのひ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1042,
+    "bodai": []
+  },
+  {
+    "name": "縮布",
+    "yomigana": "ちぢみふ",
+    "kyukana": "",
+    "bodai": [
+      "縮",
+      "白縮",
+      "越後縮"
+    ],
+    "season": "summer",
+    "id": 1043
+  },
+  {
+    "name": "粽",
+    "yomigana": "ちまき",
+    "kyukana": "",
+    "bodai": [
+      "茅巻",
+      "笹粽",
+      "粽結ふ"
+    ],
+    "season": "summer",
+    "id": 1044
+  },
+  {
+    "name": "月見草",
+    "yomigana": "つきみそう",
+    "kyukana": "つきみさう",
+    "bodai": [
+      "月見草",
+      "待宵草"
+    ],
+    "season": "summer",
+    "id": 1045
+  },
+  {
+    "name": "筑摩祭",
+    "yomigana": "つくままつり",
+    "kyukana": "",
+    "bodai": [
+      "鍋祭",
+      "鍋冠祭",
+      "筑摩鍋"
+    ],
+    "season": "summer",
+    "id": 1046
+  },
+  {
+    "name": "筒鳥",
+    "yomigana": "つつどり",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1047,
+    "bodai": []
+  },
+  {
+    "name": "燕の子",
+    "yomigana": "つばめのこ",
+    "kyukana": "",
+    "bodai": [
+      "子燕",
+      "親燕"
+    ],
+    "season": "summer",
+    "id": 1048
+  },
+  {
+    "name": "梅雨",
+    "yomigana": "つゆ",
+    "kyukana": "",
+    "bodai": [
+      "梅雨",
+      "黴雨",
+      "荒梅雨",
+      "梅雨湿り",
+      "走り梅雨",
+      "迎へ梅雨",
+      "送り梅雨",
+      "戻り梅雨",
+      "青梅雨",
+      "梅雨雲",
+      "梅雨夕焼"
+    ],
+    "season": "summer",
+    "id": 1049
+  },
+  {
+    "name": "梅雨明",
+    "yomigana": "つゆあけ",
+    "kyukana": "",
+    "bodai": [
+      "梅雨の明",
+      "梅雨あがる"
+    ],
+    "season": "summer",
+    "id": 1050
+  },
+  {
+    "name": "梅雨寒",
+    "yomigana": "つゆさむ",
+    "kyukana": "",
+    "bodai": [
+      "梅雨寒し",
+      "梅雨冷"
+    ],
+    "season": "summer",
+    "id": 1051
+  },
+  {
+    "name": "梅雨茸",
+    "yomigana": "つゆだけ",
+    "kyukana": "",
+    "bodai": [
+      "梅雨菌（つゆきのこ）"
+    ],
+    "season": "summer",
+    "id": 1052
+  },
+  {
+    "name": "梅雨晴",
+    "yomigana": "つゆばれ",
+    "kyukana": "",
+    "bodai": [
+      "五月晴",
+      "梅雨晴間"
+    ],
+    "season": "summer",
+    "id": 1053
+  },
+  {
+    "name": "釣忍",
+    "yomigana": "つりしのぶ",
+    "kyukana": "",
+    "bodai": [
+      "吊忍"
+    ],
+    "season": "summer",
+    "id": 1054
+  },
+  {
+    "name": "釣堀",
+    "yomigana": "つりぼり",
+    "kyukana": "",
+    "bodai": [
+      "箱釣"
+    ],
+    "season": "summer",
+    "id": 1055
+  },
+  {
+    "name": "鉄線花",
+    "yomigana": "てつせんか",
+    "kyukana": "てつせんくわ",
+    "bodai": [
+      "てつせんかづら",
+      "クレマチス",
+      "菊唐草"
+    ],
+    "season": "summer",
+    "id": 1056
+  },
+  {
+    "name": "繍毬花",
+    "yomigana": "てまりばな",
+    "kyukana": "",
+    "bodai": [
+      "手毬花",
+      "おおでまり（おほでまり）",
+      "花てまり"
+    ],
+    "season": "summer",
+    "id": 1057
+  },
+  {
+    "name": "天瓜粉",
+    "yomigana": "てんかふん",
+    "kyukana": "てんくわふん",
+    "bodai": [
+      "天花粉",
+      "汗しらず",
+      "シッカロール"
+    ],
+    "season": "summer",
+    "id": 1058
+  },
+  {
+    "name": "石花菜採る",
+    "yomigana": "てんぐさとる",
+    "kyukana": "",
+    "bodai": [
+      "天草とる",
+      "天草干す"
+    ],
+    "season": "summer",
+    "id": 1059
+  },
+  {
+    "name": "天神祭",
+    "yomigana": "てんじんまつり",
+    "kyukana": "",
+    "bodai": [
+      "天満祭",
+      "鉾流の神事",
+      "川渡御",
+      "神輿舟",
+      "どんどこ舟",
+      "天満の御祓"
+    ],
+    "season": "summer",
+    "id": 1060
+  },
+  {
+    "name": "天道虫",
+    "yomigana": "てんとうむし",
+    "kyukana": "",
+    "bodai": [
+      "瓢虫",
+      "てんとむし"
+    ],
+    "season": "summer",
+    "id": 1061
+  },
+  {
+    "name": "梯梧の花",
+    "yomigana": "でいごのはな",
+    "kyukana": "",
+    "bodai": [
+      "海紅豆（かいこうづ）"
+    ],
+    "season": "summer",
+    "id": 1062
+  },
+  {
+    "name": "出水",
+    "yomigana": "でみず",
+    "kyukana": "でみづ",
+    "bodai": [
+      "梅雨出水",
+      "夏出水"
+    ],
+    "season": "summer",
+    "id": 1063
+  },
+  {
+    "name": "伝教会",
+    "yomigana": "でんぎょうえ",
+    "kyukana": "でんげうゑ",
+    "bodai": [
+      "最澄忌",
+      "伝教大師忌",
+      "延暦寺六月会",
+      "長講会"
+    ],
+    "season": "summer",
+    "id": 1064
+  },
+  {
+    "name": "籐椅子",
+    "yomigana": "とういす",
+    "kyukana": "",
+    "bodai": [
+      "籐寝椅子"
+    ],
+    "season": "summer",
+    "id": 1065
+  },
+  {
+    "name": "玉蜀黍の花",
+    "yomigana": "とうもろこしのはな",
+    "kyukana": "",
+    "bodai": [
+      "なんばんの花"
+    ],
+    "season": "summer",
+    "id": 1066
+  },
+  {
+    "name": "通し鴨",
+    "yomigana": "とおしがも",
+    "kyukana": "とほしがも",
+    "season": "summer",
+    "id": 1067,
+    "bodai": []
+  },
+  {
+    "name": "蜥蜴",
+    "yomigana": "とかげ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1068,
+    "bodai": []
+  },
+  {
+    "name": "時の記念日",
+    "yomigana": "ときのきねんび",
+    "kyukana": "",
+    "bodai": [
+      "時の日"
+    ],
+    "season": "summer",
+    "id": 1069
+  },
+  {
+    "name": "常磐木落葉",
+    "yomigana": "ときわぎおちば",
+    "kyukana": "",
+    "bodai": [
+      "杉落葉",
+      "樫落葉",
+      "夏落葉"
+    ],
+    "season": "summer",
+    "id": 1070
+  },
+  {
+    "name": "時計草",
+    "yomigana": "とけいそう",
+    "kyukana": "",
+    "bodai": [
+      "ぼろんかずら"
+    ],
+    "season": "summer",
+    "id": 1071
+  },
+  {
+    "name": "心太",
+    "yomigana": "ところてん",
+    "kyukana": "",
+    "bodai": [
+      "心天",
+      "こころぶと"
+    ],
+    "season": "summer",
+    "id": 1072
+  },
+  {
+    "name": "登山",
+    "yomigana": "とざん",
+    "kyukana": "",
+    "bodai": [
+      "山登り",
+      "登山道",
+      "登山口",
+      "登山小屋",
+      "登山宿",
+      "登山杖",
+      "登山帽",
+      "登山靴",
+      "登山電車",
+      "ケルン"
+    ],
+    "season": "summer",
+    "id": 1073
+  },
+  {
+    "name": "橡の花",
+    "yomigana": "とちのはな",
+    "kyukana": "",
+    "bodai": [
+      "栃の花",
+      "栃咲く"
+    ],
+    "season": "summer",
+    "id": 1074
+  },
+  {
+    "name": "飛魚",
+    "yomigana": "とびうお",
+    "kyukana": "とびうを",
+    "bodai": [
+      "とびを",
+      "つばめ魚",
+      "あご"
+    ],
+    "season": "summer",
+    "id": 1075
+  },
+  {
+    "name": "とべら",
+    "yomigana": "とべら",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1076,
+    "bodai": []
+  },
+  {
+    "name": "海桐の花",
+    "yomigana": "とべらのはな",
+    "kyukana": "",
+    "bodai": [
+      "花とべら"
+    ],
+    "season": "summer",
+    "id": 1077
+  },
+  {
+    "name": "トマト",
+    "yomigana": "とまと",
+    "kyukana": "",
+    "bodai": [
+      "蕃茄",
+      "赤茄子"
+    ],
+    "season": "summer",
+    "id": 1078
+  },
+  {
+    "name": "虎が雨",
+    "yomigana": "とらがあめ",
+    "kyukana": "",
+    "bodai": [
+      "虎が涙雨"
+    ],
+    "season": "summer",
+    "id": 1079
+  },
+  {
+    "name": "虎鶫",
+    "yomigana": "とらつぐみ",
+    "kyukana": "",
+    "bodai": [
+      "トラツグミ",
+      "鵺"
+    ],
+    "season": "summer",
+    "id": 1080
+  },
+  {
+    "name": "虎尾草",
+    "yomigana": "とらのお",
+    "kyukana": "とらのを",
+    "bodai": [
+      "をかとらのを"
+    ],
+    "season": "summer",
+    "id": 1081
+  },
+  {
+    "name": "蜻蛉",
+    "yomigana": "とんぼ",
+    "kyukana": "",
+    "bodai": [
+      "とんぼう",
+      "やんま",
+      "麦藁とんぼ",
+      "塩辛とんぼ"
+    ],
+    "season": "summer",
+    "id": 1082
+  },
+  {
+    "name": "蜻蛉生れる",
+    "yomigana": "とんぼうまれる",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1083,
+    "bodai": []
+  },
+  {
+    "name": "泥鰌",
+    "yomigana": "どじょう",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1084,
+    "bodai": []
+  },
+  {
+    "name": "泥鰌鍋",
+    "yomigana": "どじょうなべ",
+    "kyukana": "どぢやうなべ",
+    "bodai": [
+      "泥鰌汁",
+      "柳川鍋"
+    ],
+    "season": "summer",
+    "id": 1085
+  },
+  {
+    "name": "土用",
+    "yomigana": "どよう",
+    "kyukana": "",
+    "bodai": [
+      "土用入",
+      "土用太郎",
+      "土用三郎",
+      "土用明"
+    ],
+    "season": "summer",
+    "id": 1086
+  },
+  {
+    "name": "土用鰻",
+    "yomigana": "どよううなぎ",
+    "kyukana": "",
+    "bodai": [
+      "土用丑の日の鰻"
+    ],
+    "season": "summer",
+    "id": 1087
+  },
+  {
+    "name": "土用蜆",
+    "yomigana": "どようしじみ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1088,
+    "bodai": []
+  },
+  {
+    "name": "土用波",
+    "yomigana": "どようなみ",
+    "kyukana": "",
+    "bodai": [
+      "土用浪"
+    ],
+    "season": "summer",
+    "id": 1089
+  },
+  {
+    "name": "ナイター",
+    "yomigana": "ないたー",
+    "kyukana": "",
+    "bodai": [
+      "ナイトゲーム"
+    ],
+    "season": "summer",
+    "id": 1090
+  },
+  {
+    "name": "名越の祓",
+    "yomigana": "なごしのはらえ",
+    "kyukana": "なごしのはらへ",
+    "bodai": [
+      "御祓",
+      "夏越",
+      "夏祓",
+      "川祓",
+      "川社",
+      "御祓川",
+      "形代",
+      "茅の輪",
+      "菅貫"
+    ],
+    "season": "summer",
+    "id": 1091
+  },
+  {
+    "name": "茄子",
+    "yomigana": "なす",
+    "kyukana": "",
+    "bodai": [
+      "なすび",
+      "初茄子",
+      "長茄子"
+    ],
+    "season": "summer",
+    "id": 1092
+  },
+  {
+    "name": "茄子漬",
+    "yomigana": "なすづけ",
+    "kyukana": "",
+    "bodai": [
+      "なすび漬"
+    ],
+    "season": "summer",
+    "id": 1093
+  },
+  {
+    "name": "茄子苗",
+    "yomigana": "なすなえ",
+    "kyukana": "なすなへ",
+    "season": "summer",
+    "id": 1094,
+    "bodai": []
+  },
+  {
+    "name": "茄子の鴫焼",
+    "yomigana": "なすのしぎやき",
+    "kyukana": "",
+    "bodai": [
+      "鴫焼"
+    ],
+    "season": "summer",
+    "id": 1095
+  },
+  {
+    "name": "茄子の花",
+    "yomigana": "なすのはな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1096,
+    "bodai": []
+  },
+  {
+    "name": "菜種刈",
+    "yomigana": "なたねかり",
+    "kyukana": "",
+    "bodai": [
+      "菜種干す",
+      "菜種打つ",
+      "菜種殻",
+      "菜殻焚",
+      "菜殻火"
+    ],
+    "season": "summer",
+    "id": 1097
+  },
+  {
+    "name": "夏",
+    "yomigana": "なつ",
+    "kyukana": "",
+    "bodai": [
+      "三夏",
+      "九夏",
+      "炎帝",
+      "朱夏"
+    ],
+    "season": "summer",
+    "id": 1098
+  },
+  {
+    "name": "夏薊",
+    "yomigana": "なつあざみ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1099,
+    "bodai": []
+  },
+  {
+    "name": "夏帯",
+    "yomigana": "なつおび",
+    "kyukana": "",
+    "bodai": [
+      "単帯"
+    ],
+    "season": "summer",
+    "id": 1100
+  },
+  {
+    "name": "夏鴨",
+    "yomigana": "なつがも",
+    "kyukana": "",
+    "bodai": [
+      "軽鴨",
+      "黒鴨"
+    ],
+    "season": "summer",
+    "id": 1101
+  },
+  {
+    "name": "夏菊",
+    "yomigana": "なつぎく",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1102,
+    "bodai": []
+  },
+  {
+    "name": "夏銀河",
+    "yomigana": "なつぎんが",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1103,
+    "bodai": []
+  },
+  {
+    "name": "夏草",
+    "yomigana": "なつくさ",
+    "kyukana": "",
+    "bodai": [
+      "夏の草",
+      "青草"
+    ],
+    "season": "summer",
+    "id": 1104
+  },
+  {
+    "name": "夏桑",
+    "yomigana": "なつぐわ",
+    "kyukana": "なつぐは",
+    "season": "summer",
+    "id": 1105,
+    "bodai": []
+  },
+  {
+    "name": "夏木立",
+    "yomigana": "なつこだち",
+    "kyukana": "",
+    "bodai": [
+      "夏木"
+    ],
+    "season": "summer",
+    "id": 1106
+  },
+  {
+    "name": "夏蚕",
+    "yomigana": "なつご",
+    "kyukana": "",
+    "bodai": [
+      "二番蚕"
+    ],
+    "season": "summer",
+    "id": 1107
+  },
+  {
+    "name": "夏衣",
+    "yomigana": "なつごろも",
+    "kyukana": "",
+    "bodai": [
+      "夏衣",
+      "夏着",
+      "夏物"
+    ],
+    "season": "summer",
+    "id": 1108
+  },
+  {
+    "name": "夏座敷",
+    "yomigana": "なつざしき",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1109,
+    "bodai": []
+  },
+  {
+    "name": "夏座蒲団",
+    "yomigana": "なつざぶとん",
+    "kyukana": "",
+    "bodai": [
+      "麻座蒲団",
+      "藺座蒲団",
+      "革座蒲団"
+    ],
+    "season": "summer",
+    "id": 1110
+  },
+  {
+    "name": "夏芝居",
+    "yomigana": "なつしばい",
+    "kyukana": "なつしばゐ",
+    "bodai": [
+      "夏狂言",
+      "水狂言",
+      "土用芝居"
+    ],
+    "season": "summer",
+    "id": 1111
+  },
+  {
+    "name": "夏シャツ",
+    "yomigana": "なつしゃつ",
+    "kyukana": "",
+    "bodai": [
+      "白シャツ",
+      "開襟シャツ",
+      "アロハシャツ"
+    ],
+    "season": "summer",
+    "id": 1112
+  },
+  {
+    "name": "夏足袋",
+    "yomigana": "なつたび",
+    "kyukana": "",
+    "bodai": [
+      "単足袋"
+    ],
+    "season": "summer",
+    "id": 1113
+  },
+  {
+    "name": "夏大根",
+    "yomigana": "なつだいこん",
+    "kyukana": "",
+    "bodai": [
+      "なつだいこ"
+    ],
+    "season": "summer",
+    "id": 1114
+  },
+  {
+    "name": "夏燕",
+    "yomigana": "なつつばめ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1115,
+    "bodai": []
+  },
+  {
+    "name": "夏手袋",
+    "yomigana": "なつてぶくろ",
+    "kyukana": "",
+    "bodai": [
+      "網手袋",
+      "レース手袋"
+    ],
+    "season": "summer",
+    "id": 1116
+  },
+  {
+    "name": "夏葱",
+    "yomigana": "なつねぎ",
+    "kyukana": "",
+    "bodai": [
+      "刈葱"
+    ],
+    "season": "summer",
+    "id": 1117
+  },
+  {
+    "name": "夏野",
+    "yomigana": "なつの",
+    "kyukana": "",
+    "bodai": [
+      "夏野原",
+      "青野"
+    ],
+    "season": "summer",
+    "id": 1118
+  },
+  {
+    "name": "夏の暁",
+    "yomigana": "なつのあかつき",
+    "kyukana": "",
+    "bodai": [
+      "夏暁",
+      "夏の夜明",
+      "夏の朝"
+    ],
+    "season": "summer",
+    "id": 1119
+  },
+  {
+    "name": "夏の雨",
+    "yomigana": "なつのあめ",
+    "kyukana": "",
+    "bodai": [
+      "夏雨",
+      "緑雨"
+    ],
+    "season": "summer",
+    "id": 1120
+  },
+  {
+    "name": "夏の海",
+    "yomigana": "なつのうみ",
+    "kyukana": "",
+    "bodai": [
+      "夏の波",
+      "夏濤",
+      "夏の浜"
+    ],
+    "season": "summer",
+    "id": 1121
+  },
+  {
+    "name": "夏の風邪",
+    "yomigana": "なつのかぜ",
+    "kyukana": "",
+    "bodai": [
+      "夏風邪"
+    ],
+    "season": "summer",
+    "id": 1122
+  },
+  {
+    "name": "夏の川",
+    "yomigana": "なつのかわ",
+    "kyukana": "なつのかは",
+    "bodai": [
+      "夏川",
+      "夏河原"
+    ],
+    "season": "summer",
+    "id": 1123
+  },
+  {
+    "name": "夏の雲",
+    "yomigana": "なつのくも",
+    "kyukana": "",
+    "bodai": [
+      "夏雲"
+    ],
+    "season": "summer",
+    "id": 1124
+  },
+  {
+    "name": "夏の潮",
+    "yomigana": "なつのしお",
+    "kyukana": "なつのしほ",
+    "bodai": [
+      "夏潮",
+      "青葉潮",
+      "青潮"
+    ],
+    "season": "summer",
+    "id": 1125
+  },
+  {
+    "name": "夏の空",
+    "yomigana": "なつのそら",
+    "kyukana": "",
+    "bodai": [
+      "夏空",
+      "夏の天",
+      "夏天"
+    ],
+    "season": "summer",
+    "id": 1126
+  },
+  {
+    "name": "夏の蝶",
+    "yomigana": "なつのちょう",
+    "kyukana": "なつのてふ",
+    "bodai": [
+      "夏蝶",
+      "梅雨の蝶",
+      "揚羽蝶"
+    ],
+    "season": "summer",
+    "id": 1127
+  },
+  {
+    "name": "夏の月",
+    "yomigana": "なつのつき",
+    "kyukana": "",
+    "bodai": [
+      "月涼し",
+      "梅雨の月"
+    ],
+    "season": "summer",
+    "id": 1128
+  },
+  {
+    "name": "夏の果",
+    "yomigana": "なつのはて",
+    "kyukana": "",
+    "bodai": [
+      "夏果つ",
+      "夏終る",
+      "夏行く",
+      "夏尽く",
+      "夏惜しむ"
+    ],
+    "season": "summer",
+    "id": 1129
+  },
+  {
+    "name": "夏の日",
+    "yomigana": "なつのひ",
+    "kyukana": "",
+    "bodai": [
+      "夏日",
+      "夏日影"
+    ],
+    "season": "summer",
+    "id": 1130
+  },
+  {
+    "name": "夏の燈",
+    "yomigana": "なつのひ",
+    "kyukana": "",
+    "bodai": [
+      "夏ともし",
+      "燈涼し"
+    ],
+    "season": "summer",
+    "id": 1131
+  },
+  {
+    "name": "夏の星",
+    "yomigana": "なつのほし",
+    "kyukana": "",
+    "bodai": [
+      "夏星",
+      "星涼し",
+      "梅雨の星",
+      "旱星",
+      "麦星"
+    ],
+    "season": "summer",
+    "id": 1132
+  },
+  {
+    "name": "夏の虫",
+    "yomigana": "なつのむし",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1133,
+    "bodai": []
+  },
+  {
+    "name": "夏の山",
+    "yomigana": "なつのやま",
+    "kyukana": "",
+    "bodai": [
+      "夏山",
+      "夏嶺",
+      "青嶺"
+    ],
+    "season": "summer",
+    "id": 1134
+  },
+  {
+    "name": "夏の夕",
+    "yomigana": "なつのゆう",
+    "kyukana": "なつのゆふ",
+    "bodai": [
+      "夏夕",
+      "夏の暮"
+    ],
+    "season": "summer",
+    "id": 1135
+  },
+  {
+    "name": "夏の夜",
+    "yomigana": "なつのよ",
+    "kyukana": "",
+    "bodai": [
+      "夜半の夏",
+      "夏の宵"
+    ],
+    "season": "summer",
+    "id": 1136
+  },
+  {
+    "name": "夏暖簾",
+    "yomigana": "なつのれん",
+    "kyukana": "",
+    "bodai": [
+      "麻暖簾"
+    ],
+    "season": "summer",
+    "id": 1137
+  },
+  {
+    "name": "夏萩",
+    "yomigana": "なつはぎ",
+    "kyukana": "",
+    "bodai": [
+      "青萩"
+    ],
+    "season": "summer",
+    "id": 1138
+  },
+  {
+    "name": "夏羽織",
+    "yomigana": "なつばおり",
+    "kyukana": "",
+    "bodai": [
+      "絽羽織",
+      "紗羽織",
+      "単羽織",
+      "薄羽織"
+    ],
+    "season": "summer",
+    "id": 1139
+  },
+  {
+    "name": "夏袴",
+    "yomigana": "なつばかま",
+    "kyukana": "",
+    "bodai": [
+      "絽袴",
+      "麻袴",
+      "単袴"
+    ],
+    "season": "summer",
+    "id": 1140
+  },
+  {
+    "name": "夏場所",
+    "yomigana": "なつばしょ",
+    "kyukana": "",
+    "bodai": [
+      "五月場所"
+    ],
+    "season": "summer",
+    "id": 1141
+  },
+  {
+    "name": "夏服",
+    "yomigana": "なつふく",
+    "kyukana": "",
+    "bodai": [
+      "白服",
+      "麻服"
+    ],
+    "season": "summer",
+    "id": 1142
+  },
+  {
+    "name": "夏蒲団",
+    "yomigana": "なつぶとん",
+    "kyukana": "",
+    "bodai": [
+      "夏衾",
+      "麻蒲団",
+      "夏掛"
+    ],
+    "season": "summer",
+    "id": 1143
+  },
+  {
+    "name": "夏遍路",
+    "yomigana": "なつへんろ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1144,
+    "bodai": []
+  },
+  {
+    "name": "夏帽子",
+    "yomigana": "なつぼうし",
+    "kyukana": "",
+    "bodai": [
+      "夏帽",
+      "麦稈帽子"
+    ],
+    "season": "summer",
+    "id": 1145
+  },
+  {
+    "name": "夏めく",
+    "yomigana": "なつめく",
+    "kyukana": "",
+    "bodai": [
+      "夏きざす"
+    ],
+    "season": "summer",
+    "id": 1146
+  },
+  {
+    "name": "夏館",
+    "yomigana": "なつやかた",
+    "kyukana": "",
+    "bodai": [
+      "夏邸",
+      "夏の宿"
+    ],
+    "season": "summer",
+    "id": 1147
+  },
+  {
+    "name": "夏休み",
+    "yomigana": "なつやすみ",
+    "kyukana": "",
+    "bodai": [
+      "暑中休み",
+      "暑中休暇"
+    ],
+    "season": "summer",
+    "id": 1148
+  },
+  {
+    "name": "夏瘦",
+    "yomigana": "なつやせ",
+    "kyukana": "",
+    "bodai": [
+      "夏負け",
+      "夏やつれ"
+    ],
+    "season": "summer",
+    "id": 1149
+  },
+  {
+    "name": "夏蓬",
+    "yomigana": "なつよもぎ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1150,
+    "bodai": []
+  },
+  {
+    "name": "夏料理",
+    "yomigana": "なつりょうり",
+    "kyukana": "なつれうり",
+    "season": "summer",
+    "id": 1151,
+    "bodai": []
+  },
+  {
+    "name": "夏炉",
+    "yomigana": "なつろ",
+    "kyukana": "",
+    "bodai": [
+      "夏の炉"
+    ],
+    "season": "summer",
+    "id": 1152
+  },
+  {
+    "name": "夏蕨",
+    "yomigana": "なつわらび",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1153,
+    "bodai": []
+  },
+  {
+    "name": "鯰",
+    "yomigana": "なまず",
+    "kyukana": "なまづ",
+    "bodai": [
+      "梅雨鯰",
+      "ごみ鯰"
+    ],
+    "season": "summer",
+    "id": 1154
+  },
+  {
+    "name": "蛞蝓",
+    "yomigana": "なめくじ",
+    "kyukana": "なめくぢ",
+    "bodai": [
+      "なめくじり",
+      "なめくじら"
+    ],
+    "season": "summer",
+    "id": 1155
+  },
+  {
+    "name": "業平忌",
+    "yomigana": "なりひらき",
+    "kyukana": "",
+    "bodai": [
+      "在五忌"
+    ],
+    "season": "summer",
+    "id": 1156
+  },
+  {
+    "name": "南天の花",
+    "yomigana": "なんてんのはな",
+    "kyukana": "",
+    "bodai": [
+      "花南天"
+    ],
+    "season": "summer",
+    "id": 1157
+  },
+  {
+    "name": "濁り鮒",
+    "yomigana": "にごりぶな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1158,
+    "bodai": []
+  },
+  {
+    "name": "西日",
+    "yomigana": "にしび",
+    "kyukana": "",
+    "bodai": [
+      "大西日"
+    ],
+    "season": "summer",
+    "id": 1159
+  },
+  {
+    "name": "虹",
+    "yomigana": "にじ",
+    "kyukana": "",
+    "bodai": [
+      "朝虹",
+      "夕虹",
+      "二重虹"
+    ],
+    "season": "summer",
+    "id": 1160
+  },
+  {
+    "name": "日日草",
+    "yomigana": "にちにちそう",
+    "kyukana": "にちにちさう",
+    "bodai": [
+      "日日花"
+    ],
+    "season": "summer",
+    "id": 1161
+  },
+  {
+    "name": "日射病",
+    "yomigana": "にっしゃびょう",
+    "kyukana": "につしやびやう",
+    "bodai": [
+      "熱射病"
+    ],
+    "season": "summer",
+    "id": 1162
+  },
+  {
+    "name": "入梅",
+    "yomigana": "にゅうばい",
+    "kyukana": "にふばい",
+    "bodai": [
+      "梅雨入り",
+      "梅雨に入る"
+    ],
+    "season": "summer",
+    "id": 1163
+  },
+  {
+    "name": "韮の花",
+    "yomigana": "にらのはな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1164,
+    "bodai": []
+  },
+  {
+    "name": "捩花",
+    "yomigana": "ねじばな",
+    "kyukana": "ねぢばな",
+    "bodai": [
+      "もぢばな",
+      "ねぢればな",
+      "もぢずり",
+      "文字摺草"
+    ],
+    "season": "summer",
+    "id": 1165
+  },
+  {
+    "name": "熱帯魚",
+    "yomigana": "ねったいぎょ",
+    "kyukana": "ねつたいぎよ",
+    "bodai": [
+      "闘魚",
+      "天使魚"
+    ],
+    "season": "summer",
+    "id": 1166
+  },
+  {
+    "name": "寝冷え",
+    "yomigana": "ねびえ",
+    "kyukana": "",
+    "bodai": [
+      "寝冷子"
+    ],
+    "season": "summer",
+    "id": 1167
+  },
+  {
+    "name": "合歓の花",
+    "yomigana": "ねむのはな",
+    "kyukana": "",
+    "bodai": [
+      "ねぶの花",
+      "花合歓"
+    ],
+    "season": "summer",
+    "id": 1168
+  },
+  {
+    "name": "練供養",
+    "yomigana": "ねりくよう",
+    "kyukana": "ねりくやう",
+    "bodai": [
+      "当麻練供養",
+      "当麻法事",
+      "来迎会",
+      "迎接会",
+      "曼荼羅会"
+    ],
+    "season": "summer",
+    "id": 1169
+  },
+  {
+    "name": "凌霄の花",
+    "yomigana": "のうぜんのはな",
+    "kyukana": "",
+    "bodai": [
+      "凌霄",
+      "のうぜんかずら"
+    ],
+    "season": "summer",
+    "id": 1170
+  },
+  {
+    "name": "幟",
+    "yomigana": "のぼり",
+    "kyukana": "",
+    "bodai": [
+      "五月幟",
+      "座敷幟",
+      "初幟"
+    ],
+    "season": "summer",
+    "id": 1171
+  },
+  {
+    "name": "野馬追",
+    "yomigana": "のまおい",
+    "kyukana": "のまおひ",
+    "season": "summer",
+    "id": 1172,
+    "bodai": []
+  },
+  {
+    "name": "蚤",
+    "yomigana": "のみ",
+    "kyukana": "",
+    "bodai": [
+      "蚤の跡"
+    ],
+    "season": "summer",
+    "id": 1173
+  },
+  {
+    "name": "羽蟻",
+    "yomigana": "はあり",
+    "kyukana": "",
+    "bodai": [
+      "飛蟻"
+    ],
+    "season": "summer",
+    "id": 1174
+  },
+  {
+    "name": "ハイビスカス",
+    "yomigana": "はいびすかす",
+    "kyukana": "",
+    "bodai": [
+      "仏桑花",
+      "ぼさつばな",
+      "琉球むくげ"
+    ],
+    "season": "summer",
+    "id": 1175
+  },
+  {
+    "name": "蠅",
+    "yomigana": "はえ",
+    "kyukana": "はへ",
+    "bodai": [
+      "家蠅",
+      "五月蠅（さばえ）",
+      "青蠅",
+      "金蠅",
+      "銀蠅"
+    ],
+    "season": "summer",
+    "id": 1176
+  },
+  {
+    "name": "蠅取",
+    "yomigana": "はえとり",
+    "kyukana": "はへとり",
+    "bodai": [
+      "蠅叩",
+      "蠅打",
+      "蠅捕器",
+      "蠅捕リボン",
+      "蠅捕紙",
+      "蠅捕瓶"
+    ],
+    "season": "summer",
+    "id": 1177
+  },
+  {
+    "name": "蠅虎",
+    "yomigana": "はえとりぐも",
+    "kyukana": "はへとりぐも",
+    "bodai": [
+      "蠅捕蜘蛛"
+    ],
+    "season": "summer",
+    "id": 1178
+  },
+  {
+    "name": "蠅除",
+    "yomigana": "はえよけ",
+    "kyukana": "はへよけ",
+    "bodai": [
+      "蠅覆",
+      "蠅帳",
+      "蠅入らず"
+    ],
+    "season": "summer",
+    "id": 1179
+  },
+  {
+    "name": "博多祇園山笠",
+    "yomigana": "はかたぎおんやまかさ",
+    "kyukana": "はかたぎをんやまかさ",
+    "bodai": [
+      "山笠",
+      "博多祭"
+    ],
+    "season": "summer",
+    "id": 1180
+  },
+  {
+    "name": "薄暑",
+    "yomigana": "はくしょ",
+    "kyukana": "はくしよ",
+    "bodai": [
+      "薄暑光"
+    ],
+    "season": "summer",
+    "id": 1181
+  },
+  {
+    "name": "白夜",
+    "yomigana": "はくや",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1182,
+    "bodai": []
+  },
+  {
+    "name": "箱庭",
+    "yomigana": "はこにわ",
+    "kyukana": "はこには",
+    "season": "summer",
+    "id": 1183,
+    "bodai": []
+  },
+  {
+    "name": "箱眼鏡",
+    "yomigana": "はこめがね",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1184,
+    "bodai": []
+  },
+  {
+    "name": "葉桜",
+    "yomigana": "はざくら",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1185,
+    "bodai": []
+  },
+  {
+    "name": "端居",
+    "yomigana": "はしい",
+    "kyukana": "はしゐ",
+    "bodai": [
+      "夕端居"
+    ],
+    "season": "summer",
+    "id": 1186
+  },
+  {
+    "name": "蓮の浮葉",
+    "yomigana": "はすのうきは",
+    "kyukana": "",
+    "bodai": [
+      "浮葉",
+      "蓮の葉"
+    ],
+    "season": "summer",
+    "id": 1187
+  },
+  {
+    "name": "蓮の花",
+    "yomigana": "はすのはな",
+    "kyukana": "",
+    "bodai": [
+      "はちす",
+      "白蓮",
+      "紅蓮",
+      "蓮華"
+    ],
+    "season": "summer",
+    "id": 1188
+  },
+  {
+    "name": "蓮見",
+    "yomigana": "はすみ",
+    "kyukana": "",
+    "bodai": [
+      "蓮見舟"
+    ],
+    "season": "summer",
+    "id": 1189
+  },
+  {
+    "name": "巴旦杏",
+    "yomigana": "はたんきょう",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1190,
+    "bodai": []
+  },
+  {
+    "name": "裸",
+    "yomigana": "はだか",
+    "kyukana": "",
+    "bodai": [
+      "素裸",
+      "丸裸",
+      "裸子"
+    ],
+    "season": "summer",
+    "id": 1191
+  },
+  {
+    "name": "跣足",
+    "yomigana": "はだし",
+    "kyukana": "",
+    "bodai": [
+      "跣",
+      "素足"
+    ],
+    "season": "summer",
+    "id": 1192
+  },
+  {
+    "name": "肌脱",
+    "yomigana": "はだぬぎ",
+    "kyukana": "",
+    "bodai": [
+      "片肌脱",
+      "諸肌脱"
+    ],
+    "season": "summer",
+    "id": 1193
+  },
+  {
+    "name": "麨",
+    "yomigana": "はったい",
+    "kyukana": "",
+    "bodai": [
+      "麦こがし",
+      "麦炒粉",
+      "麦香煎"
+    ],
+    "season": "summer",
+    "id": 1194
+  },
+  {
+    "name": "初鰹",
+    "yomigana": "はつがつお",
+    "kyukana": "はつがつを",
+    "bodai": [
+      "初松魚"
+    ],
+    "season": "summer",
+    "id": 1195
+  },
+  {
+    "name": "花氷",
+    "yomigana": "はなごおり",
+    "kyukana": "はなごほり",
+    "bodai": [
+      "氷柱"
+    ],
+    "season": "summer",
+    "id": 1196
+  },
+  {
+    "name": "花茣蓙",
+    "yomigana": "はなござ",
+    "kyukana": "",
+    "bodai": [
+      "絵茣蓙"
+    ],
+    "season": "summer",
+    "id": 1197
+  },
+  {
+    "name": "花菖蒲",
+    "yomigana": "はなしょうぶ",
+    "kyukana": "",
+    "bodai": [
+      "白菖蒲",
+      "菖蒲園",
+      "菖蒲田"
+    ],
+    "season": "summer",
+    "id": 1198
+  },
+  {
+    "name": "花橘",
+    "yomigana": "はなたちばな",
+    "kyukana": "",
+    "bodai": [
+      "橘の花",
+      "右近の橘"
+    ],
+    "season": "summer",
+    "id": 1199
+  },
+  {
+    "name": "花火",
+    "yomigana": "はなび",
+    "kyukana": "",
+    "bodai": [
+      "煙火",
+      "打揚花火",
+      "仕掛花火",
+      "線香花火",
+      "手花火",
+      "春花火",
+      "遠花火",
+      "花火舟",
+      "花火見"
+    ],
+    "season": "summer",
+    "id": 1200
+  },
+  {
+    "name": "羽抜鳥",
+    "yomigana": "はぬけどり",
+    "kyukana": "",
+    "bodai": [
+      "羽抜鶏"
+    ],
+    "season": "summer",
+    "id": 1201
+  },
+  {
+    "name": "帚木",
+    "yomigana": "ははきぎ",
+    "kyukana": "",
+    "bodai": [
+      "ははきぐさ"
+    ],
+    "season": "summer",
+    "id": 1202
+  },
+  {
+    "name": "母の日",
+    "yomigana": "ははのひ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1203,
+    "bodai": []
+  },
+  {
+    "name": "浜豌豆",
+    "yomigana": "はまえんどう",
+    "kyukana": "はまゑんどう",
+    "season": "summer",
+    "id": 1204,
+    "bodai": []
+  },
+  {
+    "name": "はまごう",
+    "yomigana": "はまごう",
+    "kyukana": "",
+    "bodai": [
+      "はまぼう"
+    ],
+    "season": "summer",
+    "id": 1205
+  },
+  {
+    "name": "玫瑰",
+    "yomigana": "はまなす",
+    "kyukana": "",
+    "bodai": [
+      "浜梨、玫瑰の実、実玫瑰"
+    ],
+    "season": "summer",
+    "id": 1206
+  },
+  {
+    "name": "浜昼顔",
+    "yomigana": "はまひるがお",
+    "kyukana": "はまひるがほ",
+    "season": "summer",
+    "id": 1207,
+    "bodai": []
+  },
+  {
+    "name": "浜防風",
+    "yomigana": "はまぼうふう",
+    "kyukana": "はまばうふう",
+    "bodai": [
+      "防風"
+    ],
+    "season": "summer",
+    "id": 1208
+  },
+  {
+    "name": "浜木綿の花",
+    "yomigana": "はまゆふのはな",
+    "kyukana": "",
+    "bodai": [
+      "浜万年青"
+    ],
+    "season": "summer",
+    "id": 1209
+  },
+  {
+    "name": "鱧",
+    "yomigana": "はも",
+    "kyukana": "",
+    "bodai": [
+      "水鱧",
+      "鱧の皮"
+    ],
+    "season": "summer",
+    "id": 1210
+  },
+  {
+    "name": "葉柳",
+    "yomigana": "はやなぎ",
+    "kyukana": "",
+    "bodai": [
+      "夏柳",
+      "柳茂る"
+    ],
+    "season": "summer",
+    "id": 1211
+  },
+  {
+    "name": "ハンカチの花",
+    "yomigana": "はんかちのはな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1212,
+    "bodai": []
+  },
+  {
+    "name": "半夏生",
+    "yomigana": "はんげしょう",
+    "kyukana": "はんげしやう",
+    "bodai": [
+      "半夏",
+      "半夏雨"
+    ],
+    "season": "summer",
+    "id": 1213
+  },
+  {
+    "name": "半夏生草",
+    "yomigana": "はんげしょうぐさ",
+    "kyukana": "",
+    "bodai": [
+      "片白草"
+    ],
+    "season": "summer",
+    "id": 1214
+  },
+  {
+    "name": "半ズボン",
+    "yomigana": "はんずぼん",
+    "kyukana": "",
+    "bodai": [
+      "短パン",
+      "ショートパンツ"
+    ],
+    "season": "summer",
+    "id": 1215
+  },
+  {
+    "name": "斑猫",
+    "yomigana": "はんみょう",
+    "kyukana": "はんめう",
+    "bodai": [
+      "道をしえ"
+    ],
+    "season": "summer",
+    "id": 1216
+  },
+  {
+    "name": "ハンモック",
+    "yomigana": "はんもっく",
+    "kyukana": "",
+    "bodai": [
+      "吊床",
+      "寝網"
+    ],
+    "season": "summer",
+    "id": 1217
+  },
+  {
+    "name": "芭蕉の花",
+    "yomigana": "ばしょうのはな",
+    "kyukana": "ばせうのはな",
+    "bodai": [
+      "花芭蕉"
+    ],
+    "season": "summer",
+    "id": 1218
+  },
+  {
+    "name": "バナナ",
+    "yomigana": "ばなな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1219,
+    "bodai": []
+  },
+  {
+    "name": "薔薇",
+    "yomigana": "ばら",
+    "kyukana": "",
+    "bodai": [
+      "薔薇（そうび）",
+      "薔薇園"
+    ],
+    "season": "summer",
+    "id": 1220
+  },
+  {
+    "name": "茨の花",
+    "yomigana": "ばらのはな",
+    "kyukana": "",
+    "bodai": [
+      "花茨",
+      "野茨の花",
+      "花うばら"
+    ],
+    "season": "summer",
+    "id": 1221
+  },
+  {
+    "name": "鷭",
+    "yomigana": "ばん",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1222,
+    "bodai": []
+  },
+  {
+    "name": "晩夏",
+    "yomigana": "ばんか",
+    "kyukana": "",
+    "bodai": [
+      "季夏",
+      "夏深し",
+      "晩夏光"
+    ],
+    "season": "summer",
+    "id": 1223
+  },
+  {
+    "name": "万緑",
+    "yomigana": "ばんりょく",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1224,
+    "bodai": []
+  },
+  {
+    "name": "パイナップル",
+    "yomigana": "ぱいなっぷる",
+    "kyukana": "",
+    "bodai": [
+      "鳳梨（ほうり）",
+      "あななす"
+    ],
+    "season": "summer",
+    "id": 1225
+  },
+  {
+    "name": "パセリ",
+    "yomigana": "ぱせり",
+    "kyukana": "",
+    "bodai": [
+      "オランダゼリ"
+    ],
+    "season": "summer",
+    "id": 1226
+  },
+  {
+    "name": "パリ祭",
+    "yomigana": "ぱりさい",
+    "kyukana": "",
+    "bodai": [
+      "巴里祭",
+      "パリー祭"
+    ],
+    "season": "summer",
+    "id": 1227
+  },
+  {
+    "name": "射干",
+    "yomigana": "ひおうぎ",
+    "kyukana": "ひあふぎ",
+    "bodai": [
+      "桧扇",
+      "うばたま"
+    ],
+    "season": "summer",
+    "id": 1228
+  },
+  {
+    "name": "日傘",
+    "yomigana": "ひがさ",
+    "kyukana": "",
+    "bodai": [
+      "ひからかさ",
+      "絵日傘",
+      "パラソル"
+    ],
+    "season": "summer",
+    "id": 1229
+  },
+  {
+    "name": "日雀",
+    "yomigana": "ひがら",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1230,
+    "bodai": []
+  },
+  {
+    "name": "蟇",
+    "yomigana": "ひきがえる",
+    "kyukana": "ひきがへる",
+    "bodai": [
+      "蟾蜍",
+      "蟾",
+      "蝦蟇",
+      "がまがへる"
+    ],
+    "season": "summer",
+    "id": 1231
+  },
+  {
+    "name": "緋鯉",
+    "yomigana": "ひごい",
+    "kyukana": "ひごひ",
+    "bodai": [
+      "色鯉",
+      "白鯉",
+      "錦鯉"
+    ],
+    "season": "summer",
+    "id": 1232
+  },
+  {
+    "name": "日盛",
+    "yomigana": "ひざかり",
+    "kyukana": "",
+    "bodai": [
+      "日の盛り"
+    ],
+    "season": "summer",
+    "id": 1233
+  },
+  {
+    "name": "菱の花",
+    "yomigana": "ひしのはな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1234,
+    "bodai": []
+  },
+  {
+    "name": "避暑",
+    "yomigana": "ひしょ",
+    "kyukana": "ひしよ",
+    "bodai": [
+      "避暑地",
+      "避暑の宿"
+    ],
+    "season": "summer",
+    "id": 1235
+  },
+  {
+    "name": "旱",
+    "yomigana": "ひでり",
+    "kyukana": "",
+    "bodai": [
+      "旱天",
+      "旱魃",
+      "大旱",
+      "旱畑",
+      "旱田",
+      "旱空"
+    ],
+    "season": "summer",
+    "id": 1236
+  },
+  {
+    "name": "単衣",
+    "yomigana": "ひとえ",
+    "kyukana": "ひとへ",
+    "bodai": [
+      "単物"
+    ],
+    "season": "summer",
+    "id": 1237
+  },
+  {
+    "name": "一つ葉",
+    "yomigana": "ひとつば",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1238,
+    "bodai": []
+  },
+  {
+    "name": "火取虫",
+    "yomigana": "ひとりむし",
+    "kyukana": "",
+    "bodai": [
+      "灯取虫",
+      "灯虫",
+      "灯蛾",
+      "燭蛾",
+      "火蛾",
+      "蛾"
+    ],
+    "season": "summer",
+    "id": 1239
+  },
+  {
+    "name": "雛罌栗",
+    "yomigana": "ひなげし",
+    "kyukana": "",
+    "bodai": [
+      "虞美人草",
+      "ポピー",
+      "こくりこ",
+      "アマポーラ"
+    ],
+    "season": "summer",
+    "id": 1240
+  },
+  {
+    "name": "日向水",
+    "yomigana": "ひなたみず",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1241,
+    "bodai": []
+  },
+  {
+    "name": "向日葵",
+    "yomigana": "ひまわり",
+    "kyukana": "ひまはり",
+    "bodai": [
+      "日車",
+      "日輪草",
+      "天蓋花",
+      "天竺葵"
+    ],
+    "season": "summer",
+    "id": 1242
+  },
+  {
+    "name": "姫女菀",
+    "yomigana": "ひめじょおん",
+    "kyukana": "",
+    "bodai": [
+      "柳葉姫菊",
+      "鉄道草"
+    ],
+    "season": "summer",
+    "id": 1243
+  },
+  {
+    "name": "百日草",
+    "yomigana": "ひゃくにちそう",
+    "kyukana": "ひゃくにちさう",
+    "season": "summer",
+    "id": 1244,
+    "bodai": []
+  },
+  {
+    "name": "日焼",
+    "yomigana": "ひやけ",
+    "kyukana": "",
+    "bodai": [
+      "潮焼"
+    ],
+    "season": "summer",
+    "id": 1245
+  },
+  {
+    "name": "冷酒",
+    "yomigana": "ひやざけ",
+    "kyukana": "",
+    "bodai": [
+      "冷酒",
+      "冷し酒"
+    ],
+    "season": "summer",
+    "id": 1246
+  },
+  {
+    "name": "冷し瓜",
+    "yomigana": "ひやしうり",
+    "kyukana": "",
+    "bodai": [
+      "瓜冷す",
+      "冷し西瓜"
+    ],
+    "season": "summer",
+    "id": 1247
+  },
+  {
+    "name": "冷し中華",
+    "yomigana": "ひやしちゅうか",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1248,
+    "bodai": []
+  },
+  {
+    "name": "冷汁",
+    "yomigana": "ひやしる",
+    "kyukana": "",
+    "bodai": [
+      "冷や汁",
+      "ひやじる"
+    ],
+    "season": "summer",
+    "id": 1249
+  },
+  {
+    "name": "冷索麺",
+    "yomigana": "ひやそうめん",
+    "kyukana": "ひやさうめん",
+    "bodai": [
+      "冷素麺",
+      "索麺冷す"
+    ],
+    "season": "summer",
+    "id": 1250
+  },
+  {
+    "name": "冷麦",
+    "yomigana": "ひやむぎ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1251,
+    "bodai": []
+  },
+  {
+    "name": "冷奴",
+    "yomigana": "ひややっこ",
+    "kyukana": "ひややつこ",
+    "bodai": [
+      "冷豆腐",
+      ""
+    ],
+    "season": "summer",
+    "id": 1252
+  },
+  {
+    "name": "雹",
+    "yomigana": "ひょう",
+    "kyukana": "ひよう",
+    "bodai": [
+      "氷雨"
+    ],
+    "season": "summer",
+    "id": 1253
+  },
+  {
+    "name": "氷菓",
+    "yomigana": "ひょうか",
+    "kyukana": "ひようくわ",
+    "bodai": [
+      "氷菓子",
+      "アイスキャンデー",
+      "アイスクリーム",
+      "ソフトクリーム"
+    ],
+    "season": "summer",
+    "id": 1254
+  },
+  {
+    "name": "日除",
+    "yomigana": "ひよけ",
+    "kyukana": "",
+    "bodai": [
+      "日覆"
+    ],
+    "season": "summer",
+    "id": 1255
+  },
+  {
+    "name": "蛭",
+    "yomigana": "ひる",
+    "kyukana": "",
+    "bodai": [
+      "山蛭",
+      "馬蛭"
+    ],
+    "season": "summer",
+    "id": 1256
+  },
+  {
+    "name": "昼顔",
+    "yomigana": "ひるがお",
+    "kyukana": "ひるがほ",
+    "bodai": [
+      "鼓子草"
+    ],
+    "season": "summer",
+    "id": 1257
+  },
+  {
+    "name": "昼寝",
+    "yomigana": "ひるね",
+    "kyukana": "",
+    "bodai": [
+      "午睡",
+      "三尺寝",
+      "昼寝起",
+      "昼寝覚"
+    ],
+    "season": "summer",
+    "id": 1258
+  },
+  {
+    "name": "蛭蓆",
+    "yomigana": "ひるむしろ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1259,
+    "bodai": []
+  },
+  {
+    "name": "枇杷",
+    "yomigana": "びわ",
+    "kyukana": "",
+    "bodai": [
+      "枇杷の実"
+    ],
+    "season": "summer",
+    "id": 1260
+  },
+  {
+    "name": "ビーチパラソル",
+    "yomigana": "びーちぱらそる",
+    "kyukana": "",
+    "bodai": [
+      "砂日傘",
+      "浜日傘",
+      "海岸日傘"
+    ],
+    "season": "summer",
+    "id": 1261
+  },
+  {
+    "name": "ビール",
+    "yomigana": "びーる",
+    "kyukana": "",
+    "bodai": [
+      "麦酒",
+      "黒ビール",
+      "生ビール",
+      "ビヤホール",
+      "ビヤガーデン"
+    ],
+    "season": "summer",
+    "id": 1262
+  },
+  {
+    "name": "風知草",
+    "yomigana": "ふうちそう",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1263,
+    "bodai": []
+  },
+  {
+    "name": "風蘭",
+    "yomigana": "ふうらん",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1264,
+    "bodai": []
+  },
+  {
+    "name": "風鈴",
+    "yomigana": "ふうりん",
+    "kyukana": "",
+    "bodai": [
+      "風鈴売"
+    ],
+    "season": "summer",
+    "id": 1265
+  },
+  {
+    "name": "蕗",
+    "yomigana": "ふき",
+    "kyukana": "",
+    "bodai": [
+      "蕗の葉",
+      "蕗畑",
+      "伽羅蕗"
+    ],
+    "season": "summer",
+    "id": 1266
+  },
+  {
+    "name": "噴井",
+    "yomigana": "ふきい",
+    "kyukana": "ふきゐ",
+    "bodai": [
+      "噴井（ふけい）"
+    ],
+    "season": "summer",
+    "id": 1267
+  },
+  {
+    "name": "袋掛",
+    "yomigana": "ふくろかけ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1268,
+    "bodai": []
+  },
+  {
+    "name": "袋角",
+    "yomigana": "ふくろづの",
+    "kyukana": "",
+    "bodai": [
+      "鹿の袋角",
+      "鹿の若角"
+    ],
+    "season": "summer",
+    "id": 1269
+  },
+  {
+    "name": "不死男忌",
+    "yomigana": "ふじおき",
+    "kyukana": "ふじをき",
+    "bodai": [
+      "甘露忌"
+    ],
+    "season": "summer",
+    "id": 1270
+  },
+  {
+    "name": "富士詣",
+    "yomigana": "ふじもうで",
+    "kyukana": "ふじまうで",
+    "bodai": [
+      "富士道者",
+      "富士行者",
+      "富士禅定",
+      "山上詣",
+      "富士講",
+      "浅間講"
+    ],
+    "season": "summer",
+    "id": 1271
+  },
+  {
+    "name": "太藺",
+    "yomigana": "ふとい",
+    "kyukana": "ふとゐ",
+    "season": "summer",
+    "id": 1272,
+    "bodai": []
+  },
+  {
+    "name": "船遊び",
+    "yomigana": "ふなあそび",
+    "kyukana": "",
+    "bodai": [
+      "船遊山",
+      "遊船",
+      "遊び船"
+    ],
+    "season": "summer",
+    "id": 1273
+  },
+  {
+    "name": "船虫",
+    "yomigana": "ふなむし",
+    "kyukana": "",
+    "bodai": [
+      "舟虫"
+    ],
+    "season": "summer",
+    "id": 1274
+  },
+  {
+    "name": "船料理",
+    "yomigana": "ふなりょうり",
+    "kyukana": "ふなれうり",
+    "bodai": [
+      "生簀船",
+      "船生洲",
+      "生洲料理"
+    ],
+    "season": "summer",
+    "id": 1275
+  },
+  {
+    "name": "海蘿",
+    "yomigana": "ふのり",
+    "kyukana": "",
+    "bodai": [
+      "布海苔",
+      "海蘿干す"
+    ],
+    "season": "summer",
+    "id": 1276
+  },
+  {
+    "name": "風炉茶",
+    "yomigana": "ふろちゃ",
+    "kyukana": "ふろちや",
+    "bodai": [
+      "風炉点前"
+    ],
+    "season": "summer",
+    "id": 1277
+  },
+  {
+    "name": "噴水",
+    "yomigana": "ふんすい",
+    "kyukana": "",
+    "bodai": [
+      "噴上げ"
+    ],
+    "season": "summer",
+    "id": 1278
+  },
+  {
+    "name": "仏法僧",
+    "yomigana": "ぶっぽうそう",
+    "kyukana": "ぶつぽふそう",
+    "bodai": [
+      "姿の仏法僧"
+    ],
+    "season": "summer",
+    "id": 1279
+  },
+  {
+    "name": "蚋",
+    "yomigana": "ぶよ",
+    "kyukana": "",
+    "bodai": [
+      "蟆子",
+      "ぷよ",
+      "ぶゆ"
+    ],
+    "season": "summer",
+    "id": 1280
+  },
+  {
+    "name": "ブーゲンビリア",
+    "yomigana": "ぶーげんびりあ",
+    "kyukana": "",
+    "bodai": [
+      "いかだかずら"
+    ],
+    "season": "summer",
+    "id": 1281
+  },
+  {
+    "name": "プール",
+    "yomigana": "ぷーる",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1282,
+    "bodai": []
+  },
+  {
+    "name": "糸瓜の花",
+    "yomigana": "へちまのはな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1283,
+    "bodai": []
+  },
+  {
+    "name": "蛇",
+    "yomigana": "へび",
+    "kyukana": "",
+    "bodai": [
+      "くちなは",
+      "ながむし",
+      "青大将",
+      "山棟蛇",
+      "縞蛇",
+      "鳥蛇"
+    ],
+    "season": "summer",
+    "id": 1284
+  },
+  {
+    "name": "蛇苺",
+    "yomigana": "へびいちご",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1285,
+    "bodai": []
+  },
+  {
+    "name": "蛇衣を脱ぐ",
+    "yomigana": "へびきぬをぬぐ",
+    "kyukana": "",
+    "bodai": [
+      "蛇の衣",
+      "蛇の殻",
+      "蛇の蛻",
+      "蛇皮を脱ぐ"
+    ],
+    "season": "summer",
+    "id": 1286
+  },
+  {
+    "name": "紅花",
+    "yomigana": "べにばな",
+    "kyukana": "",
+    "bodai": [
+      "紅の花",
+      "紅藍花",
+      "紅粉花",
+      "末摘花"
+    ],
+    "season": "summer",
+    "id": 1287
+  },
+  {
+    "name": "べら",
+    "yomigana": "べら",
+    "kyukana": "",
+    "bodai": [
+      "べら釣"
+    ],
+    "season": "summer",
+    "id": 1288
+  },
+  {
+    "name": "鬼灯市",
+    "yomigana": "ほおずきいち",
+    "kyukana": "ほほづきいち",
+    "bodai": [
+      "酸漿市",
+      "四万六千日",
+      "千日詣"
+    ],
+    "season": "summer",
+    "id": 1289
+  },
+  {
+    "name": "朴の花",
+    "yomigana": "ほおのはな",
+    "kyukana": "",
+    "bodai": [
+      "厚朴の花",
+      "朴散華"
+    ],
+    "season": "summer",
+    "id": 1290
+  },
+  {
+    "name": "穂肥",
+    "yomigana": "ほごえ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1291,
+    "bodai": []
+  },
+  {
+    "name": "干飯",
+    "yomigana": "ほしいい",
+    "kyukana": "ほしいひ",
+    "bodai": [
+      "乾飯"
+    ],
+    "season": "summer",
+    "id": 1292
+  },
+  {
+    "name": "干草",
+    "yomigana": "ほしくさ",
+    "kyukana": "",
+    "bodai": [
+      "草干す",
+      "刈干"
+    ],
+    "season": "summer",
+    "id": 1293
+  },
+  {
+    "name": "帆立貝",
+    "yomigana": "ほたてがい",
+    "kyukana": "ほたてがひ",
+    "bodai": [
+      "海扇"
+    ],
+    "season": "summer",
+    "id": 1294
+  },
+  {
+    "name": "蛍",
+    "yomigana": "ほたる",
+    "kyukana": "",
+    "bodai": [
+      "初蛍",
+      "蛍火",
+      "源氏蛍",
+      "夕蛍",
+      "蛍合戦"
+    ],
+    "season": "summer",
+    "id": 1295
+  },
+  {
+    "name": "蛍籠",
+    "yomigana": "ほたるかご",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1296,
+    "bodai": []
+  },
+  {
+    "name": "蛍狩",
+    "yomigana": "ほたるがり",
+    "kyukana": "",
+    "bodai": [
+      "蛍見",
+      "蛍舟"
+    ],
+    "season": "summer",
+    "id": 1297
+  },
+  {
+    "name": "蛍袋",
+    "yomigana": "ほたるぶくろ",
+    "kyukana": "",
+    "bodai": [
+      "釣鐘草",
+      "提燈花",
+      "風鈴草"
+    ],
+    "season": "summer",
+    "id": 1298
+  },
+  {
+    "name": "捕虫類",
+    "yomigana": "ほちゅうるい",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1299,
+    "bodai": []
+  },
+  {
+    "name": "布袋草",
+    "yomigana": "ほていそう",
+    "kyukana": "ほていさう",
+    "bodai": [
+      "布袋葵"
+    ],
+    "season": "summer",
+    "id": 1300
+  },
+  {
+    "name": "時鳥",
+    "yomigana": "ほととぎす",
+    "kyukana": "",
+    "bodai": [
+      "子規",
+      "杜鵑",
+      "蜀魂",
+      "杜宇",
+      "不如帰"
+    ],
+    "season": "summer",
+    "id": 1301
+  },
+  {
+    "name": "鬼灯の花",
+    "yomigana": "ほほづきのはな",
+    "kyukana": "",
+    "bodai": [
+      "酸漿の花"
+    ],
+    "season": "summer",
+    "id": 1302
+  },
+  {
+    "name": "穂絮",
+    "yomigana": "ほわた",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1303,
+    "bodai": []
+  },
+  {
+    "name": "茅舎忌",
+    "yomigana": "ぼうしゃき",
+    "kyukana": "ばうしやき",
+    "season": "summer",
+    "id": 1304,
+    "bodai": []
+  },
+  {
+    "name": "芒種",
+    "yomigana": "ぼうしゅ",
+    "kyukana": "ばうしゅ",
+    "season": "summer",
+    "id": 1305,
+    "bodai": []
+  },
+  {
+    "name": "孑孒",
+    "yomigana": "ぼうふら",
+    "kyukana": "",
+    "bodai": [
+      "ぼうふり",
+      "棒振虫"
+    ],
+    "season": "summer",
+    "id": 1306
+  },
+  {
+    "name": "牡丹",
+    "yomigana": "ぼたん",
+    "kyukana": "",
+    "bodai": [
+      "ぼうたん",
+      "富貴草",
+      "白（はく）牡丹",
+      "緋牡丹",
+      "黒牡丹",
+      "牡丹園"
+    ],
+    "season": "summer",
+    "id": 1307
+  },
+  {
+    "name": "ボート",
+    "yomigana": "ぼーと",
+    "kyukana": "",
+    "bodai": [
+      "貸ボート"
+    ],
+    "season": "summer",
+    "id": 1308
+  },
+  {
+    "name": "鼓虫",
+    "yomigana": "まいまい",
+    "kyukana": "",
+    "bodai": [
+      "まひまひ",
+      "水澄"
+    ],
+    "season": "summer",
+    "id": 1309
+  },
+  {
+    "name": "蠛蠓",
+    "yomigana": "まくなぎ",
+    "kyukana": "",
+    "bodai": [
+      "めまとひ",
+      "糠蚊"
+    ],
+    "season": "summer",
+    "id": 1310
+  },
+  {
+    "name": "甜瓜",
+    "yomigana": "まくわうり",
+    "kyukana": "まくはうり",
+    "bodai": [
+      "真桑"
+    ],
+    "season": "summer",
+    "id": 1311
+  },
+  {
+    "name": "真菰",
+    "yomigana": "まこも",
+    "kyukana": "",
+    "bodai": [
+      "真菰刈"
+    ],
+    "season": "summer",
+    "id": 1312
+  },
+  {
+    "name": "松落葉",
+    "yomigana": "まつおちば",
+    "kyukana": "",
+    "bodai": [
+      "散松葉"
+    ],
+    "season": "summer",
+    "id": 1313
+  },
+  {
+    "name": "松葉牡丹",
+    "yomigana": "まつばぼたん",
+    "kyukana": "",
+    "bodai": [
+      "日照草",
+      "爪切草"
+    ],
+    "season": "summer",
+    "id": 1314
+  },
+  {
+    "name": "祭",
+    "yomigana": "まつり",
+    "kyukana": "",
+    "bodai": [
+      "夏祭",
+      "祭獅子",
+      "祭太鼓",
+      "祭笛",
+      "祭囃子",
+      "祭堤燈",
+      "祭髪",
+      "祭衣",
+      "宵宮",
+      "夜宮",
+      "山車",
+      "神輿",
+      "渡御",
+      "御旅所",
+      "祭舟"
+    ],
+    "season": "summer",
+    "id": 1315
+  },
+  {
+    "name": "茉莉花",
+    "yomigana": "まつりか",
+    "kyukana": "まつりくわ",
+    "bodai": [
+      "素馨（そけい）",
+      "ジャスミン"
+    ],
+    "season": "summer",
+    "id": 1316
+  },
+  {
+    "name": "蝮",
+    "yomigana": "まむし",
+    "kyukana": "",
+    "bodai": [
+      "蝮蛇",
+      "赤まむし",
+      "蝮捕",
+      "蝮酒"
+    ],
+    "season": "summer",
+    "id": 1317
+  },
+  {
+    "name": "豆蒔く",
+    "yomigana": "まめまく",
+    "kyukana": "",
+    "bodai": [
+      "大豆蒔く",
+      "小豆蒔く",
+      "豆植う"
+    ],
+    "season": "summer",
+    "id": 1318
+  },
+  {
+    "name": "豆飯",
+    "yomigana": "まめめし",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1319,
+    "bodai": []
+  },
+  {
+    "name": "繭",
+    "yomigana": "まゆ",
+    "kyukana": "",
+    "bodai": [
+      "新繭",
+      "白繭",
+      "黄繭",
+      "玉繭",
+      "繭干す",
+      "繭煮る"
+    ],
+    "season": "summer",
+    "id": 1320
+  },
+  {
+    "name": "マンゴー",
+    "yomigana": "まんごー",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1321,
+    "bodai": []
+  },
+  {
+    "name": "万太郎忌",
+    "yomigana": "まんたろうき",
+    "kyukana": "まんたらうき",
+    "bodai": [
+      "傘雨忌"
+    ],
+    "season": "summer",
+    "id": 1322
+  },
+  {
+    "name": "蜜柑の花",
+    "yomigana": "みかんのはな",
+    "kyukana": "",
+    "bodai": [
+      "花蜜柑"
+    ],
+    "season": "summer",
+    "id": 1323
+  },
+  {
+    "name": "短夜",
+    "yomigana": "みじかよ",
+    "kyukana": "",
+    "bodai": [
+      "明易し",
+      "明早し",
+      "明急ぐ"
+    ],
+    "season": "summer",
+    "id": 1324
+  },
+  {
+    "name": "水葵",
+    "yomigana": "みずあおい",
+    "kyukana": "みづあふひ",
+    "bodai": [
+      "菜葱",
+      "水葱"
+    ],
+    "season": "summer",
+    "id": 1325
+  },
+  {
+    "name": "水遊び",
+    "yomigana": "みずあそび",
+    "kyukana": "みづあそび",
+    "bodai": [
+      "水掛合"
+    ],
+    "season": "summer",
+    "id": 1326
+  },
+  {
+    "name": "水中り",
+    "yomigana": "みずあたり",
+    "kyukana": "みづあたり",
+    "season": "summer",
+    "id": 1327,
+    "bodai": []
+  },
+  {
+    "name": "水機関",
+    "yomigana": "みずからくり",
+    "kyukana": "みづからくり",
+    "bodai": [
+      "水からくり"
+    ],
+    "season": "summer",
+    "id": 1328
+  },
+  {
+    "name": "水貝",
+    "yomigana": "みずがい",
+    "kyukana": "みづがひ",
+    "season": "summer",
+    "id": 1329,
+    "bodai": []
+  },
+  {
+    "name": "水木の花",
+    "yomigana": "みずきのはな",
+    "kyukana": "みづきのはな",
+    "bodai": [
+      "花水木",
+      "水木咲く"
+    ],
+    "season": "summer",
+    "id": 1330
+  },
+  {
+    "name": "水草の花",
+    "yomigana": "みずくさのはな",
+    "kyukana": "みづくさのはな",
+    "season": "summer",
+    "id": 1331,
+    "bodai": []
+  },
+  {
+    "name": "水喧嘩",
+    "yomigana": "みずげんか",
+    "kyukana": "みづげんくわ",
+    "bodai": [
+      "水論",
+      "水争"
+    ],
+    "season": "summer",
+    "id": 1332
+  },
+  {
+    "name": "水鉄砲",
+    "yomigana": "みずてっぽう",
+    "kyukana": "みづてつぽう",
+    "bodai": [
+      "水遊び"
+    ],
+    "season": "summer",
+    "id": 1333
+  },
+  {
+    "name": "水芭蕉",
+    "yomigana": "みずばしょう",
+    "kyukana": "みづばせう",
+    "season": "summer",
+    "id": 1334,
+    "bodai": []
+  },
+  {
+    "name": "水番",
+    "yomigana": "みずばん",
+    "kyukana": "みづばん",
+    "bodai": [
+      "水番小屋",
+      "水守る",
+      "水盗む",
+      "水盗人"
+    ],
+    "season": "summer",
+    "id": 1335
+  },
+  {
+    "name": "水虫",
+    "yomigana": "みずむし",
+    "kyukana": "みづむし",
+    "season": "summer",
+    "id": 1336,
+    "bodai": []
+  },
+  {
+    "name": "水羊羹",
+    "yomigana": "みずようかん",
+    "kyukana": "みづやうかん",
+    "season": "summer",
+    "id": 1337,
+    "bodai": []
+  },
+  {
+    "name": "溝浚へ",
+    "yomigana": "みぞさらへ",
+    "kyukana": "",
+    "bodai": [
+      "堰浚へ",
+      "どぶさらひ"
+    ],
+    "season": "summer",
+    "id": 1338
+  },
+  {
+    "name": "蜜豆",
+    "yomigana": "みつまめ",
+    "kyukana": "",
+    "bodai": [
+      "餡蜜"
+    ],
+    "season": "summer",
+    "id": 1339
+  },
+  {
+    "name": "緑",
+    "yomigana": "みどり",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1340,
+    "bodai": []
+  },
+  {
+    "name": "水無月",
+    "yomigana": "みなづき",
+    "kyukana": "",
+    "bodai": [
+      "風待月",
+      "常夏月",
+      "青水無月"
+    ],
+    "season": "summer",
+    "id": 1341
+  },
+  {
+    "name": "南風",
+    "yomigana": "みなみ",
+    "kyukana": "",
+    "bodai": [
+      "南風",
+      "南風",
+      "南吹く",
+      "はえ",
+      "大南風",
+      "海南風",
+      "まぜ",
+      "まじ"
+    ],
+    "season": "summer",
+    "id": 1342
+  },
+  {
+    "name": "三船祭",
+    "yomigana": "みふねまつり",
+    "kyukana": "",
+    "bodai": [
+      "舟遊祭",
+      "扇流し",
+      "西祭"
+    ],
+    "season": "summer",
+    "id": 1343
+  },
+  {
+    "name": "蚯蚓",
+    "yomigana": "みみず",
+    "kyukana": "",
+    "bodai": [
+      "蚯蚓出づ（ず）"
+    ],
+    "season": "summer",
+    "id": 1344
+  },
+  {
+    "name": "都草",
+    "yomigana": "みやこぐさ",
+    "kyukana": "",
+    "bodai": [
+      "黄金花",
+      "烏帽子草"
+    ],
+    "season": "summer",
+    "id": 1345
+  },
+  {
+    "name": "茗荷の子",
+    "yomigana": "みょうがのこ",
+    "kyukana": "めうがのこ",
+    "bodai": [
+      "茗荷汁"
+    ],
+    "season": "summer",
+    "id": 1346
+  },
+  {
+    "name": "百足",
+    "yomigana": "むかで",
+    "kyukana": "",
+    "bodai": [
+      "蜈蚣"
+    ],
+    "season": "summer",
+    "id": 1347
+  },
+  {
+    "name": "麦",
+    "yomigana": "むぎ",
+    "kyukana": "",
+    "bodai": [
+      "大麦",
+      "小麦",
+      "麦の穂",
+      "穂麦",
+      "麦畑"
+    ],
+    "season": "summer",
+    "id": 1348
+  },
+  {
+    "name": "麦打",
+    "yomigana": "むぎうち",
+    "kyukana": "",
+    "bodai": [
+      "麦叩",
+      "麦つき",
+      "麦埃",
+      "麦焼き",
+      ""
+    ],
+    "season": "summer",
+    "id": 1349
+  },
+  {
+    "name": "麦刈",
+    "yomigana": "むぎかり",
+    "kyukana": "",
+    "bodai": [
+      "麦車"
+    ],
+    "season": "summer",
+    "id": 1350
+  },
+  {
+    "name": "麦扱",
+    "yomigana": "むぎこき",
+    "kyukana": "",
+    "bodai": [
+      "麦扱機"
+    ],
+    "season": "summer",
+    "id": 1351
+  },
+  {
+    "name": "麦茶",
+    "yomigana": "むぎちゃ",
+    "kyukana": "",
+    "bodai": [
+      "麦湯"
+    ],
+    "season": "summer",
+    "id": 1352
+  },
+  {
+    "name": "麦の秋",
+    "yomigana": "むぎのあき",
+    "kyukana": "",
+    "bodai": [
+      "麦秋",
+      "麦秋"
+    ],
+    "season": "summer",
+    "id": 1353
+  },
+  {
+    "name": "麦の黒穂",
+    "yomigana": "むぎのくろほ",
+    "kyukana": "",
+    "bodai": [
+      "黒穂"
+    ],
+    "season": "summer",
+    "id": 1354
+  },
+  {
+    "name": "麦笛",
+    "yomigana": "むぎぶえ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1355,
+    "bodai": []
+  },
+  {
+    "name": "麦飯",
+    "yomigana": "むぎめし",
+    "kyukana": "",
+    "bodai": [
+      "すむぎ"
+    ],
+    "season": "summer",
+    "id": 1356
+  },
+  {
+    "name": "麦稈",
+    "yomigana": "むぎわら",
+    "kyukana": "",
+    "bodai": [
+      "麦藁"
+    ],
+    "season": "summer",
+    "id": 1357
+  },
+  {
+    "name": "葎",
+    "yomigana": "むぐら",
+    "kyukana": "",
+    "bodai": [
+      "葎茂る",
+      "八重葎"
+    ],
+    "season": "summer",
+    "id": 1358
+  },
+  {
+    "name": "虫送り",
+    "yomigana": "むしおくり",
+    "kyukana": "",
+    "bodai": [
+      "田虫送",
+      "稲虫送",
+      "虫追い",
+      "虫供養",
+      "実盛祭"
+    ],
+    "season": "summer",
+    "id": 1359
+  },
+  {
+    "name": "むしかりの花",
+    "yomigana": "むしかりのはな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1360,
+    "bodai": []
+  },
+  {
+    "name": "虫歯予防デー",
+    "yomigana": "むしばよぼうでー",
+    "kyukana": "",
+    "bodai": [
+      "虫歯の日"
+    ],
+    "season": "summer",
+    "id": 1361
+  },
+  {
+    "name": "虫干",
+    "yomigana": "むしぼし",
+    "kyukana": "",
+    "bodai": [
+      "虫払",
+      "風入れ",
+      "土用干",
+      "曝書"
+    ],
+    "season": "summer",
+    "id": 1362
+  },
+  {
+    "name": "武者人形",
+    "yomigana": "むしゃにんぎょう",
+    "kyukana": "むしやにんぎやう",
+    "bodai": [
+      "五月人形",
+      "兜人形",
+      "飾兜",
+      "武具飾る"
+    ],
+    "season": "summer",
+    "id": 1363
+  },
+  {
+    "name": "村祭",
+    "yomigana": "むらまつり",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1364,
+    "bodai": []
+  },
+  {
+    "name": "飯饐る",
+    "yomigana": "めしすえる",
+    "kyukana": "",
+    "bodai": [
+      "飯の汗"
+    ],
+    "season": "summer",
+    "id": 1365
+  },
+  {
+    "name": "眼白",
+    "yomigana": "めじろ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1366,
+    "bodai": []
+  },
+  {
+    "name": "目高",
+    "yomigana": "めだか",
+    "kyukana": "",
+    "bodai": [
+      "緋目高",
+      "白目高"
+    ],
+    "season": "summer",
+    "id": 1367
+  },
+  {
+    "name": "メロン",
+    "yomigana": "めろん",
+    "kyukana": "",
+    "bodai": [
+      "マスクメロン",
+      "西洋メロン"
+    ],
+    "season": "summer",
+    "id": 1368
+  },
+  {
+    "name": "藻刈",
+    "yomigana": "もかり",
+    "kyukana": "",
+    "bodai": [
+      "藻刈舟",
+      "刈藻"
+    ],
+    "season": "summer",
+    "id": 1369
+  },
+  {
+    "name": "黐の花",
+    "yomigana": "もちのはな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1370,
+    "bodai": []
+  },
+  {
+    "name": "藻の花",
+    "yomigana": "ものはな",
+    "kyukana": "",
+    "bodai": [
+      "花藻"
+    ],
+    "season": "summer",
+    "id": 1371
+  },
+  {
+    "name": "灸花",
+    "yomigana": "やいとばな",
+    "kyukana": "",
+    "bodai": [
+      "へくそかづら"
+    ],
+    "season": "summer",
+    "id": 1372
+  },
+  {
+    "name": "灼く",
+    "yomigana": "やく",
+    "kyukana": "",
+    "bodai": [
+      "熱砂",
+      "熱風",
+      "炎熱"
+    ],
+    "season": "summer",
+    "id": 1373
+  },
+  {
+    "name": "矢車菊",
+    "yomigana": "やぐるまぎく",
+    "kyukana": "",
+    "bodai": [
+      "矢車草"
+    ],
+    "season": "summer",
+    "id": 1374
+  },
+  {
+    "name": "灼け",
+    "yomigana": "やけ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1375,
+    "bodai": []
+  },
+  {
+    "name": "夜光虫",
+    "yomigana": "やこうちゅう",
+    "kyukana": "やくわうちゅう",
+    "season": "summer",
+    "id": 1376,
+    "bodai": []
+  },
+  {
+    "name": "八束忌",
+    "yomigana": "やつかき",
+    "kyukana": "",
+    "bodai": [
+      "仮幻忌"
+    ],
+    "season": "summer",
+    "id": 1377
+  },
+  {
+    "name": "簗",
+    "yomigana": "やな",
+    "kyukana": "",
+    "bodai": [
+      "魚簗",
+      "簗さす",
+      "簗打つ",
+      "簗かく",
+      "簗瀬"
+    ],
+    "season": "summer",
+    "id": 1378
+  },
+  {
+    "name": "破れ傘",
+    "yomigana": "やぶれがさ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1379,
+    "bodai": []
+  },
+  {
+    "name": "山棟蛇",
+    "yomigana": "やまかがし",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1380,
+    "bodai": []
+  },
+  {
+    "name": "山雀",
+    "yomigana": "やまがら",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1381,
+    "bodai": []
+  },
+  {
+    "name": "やませ",
+    "yomigana": "やませ",
+    "kyukana": "",
+    "bodai": [
+      "山背風",
+      "山瀬風"
+    ],
+    "season": "summer",
+    "id": 1382
+  },
+  {
+    "name": "山開",
+    "yomigana": "やまびらき",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1383,
+    "bodai": []
+  },
+  {
+    "name": "山法師の花",
+    "yomigana": "やまぼうしのはな",
+    "kyukana": "",
+    "bodai": [
+      "山帽子",
+      "山桑"
+    ],
+    "season": "summer",
+    "id": 1384
+  },
+  {
+    "name": "天蚕",
+    "yomigana": "やままゆ",
+    "kyukana": "",
+    "bodai": [
+      "山繭",
+      "山蚕"
+    ],
+    "season": "summer",
+    "id": 1385
+  },
+  {
+    "name": "山女",
+    "yomigana": "やまめ",
+    "kyukana": "",
+    "bodai": [
+      "山女釣"
+    ],
+    "season": "summer",
+    "id": 1386
+  },
+  {
+    "name": "楊梅",
+    "yomigana": "やまもも",
+    "kyukana": "",
+    "bodai": [
+      "山桃",
+      "やまうめ"
+    ],
+    "season": "summer",
+    "id": 1387
+  },
+  {
+    "name": "山桜桃の実",
+    "yomigana": "やまもものみ",
+    "kyukana": "",
+    "bodai": [
+      "山桜桃",
+      "英桃（ゆすらうめ）",
+      "ゆすら"
+    ],
+    "season": "summer",
+    "id": 1388
+  },
+  {
+    "name": "守宮",
+    "yomigana": "やもり",
+    "kyukana": "",
+    "bodai": [
+      "壁虎",
+      "家守"
+    ],
+    "season": "summer",
+    "id": 1389
+  },
+  {
+    "name": "夕顔",
+    "yomigana": "ゆうがお",
+    "kyukana": "",
+    "bodai": [
+      "夕顔の花"
+    ],
+    "season": "summer",
+    "id": 1390
+  },
+  {
+    "name": "夕立",
+    "yomigana": "ゆうだち",
+    "kyukana": "ゆふだち",
+    "bodai": [
+      "ゆだち",
+      "よだち",
+      "白雨",
+      "驟雨",
+      "夕立雲",
+      "夕立風"
+    ],
+    "season": "summer",
+    "id": 1391
+  },
+  {
+    "name": "夕凪",
+    "yomigana": "ゆうなぎ",
+    "kyukana": "ゆふなぎ",
+    "bodai": [
+      "夕凪ぐ"
+    ],
+    "season": "summer",
+    "id": 1392
+  },
+  {
+    "name": "夕端居",
+    "yomigana": "ゆうはしい",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1393,
+    "bodai": []
+  },
+  {
+    "name": "夕映",
+    "yomigana": "ゆうばえ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1394,
+    "bodai": []
+  },
+  {
+    "name": "夕焼",
+    "yomigana": "ゆうやけ",
+    "kyukana": "ゆふやけ",
+    "bodai": [
+      "ゆやけ",
+      "夕焼雲",
+      "夕焼空"
+    ],
+    "season": "summer",
+    "id": 1395
+  },
+  {
+    "name": "川床",
+    "yomigana": "ゆか",
+    "kyukana": "",
+    "bodai": [
+      "床",
+      "川床涼み",
+      "納涼川床",
+      "貴船川床",
+      "川床座敷"
+    ],
+    "season": "summer",
+    "id": 1396
+  },
+  {
+    "name": "浴衣",
+    "yomigana": "ゆかた",
+    "kyukana": "",
+    "bodai": [
+      "湯帷子",
+      "初浴衣",
+      "藍浴衣",
+      "古浴衣",
+      "貸浴衣",
+      "宿浴衣"
+    ],
+    "season": "summer",
+    "id": 1397
+  },
+  {
+    "name": "鴨足草",
+    "yomigana": "ゆきのした",
+    "kyukana": "",
+    "bodai": [
+      "虎耳草",
+      "雪の下"
+    ],
+    "season": "summer",
+    "id": 1398
+  },
+  {
+    "name": "柚子の花",
+    "yomigana": "ゆずのはな",
+    "kyukana": "",
+    "bodai": [
+      "柚（ゆ）の花",
+      "花柚子"
+    ],
+    "season": "summer",
+    "id": 1399
+  },
+  {
+    "name": "百合",
+    "yomigana": "ゆり",
+    "kyukana": "",
+    "bodai": [
+      "鬼百合",
+      "姫百合",
+      "鹿の百合",
+      "山百合",
+      "笹百合",
+      "白百合",
+      "透し百合",
+      "鉄砲百合"
+    ],
+    "season": "summer",
+    "id": 1400
+  },
+  {
+    "name": "百合の木",
+    "yomigana": "ゆりのき",
+    "kyukana": "",
+    "bodai": [
+      "ユリノキ",
+      "百合の樹"
+    ],
+    "season": "summer",
+    "id": 1401
+  },
+  {
+    "name": "余花",
+    "yomigana": "よか",
+    "kyukana": "よくわ",
+    "season": "summer",
+    "id": 1402,
+    "bodai": []
+  },
+  {
+    "name": "葭切",
+    "yomigana": "よしきり",
+    "kyukana": "",
+    "bodai": [
+      "行々子",
+      "葦雀"
+    ],
+    "season": "summer",
+    "id": 1403
+  },
+  {
+    "name": "葭簀",
+    "yomigana": "よしず",
+    "kyukana": "",
+    "bodai": [
+      "葭簀掛",
+      "葭簀小屋",
+      "葭簀茶屋"
+    ],
+    "season": "summer",
+    "id": 1404
+  },
+  {
+    "name": "葭戸",
+    "yomigana": "よしど",
+    "kyukana": "",
+    "bodai": [
+      "葭障子",
+      "簀戸",
+      "葭屏風"
+    ],
+    "season": "summer",
+    "id": 1405
+  },
+  {
+    "name": "夜濯",
+    "yomigana": "よすすぎ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1406,
+    "bodai": []
+  },
+  {
+    "name": "夜鷹",
+    "yomigana": "よたか",
+    "kyukana": "",
+    "bodai": [
+      "怪鴟",
+      "蚊吸鳥"
+    ],
+    "season": "summer",
+    "id": 1407
+  },
+  {
+    "name": "夜焚",
+    "yomigana": "よたき",
+    "kyukana": "",
+    "bodai": [
+      "夜焚釣",
+      "夜焚舟"
+    ],
+    "season": "summer",
+    "id": 1408
+  },
+  {
+    "name": "ヨット",
+    "yomigana": "よっと",
+    "kyukana": "",
+    "bodai": [
+      "ヨットハーバー"
+    ],
+    "season": "summer",
+    "id": 1409
+  },
+  {
+    "name": "夜釣",
+    "yomigana": "よづり",
+    "kyukana": "",
+    "bodai": [
+      "夜釣人",
+      "夜釣舟"
+    ],
+    "season": "summer",
+    "id": 1410
+  },
+  {
+    "name": "夜盗虫",
+    "yomigana": "よとうむし",
+    "kyukana": "よたうむし",
+    "bodai": [
+      "やたう",
+      "よたう"
+    ],
+    "season": "summer",
+    "id": 1411
+  },
+  {
+    "name": "呼子鳥",
+    "yomigana": "よぶこどり",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1412,
+    "bodai": []
+  },
+  {
+    "name": "夜振",
+    "yomigana": "よぶり",
+    "kyukana": "",
+    "bodai": [
+      "夜振火"
+    ],
+    "season": "summer",
+    "id": 1413
+  },
+  {
+    "name": "夜店",
+    "yomigana": "よみせ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1414,
+    "bodai": []
+  },
+  {
+    "name": "夜の秋",
+    "yomigana": "よるのあき",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1415,
+    "bodai": []
+  },
+  {
+    "name": "雷鳥",
+    "yomigana": "らいちょう",
+    "kyukana": "らいてう",
+    "season": "summer",
+    "id": 1416,
+    "bodai": []
+  },
+  {
+    "name": "辣韮",
+    "yomigana": "らっきょう",
+    "kyukana": "らつきよう",
+    "bodai": [
+      "大韮",
+      "らっきょ",
+      "薤"
+    ],
+    "season": "summer",
+    "id": 1417
+  },
+  {
+    "name": "辣韮漬",
+    "yomigana": "らっきょうづけ",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1418,
+    "bodai": []
+  },
+  {
+    "name": "ラベンダー",
+    "yomigana": "らべんだー",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1419,
+    "bodai": []
+  },
+  {
+    "name": "ラムネ",
+    "yomigana": "らむね",
+    "kyukana": "",
+    "bodai": [
+      "冷しラムネ"
+    ],
+    "season": "summer",
+    "id": 1420
+  },
+  {
+    "name": "蘭",
+    "yomigana": "らん",
+    "kyukana": "",
+    "bodai": [
+      "蘭の花",
+      "胡蝶蘭"
+    ],
+    "season": "summer",
+    "id": 1421
+  },
+  {
+    "name": "立夏",
+    "yomigana": "りっか",
+    "kyukana": "りつか",
+    "bodai": [
+      "夏立つ",
+      "夏に入る",
+      "夏来る"
+    ],
+    "season": "summer",
+    "id": 1422
+  },
+  {
+    "name": "竜舌蘭",
+    "yomigana": "りゅうぜつらん",
+    "kyukana": "龍舌蘭",
+    "season": "summer",
+    "id": 1423,
+    "bodai": []
+  },
+  {
+    "name": "緑蔭",
+    "yomigana": "りょくいん",
+    "kyukana": "",
+    "bodai": [
+      "翠蔭（すいいん）"
+    ],
+    "season": "summer",
+    "id": 1424
+  },
+  {
+    "name": "緑夜",
+    "yomigana": "りょくや",
+    "kyukana": "",
+    "bodai": [
+      "緑の夜"
+    ],
+    "season": "summer",
+    "id": 1425
+  },
+  {
+    "name": "林間学校",
+    "yomigana": "りんかんがっこう",
+    "kyukana": "りんかんがくかう",
+    "bodai": [
+      "林間学園",
+      "臨海学園"
+    ],
+    "season": "summer",
+    "id": 1426
+  },
+  {
+    "name": "縷紅草",
+    "yomigana": "るこうそう",
+    "kyukana": "るこうさう",
+    "bodai": [
+      "るこう"
+    ],
+    "season": "summer",
+    "id": 1427
+  },
+  {
+    "name": "冷房",
+    "yomigana": "れいぼう",
+    "kyukana": "れいばう",
+    "bodai": [
+      "ルームクーラー"
+    ],
+    "season": "summer",
+    "id": 1428
+  },
+  {
+    "name": "老鶯",
+    "yomigana": "ろうおう",
+    "kyukana": "らうあう",
+    "bodai": [
+      "老鶯",
+      "夏鶯",
+      "乱鶯",
+      "残鶯"
+    ],
+    "season": "summer",
+    "id": 1429
+  },
+  {
+    "name": "六月",
+    "yomigana": "ろくがつ",
+    "kyukana": "ろくぐわつ",
+    "bodai": [
+      "六月尽"
+    ],
+    "season": "summer",
+    "id": 1430
+  },
+  {
+    "name": "露台",
+    "yomigana": "ろだい",
+    "kyukana": "",
+    "bodai": [
+      "バルコニー",
+      "バルコン",
+      "ベランダ"
+    ],
+    "season": "summer",
+    "id": 1431
+  },
+  {
+    "name": "若楓",
+    "yomigana": "わかかえで",
+    "kyukana": "かかかへで",
+    "bodai": [
+      "楓若葉",
+      "青楓"
+    ],
+    "season": "summer",
+    "id": 1432
+  },
+  {
+    "name": "若竹",
+    "yomigana": "わかたけ",
+    "kyukana": "",
+    "bodai": [
+      "今年竹",
+      "竹の若葉"
+    ],
+    "season": "summer",
+    "id": 1433
+  },
+  {
+    "name": "若葉",
+    "yomigana": "わかば",
+    "kyukana": "",
+    "bodai": [
+      "若葉風",
+      "若葉雨",
+      "若葉寒"
+    ],
+    "season": "summer",
+    "id": 1434
+  },
+  {
+    "name": "病葉",
+    "yomigana": "わくらば",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1435,
+    "bodai": []
+  },
+  {
+    "name": "山葵の花",
+    "yomigana": "わさびのはな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1436,
+    "bodai": []
+  },
+  {
+    "name": "棉の花",
+    "yomigana": "わたのはな",
+    "kyukana": "",
+    "season": "summer",
+    "id": 1437,
+    "bodai": []
+  }
+]

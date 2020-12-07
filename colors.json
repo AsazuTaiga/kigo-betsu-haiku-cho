@@ -1,0 +1,15 @@
+{
+  "primary": "#3598F3",
+  "theme": "#645FCE",
+  "weakTheme": "#E6E5FF",
+  "silent": "#DADADA",
+  "weakBlack": "#626262",
+  "danger": "#EB2A2A",
+  "focus": "#DCA3FF",
+  "spring": "#F29C9C",
+  "summer": "#9FE0F6",
+  "fall": "#F3B59B",
+  "winter": "#95b6e6",
+  "newYear": "#F3E59A",
+  "kigoLinkText": "#1C1C1C"
+}

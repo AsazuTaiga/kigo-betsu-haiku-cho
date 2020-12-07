@@ -7,7 +7,6 @@ describe('Home page', () => {
     const { asFragment } = render(<Home />, {})
     expect(asFragment()).toMatchSnapshot()
   })
-
   it('clicking button triggers alert', () => {
     const { getByText } = render(<Home />, {})
     window.alert = jest.fn()
