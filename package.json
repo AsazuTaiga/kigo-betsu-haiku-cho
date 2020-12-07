@@ -12,7 +12,8 @@
     "format-on-save": "onchange \"**/*\" -- prettier --write {{changed}}",
     "lint": "eslint . --ext ts --ext tsx --ext js",
     "test": "jest",
-    "test-all": "yarn lint && yarn type-check && yarn test"
+    "test-all": "yarn lint && yarn type-check && yarn test",
+    "export": "next export"
   },
   "husky": {
     "hooks": {
@@ -31,11 +32,10 @@
     "@material-ui/icons": "^4.9.1",
     "ajv": "^6.12.6",
     "firebase": "^8.1.1",
-    "firebase-admin": "^9.4.1",
     "js-cookie": "^2.2.1",
     "next": "^9.4.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
     "@testing-library/react": "^10.0.1",
