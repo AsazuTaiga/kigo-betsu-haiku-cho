@@ -79,15 +79,15 @@ const KigoDetail: React.FC<Props> = (props) => {
         .kigo-sub {
           background-color: ${colors.silent};
           display: flex;
-          height: 30px;
           align-items: center;
           border-radius: 15px;
-          padding: 0 10px;
+          padding: 6px 10px;
           font-size: 14px;
         }
         .bodai-title {
           margin-right: 10px;
           font-weight: bold;
+          width: 40px;
         }
       `}</style>
     </>

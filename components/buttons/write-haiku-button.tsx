@@ -31,9 +31,10 @@ const WriteHaikuButton: React.FC<Props> = (props) => {
           display: flex;
           justify-content: center;
           align-items: center;
-          height: 46px;
+          height: 40px;
           cursor: pointer;
           outline: none;
+          border-radius: 4px;
         }
         .writeHaikuButton:acitve {
           background: ${colors.weakTheme};
