@@ -19,8 +19,14 @@ class MyDocument extends Document {
           <meta property="og:site_name" content="季語別俳句帖" />
           <meta property="og:title" content="季語別俳句帖" />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://kigo-betsu-haiku-cho.vercel.app" />
-          <meta property="og:image" content="OGP.png" />
+          <meta
+            property="og:url"
+            content="https://kigo-betsu-haiku-cho.vercel.app"
+          />
+          <meta
+            property="og:image"
+            content="https://gyazo.com/737a70b5922b35d1837839cadbe759af"
+          />
           <meta
             property="og:description"
             content="俳句の管理にお困りですか？季語別の管理でスマートに。"
