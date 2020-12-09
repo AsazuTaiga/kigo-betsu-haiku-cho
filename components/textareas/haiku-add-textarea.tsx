@@ -8,7 +8,8 @@ type Props = {
 
 const HaikuAddTextarea: React.FC<Props> = (props) => {
   const { onChange, visibility, isDisabled } = { ...props }
-  const placeholder = '改行して複数の俳句を登録できます。\n\n※多行書きを有効化する場合は設定から変更してください。'
+  const placeholder =
+    '改行して複数の俳句を登録できます。\n\n※多行書きを有効化する場合は設定から変更してください。'
   return (
     <>
       <textarea
@@ -29,7 +30,7 @@ const HaikuAddTextarea: React.FC<Props> = (props) => {
             border-radius: 4px;
             visibility: ${visibility};
             outline: none;
-            animation: openClose .2s ease-in-out;
+            animation: openClose 0.2s ease-in-out;
           }
           .haikuAdd::placeholder {
             font-size: 12px;

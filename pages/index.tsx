@@ -128,13 +128,13 @@ export const Home = (): JSX.Element => {
           display: flex;
           flex-wrap: wrap;
           align-items: center;
-          justify-content: space-between;
           width: 100%;
           margin-top: 60px;
           padding: 40px;
           border-radius: 20px;
           box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
             -9px -9px 16px rgba(255, 255, 255, 0.5);
+          scroll-snap-align: start;
         }
 
         section img {

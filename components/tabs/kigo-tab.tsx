@@ -4,7 +4,7 @@ import KigoList from '../../components/kigo-list/kigo-list'
 import colors from '../../colors.json'
 
 const KigoTab: React.FC = () => {
-  const [filter, setFilter] = useState('')
+  const [filter, setFilter] = useState<string>('')
   const [season, setSeason] = useState<Season>('spring')
   let timeout
   const handleFilterChange: OnChange = (changeEvent) => {
