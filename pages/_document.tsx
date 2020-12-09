@@ -25,7 +25,7 @@ class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://gyazo.com/737a70b5922b35d1837839cadbe759af"
+            content="https://i.gyazo.com/737a70b5922b35d1837839cadbe759af.png"
           />
           <meta
             property="og:description"
