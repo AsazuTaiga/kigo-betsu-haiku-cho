@@ -36,3 +36,6 @@ debug.log*
 
 # firebase
 .firebase
+
+# step count
+.VSCodeCounter

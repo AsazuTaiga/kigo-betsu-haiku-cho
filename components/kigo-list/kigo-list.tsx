@@ -16,7 +16,7 @@ const KigoList: React.FC<Props> = (props) => {
   useEffect(() => {
     setMarker(60)
   }, [season])
-  import(`../../kigo-resource/${season}.json`).then((json) =>
+  import(`../../kigo-resource/${season}`).then((json) =>
     setKigoArray(json.default)
   )
   const isMatchFilterString = (kigo: Kigo) => {

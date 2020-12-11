@@ -33,7 +33,7 @@ export const Home = (): JSX.Element => {
                 そんな写生派のあなたに。
               </p>
             </div>
-            <img src="/dog_walking.svg"></img>
+            <img src="/dog_walking.svg" alt=""></img>
           </section>
           <section>
             <div>
@@ -58,7 +58,7 @@ export const Home = (): JSX.Element => {
                 さて、類想の海を抜け出そうか。
               </p>
             </div>
-            <img src="/reading_a_book.svg"></img>
+            <img src="/reading_a_book.svg" alt=""></img>
           </section>
           <section>
             <div>
@@ -82,7 +82,7 @@ export const Home = (): JSX.Element => {
               </p>
               <p>でも、もっと手軽なものがあればなあ――。</p>
             </div>
-            <img src="/data_storage.svg"></img>
+            <img src="/data_storage.svg" alt=""></img>
           </section>
         </div>
 
@@ -128,13 +128,13 @@ export const Home = (): JSX.Element => {
           display: flex;
           flex-wrap: wrap;
           align-items: center;
-          justify-content: space-between;
           width: 100%;
           margin-top: 60px;
           padding: 40px;
           border-radius: 20px;
           box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
             -9px -9px 16px rgba(255, 255, 255, 0.5);
+          scroll-snap-align: start;
         }
 
         section img {
