@@ -1,22 +1,22 @@
 class Validator {
   static test(value: string, valueType: 'email' | 'password') {
     if (!value) {
-      return { result: false, message: Validator.message[valueType].required }
+      return { isValid: false, message: Validator.message[valueType].required }
     }
     if (valueType === 'password' && value.length < 8) {
-      return { result: false, message: Validator.message.password.tooShort }
+      return { isValid: false, message: Validator.message.password.tooShort }
     }
     if (!Validator.pattern[valueType].test(value)) {
-      return { result: false, message: Validator.message[valueType].format }
+      return { isValid: false, message: Validator.message[valueType].format }
     }
-    return { result: true }
+    return { isValid: true }
   }
 
   static testEmpty(value: string, valueType: 'email' | 'password') {
     if (!value) {
-      return { result: false, message: Validator.message[valueType].required }
+      return { isValid: false, message: Validator.message[valueType].required }
     }
-    return { result: true }
+    return { isValid: true }
   }
 
   private static message = {

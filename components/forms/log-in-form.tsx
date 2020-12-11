@@ -17,7 +17,7 @@ const LogInForm: React.FC = () => {
   const [passwordValidationMessage, setPasswordValidationMessage] = useState('')
   const [isLoading, setIsLoading] = useState(false)
 
-  const handleSubmit = (event) => {
+  const handleSubmit: OnSubmit = (event) => {
     event.preventDefault()
     resetValidationState()
     if (!validateEmail() || !validatePasswordEmpty()) {
@@ -41,26 +41,26 @@ const LogInForm: React.FC = () => {
 
   const validateEmail = () => {
     const emailValidationResult = Validator.test(email, 'email')
-    if (!emailValidationResult.result) {
+    if (!emailValidationResult.isValid) {
       setIsEmailInvalid(true)
       setEmailValidationMessage(emailValidationResult.message)
     } else {
       setIsEmailInvalid(false)
       setEmailValidationMessage('')
     }
-    return emailValidationResult.result
+    return emailValidationResult.isValid
   }
 
   const validatePasswordEmpty = () => {
     const passwordValidationResult = Validator.testEmpty(password, 'password')
-    if (!passwordValidationResult.result) {
+    if (!passwordValidationResult.isValid) {
       setIsPasswordInvalid(true)
       setPasswordValidationMessage(passwordValidationResult.message)
     } else {
       setIsPasswordInvalid(false)
       setPasswordValidationMessage('')
     }
-    return passwordValidationResult.result
+    return passwordValidationResult.isValid
   }
 
   const logIn = () => {
