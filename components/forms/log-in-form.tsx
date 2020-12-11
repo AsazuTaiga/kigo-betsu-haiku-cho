@@ -24,31 +24,11 @@ const LogInForm: React.FC = () => {
       return
     }
     setIsLoading(true)
-    firebase
-      .auth()
-      .signInWithEmailAndPassword(email, password)
-      .then((response) => {
-        sessionStorage.setItem('currentUser', JSON.stringify(response))
-        router.push('/kigo')
-      })
+    logIn()
+      .then(handleLogInSuccess) // 視覚的違和感軽減のため、ログイン成功時はLoading継続
       .catch((error) => {
-        setIsLoading(false)
-        if (error.code === 'auth/user-not-found') {
-          setIsEmailInvalid(true)
-          setEmailValidationMessage(
-            'ユーザーが存在しません。メールアドレスを確認してください。'
-          )
-        }
-        if (error.code === 'auth/wrong-password') {
-          setIsPasswordInvalid(true)
-          setPasswordValidationMessage('パスワードが違います。')
-        }
-        if (error.code === 'auth/too-many-requests') {
-          setIsPasswordInvalid(true)
-          setPasswordValidationMessage(
-            'リクエスト過多のため一時的に制限されています。'
-          )
-        }
+        setIsLoading(false) // 失敗時はLoading解除
+        handleLogInFail(error)
       })
   }
 
@@ -81,6 +61,40 @@ const LogInForm: React.FC = () => {
       setPasswordValidationMessage('')
     }
     return passwordValidationResult.result
+  }
+
+  const logIn = () => {
+    return new Promise((resolve, reject) => {
+      firebase
+        .auth()
+        .signInWithEmailAndPassword(email, password)
+        .then(resolve)
+        .catch(reject)
+    })
+  }
+
+  const handleLogInSuccess = (response) => {
+    sessionStorage.setItem('currentUser', JSON.stringify(response))
+    router.push('/kigo')
+  }
+
+  const handleLogInFail = (error) => {
+    if (error.code === 'auth/user-not-found') {
+      setIsEmailInvalid(true)
+      setEmailValidationMessage(
+        'ユーザーが存在しません。メールアドレスを確認してください。'
+      )
+    }
+    if (error.code === 'auth/wrong-password') {
+      setIsPasswordInvalid(true)
+      setPasswordValidationMessage('パスワードが違います。')
+    }
+    if (error.code === 'auth/too-many-requests') {
+      setIsPasswordInvalid(true)
+      setPasswordValidationMessage(
+        'リクエスト過多のため一時的に制限されています。'
+      )
+    }
   }
 
   return (

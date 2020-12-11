@@ -33,7 +33,7 @@ export const Home = (): JSX.Element => {
                 そんな写生派のあなたに。
               </p>
             </div>
-            <img src="/dog_walking.svg"></img>
+            <img src="/dog_walking.svg" alt=""></img>
           </section>
           <section>
             <div>
@@ -58,7 +58,7 @@ export const Home = (): JSX.Element => {
                 さて、類想の海を抜け出そうか。
               </p>
             </div>
-            <img src="/reading_a_book.svg"></img>
+            <img src="/reading_a_book.svg" alt=""></img>
           </section>
           <section>
             <div>
@@ -82,7 +82,7 @@ export const Home = (): JSX.Element => {
               </p>
               <p>でも、もっと手軽なものがあればなあ――。</p>
             </div>
-            <img src="/data_storage.svg"></img>
+            <img src="/data_storage.svg" alt=""></img>
           </section>
         </div>
 
