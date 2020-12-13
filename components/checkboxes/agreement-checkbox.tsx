@@ -12,17 +12,13 @@ const AgreementCheckbox: React.FC<Props> = (props) => {
   return (
     <>
       <div className="wrapper">
-        <input
-          id="checkBox"
-          type="checkbox"
-          onChange={onChange}
-        />
+        <input id="checkBox" type="checkbox" onChange={onChange} />
         <label id="checkBoxLabel" htmlFor="checkBox">
           <Link href="/site">利用規約</Link>および
           <Link href="/site#privacy">プライバシーポリシー</Link>に同意します。
         </label>
       </div>
-      <div className={`validationMessage ${isInvalid ? 'isInvalid': ''}`}>
+      <div className={`validationMessage ${isInvalid ? 'isInvalid' : ''}`}>
         利用規約とプライバシーポリシーへの同意は必須です。
       </div>
       <style jsx>{`
