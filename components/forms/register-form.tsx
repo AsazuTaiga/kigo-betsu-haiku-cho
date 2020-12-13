@@ -77,7 +77,7 @@ const RegisterForm: React.FC = () => {
 
   const validateAgreement = () => {
     setIsAgreementInvalid(!isAgreementChecked)
-    return !isAgreementInvalid
+    return isAgreementChecked
   }
 
   const createUser = async () => {
