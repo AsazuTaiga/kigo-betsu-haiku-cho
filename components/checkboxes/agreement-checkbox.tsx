@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import colors from '../../colors.json'
 
 type Props = {
   onChange: OnChange
@@ -15,24 +16,37 @@ const AgreementCheckbox: React.FC<Props> = (props) => {
           id="checkBox"
           type="checkbox"
           onChange={onChange}
-          className={isInvalid ? 'isInvalid' : ''}
         />
-        <label htmlFor="checkBox">
+        <label id="checkBoxLabel" htmlFor="checkBox">
           <Link href="/site">利用規約</Link>および
           <Link href="/site#privacy">プライバシーポリシー</Link>に同意します。
         </label>
       </div>
-      <span className="validationMessage">
+      <div className={`validationMessage ${isInvalid ? 'isInvalid': ''}`}>
         利用規約とプライバシーポリシーへの同意は必須です。
-      </span>
+      </div>
       <style jsx>{`
         .wrapper {
+          display: flex;
         }
-        #checkBox {
+        #checkBoxLabel {
+          font-size: 14px;
+          margin-left: 10px;
         }
-        #checkBox.isInvalid {
+        .validationMessage {
+          font-size: 10px;
+          color: ${colors.danger};
+          height: 30px;
+          visibility: hidden;
         }
-        .label {
+        .validationMessage.isInvalid {
+          visibility: visible;
+        }
+      `}</style>
+      <style jsx global>{`
+        a {
+          text-decoration: none;
+          color: ${colors.primary};
         }
       `}</style>
     </>

@@ -1,7 +1,7 @@
 import colors from '../../colors.json'
 
 type Props = {
-  onChange: OnChange
+  onChange: OnChangeTextarea
   visibility: 'visible' | 'hidden'
   isDisabled: boolean
 }
