@@ -32,7 +32,7 @@ const LogIn: NextPage = () => {
             <Link href="/reset-password">
               <span className="link">パスワードをお忘れですか？</span>
             </Link>
-            <Link href="/sign-up">
+            <Link href="/register">
               <span className="link">新規登録</span>
             </Link>
             <DataLicense />
