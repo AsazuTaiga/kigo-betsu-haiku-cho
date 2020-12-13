@@ -24,7 +24,7 @@ const RegisterForm: React.FC = () => {
   // loading
   const [isLoading, setIsLoading] = useState(false)
 
-  const handleSubmit: OnSubmit = (event) => {
+  const handleSubmit: OnSubmit = async (event) => {
     event.preventDefault()
     resetValidationState()
     const isValidEmail = validateEmail()
@@ -34,13 +34,14 @@ const RegisterForm: React.FC = () => {
       return
     }
     setIsLoading(true)
-    createUser()
-      .then(logIn)
-      .then(handleSuccess)
-      .catch((error) => {
-        handleFail(error)
-        setIsLoading(false)
-      })
+    try {
+      await createUser()
+      const userInfo = await logIn()
+      handleSuccess(userInfo)
+    } catch (error) {
+      handleFail(error)
+      setIsLoading(false)
+    }
   }
 
   const resetValidationState = () => {
