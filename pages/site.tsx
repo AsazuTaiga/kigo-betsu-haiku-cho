@@ -3,12 +3,12 @@ import { NextPage, GetStaticProps } from 'next'
 // import TocList from '../components/tocs/toc-list'
 import Markdwon from 'react-markdown'
 
-type InitialProps = {
+type StaticProps = {
   privacy: string
   terms: string
 }
 
-const Site: NextPage<InitialProps> = (props) => {
+const Site: NextPage<StaticProps> = (props) => {
   const { privacy, terms } = { ...props }
   return (
     <>
@@ -27,7 +27,7 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       privacy: privacy,
       terms: terms,
-    },
+    }
   }
 }
 
