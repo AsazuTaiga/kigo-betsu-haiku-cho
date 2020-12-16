@@ -9,7 +9,7 @@ type Props = {
   filter?: string
 }
 
-const KigoList: React.FC<Props> = (props) => {
+const KigoList: React.VFC<Props> = (props) => {
   const { season, filter } = { ...props }
   const [kigoArray, setKigoArray] = useState([])
   const [marker, setMarker] = useState(60)

@@ -10,7 +10,7 @@ type Props = {
   onChange?: OnChange
 }
 
-const ValidationInput: React.FC<Props> = (prop) => {
+const ValidationInput: React.VFC<Props> = (prop) => {
   const { isInvalid, validationMessage, placeholder, name, type, onChange } = {
     ...prop,
   }

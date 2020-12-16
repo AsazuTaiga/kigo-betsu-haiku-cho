@@ -3,7 +3,7 @@ import BaseInput from '../../components/inputs/base/base-input'
 import KigoList from '../../components/kigo-list/kigo-list'
 import colors from '../../colors.json'
 
-const KigoTab: React.FC = () => {
+const KigoTab: React.VFC = () => {
   const [filter, setFilter] = useState<string>('')
   const [season, setSeason] = useState<Season>('spring')
   let timeout

@@ -13,7 +13,7 @@ type Props = {
   visibility: 'visible' | 'hidden'
 }
 
-const EditTooltip: React.FC<Props> = (props) => {
+const EditTooltip: React.VFC<Props> = (props) => {
   const {
     copyHandler,
     editHandler,

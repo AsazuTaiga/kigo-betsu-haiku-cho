@@ -12,7 +12,7 @@ type Props = {
   visibility: 'visible' | 'hidden'
 }
 
-const MenuTooltip: React.FC<Props> = (props) => {
+const MenuTooltip: React.VFC<Props> = (props) => {
   const {
     configHandler,
     logOutHandler,

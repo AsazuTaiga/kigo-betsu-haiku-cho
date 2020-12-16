@@ -6,7 +6,7 @@ type Props = {
   isDisabled: boolean
 }
 
-const HaikuAddTextarea: React.FC<Props> = (props) => {
+const HaikuAddTextarea: React.VFC<Props> = (props) => {
   const { onChange, visibility, isDisabled } = { ...props }
   const placeholder =
     '改行して複数の俳句を登録できます。\n\n※多行書きを有効化する場合は設定から変更してください。'

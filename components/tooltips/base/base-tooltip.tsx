@@ -7,7 +7,7 @@ type Props = {
   visibility: 'visible' | 'hidden'
 }
 
-const BaseTooltip: React.FC<Props> = (props) => {
+const BaseTooltip: React.VFC<Props> = (props) => {
   const { innerTooltipAttrs, visibility } = { ...props }
   return (
     <Fragment>

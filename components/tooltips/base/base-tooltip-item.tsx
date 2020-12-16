@@ -8,7 +8,7 @@ export type Props = {
   isDanger?: boolean
 }
 
-const BaseTooltipItem: React.FC<Props> = (props) => {
+const BaseTooltipItem: React.VFC<Props> = (props) => {
   const { text, icon, isDanger, onClick } = { ...props }
   const isDangerClassName = isDanger ? 'isDanger' : ''
   return (

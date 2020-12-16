@@ -27,7 +27,7 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       privacy: privacy,
       terms: terms,
-    }
+    },
   }
 }
 

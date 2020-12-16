@@ -4,7 +4,7 @@ import Link from 'next/link'
 import MenuTooltip from '../tooltips/menu-tooltip'
 import colors from '../../colors.json'
 
-const AppHeader: React.FC = () => {
+const AppHeader: React.VFC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const router = useRouter()
   const toggleIsMenuOpen = () => setIsMenuOpen(!isMenuOpen)

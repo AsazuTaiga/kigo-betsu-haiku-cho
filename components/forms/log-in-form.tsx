@@ -7,7 +7,7 @@ import ValidationInput from '../inputs/validation-input'
 import LogInButton from '../buttons/log-in-button'
 import Validator from './validator'
 
-const LogInForm: React.FC = () => {
+const LogInForm: React.VFC = () => {
   const router = useRouter()
   const [email, setEmail] = useState('')
   const [isEmailInvalid, setIsEmailInvalid] = useState(false)

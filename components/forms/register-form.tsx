@@ -8,7 +8,7 @@ import AgreementCheckbox from '../checkboxes/agreement-checkbox'
 import RegisterButton from '../buttons/register-button'
 import Validator from './validator'
 
-const RegisterForm: React.FC = () => {
+const RegisterForm: React.VFC = () => {
   const router = useRouter()
   // email
   const [email, setEmail] = useState('')

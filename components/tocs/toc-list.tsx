@@ -7,7 +7,7 @@ type Toc = {
   id: string
 }
 
-const TocList: React.FC<Props> = (props) => {
+const TocList: React.VFC<Props> = (props) => {
   const { tocList } = { ...props }
   return (
     <>

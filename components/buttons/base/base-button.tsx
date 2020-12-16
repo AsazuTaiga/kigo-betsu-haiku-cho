@@ -9,7 +9,7 @@ type Props = {
   type: 'button' | 'submit' | 'reset'
 }
 
-const BaseButton: React.FC<Props> = (props) => {
+const BaseButton: React.VFC<Props> = (props) => {
   const {
     backgroundColor,
     textColor,

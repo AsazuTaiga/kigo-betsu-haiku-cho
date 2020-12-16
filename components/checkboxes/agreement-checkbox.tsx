@@ -6,7 +6,7 @@ type Props = {
   isInvalid: boolean
 }
 
-const AgreementCheckbox: React.FC<Props> = (props) => {
+const AgreementCheckbox: React.VFC<Props> = (props) => {
   const { onChange, isInvalid } = { ...props }
 
   return (

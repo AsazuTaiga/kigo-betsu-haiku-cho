@@ -7,7 +7,7 @@ type Props = {
   isDisabled: boolean
 }
 
-const WriteHaikuButton: React.FC<Props> = (props) => {
+const WriteHaikuButton: React.VFC<Props> = (props) => {
   const { onClick, visibility, isDisabled } = { ...props }
   return (
     <>

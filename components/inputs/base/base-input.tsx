@@ -8,7 +8,7 @@ type Props = {
   onChange?: OnChange
 }
 
-const BaseInput: React.FC<Props> = (props) => {
+const BaseInput: React.VFC<Props> = (props) => {
   const { isInvalid, placeholder, name, type, onChange } = { ...props }
   return (
     <>

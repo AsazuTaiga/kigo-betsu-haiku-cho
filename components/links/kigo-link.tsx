@@ -5,7 +5,7 @@ type Props = {
   kigo: Kigo
 }
 
-const KigoLink: React.FC<Props> = (props) => {
+const KigoLink: React.VFC<Props> = (props) => {
   const { kigo } = { ...props }
   return (
     <>
