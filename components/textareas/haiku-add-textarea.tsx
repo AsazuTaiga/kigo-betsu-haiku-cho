@@ -2,12 +2,12 @@ import colors from '../../colors.json'
 
 type Props = {
   onChange: OnChangeTextarea
-  visibility: 'visible' | 'hidden'
+  valueRef: string
   isDisabled: boolean
 }
 
 const HaikuAddTextarea: React.VFC<Props> = (props) => {
-  const { onChange, visibility, isDisabled } = { ...props }
+  const { onChange, valueRef, isDisabled } = { ...props }
   const placeholder =
     '改行して複数の俳句を登録できます。\n\n※多行書きを有効化する場合は設定から変更してください。'
   return (
@@ -17,6 +17,7 @@ const HaikuAddTextarea: React.VFC<Props> = (props) => {
         onChange={onChange}
         disabled={isDisabled}
         placeholder={placeholder}
+        value={valueRef}
       />
       <style jsx>
         {`
@@ -28,7 +29,6 @@ const HaikuAddTextarea: React.VFC<Props> = (props) => {
             border: 1px solid ${colors.silent};
             padding: 10px;
             border-radius: 4px;
-            visibility: ${visibility};
             outline: none;
             animation: openClose 0.2s ease-in-out;
           }

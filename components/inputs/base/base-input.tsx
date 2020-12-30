@@ -15,6 +15,7 @@ const BaseInput: React.VFC<Props> = (props) => {
       <input
         className={`baseInput ${isInvalid ? 'invalid' : ''}`}
         placeholder={placeholder}
+        title={placeholder} // labelの代替
         name={name}
         type={type}
         onChange={onChange}

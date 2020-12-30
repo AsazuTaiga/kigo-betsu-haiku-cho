@@ -24,7 +24,7 @@ const BaseButton: React.VFC<Props> = (props) => {
     <>
       <button className="commonButton" onClick={onClick} type={type}>
         {isLoading ? (
-          <img src="three-dots.svg" className="loading"></img>
+          <img src="/three-dots.svg" className="loading"></img>
         ) : (
           textContent
         )}
@@ -40,6 +40,7 @@ const BaseButton: React.VFC<Props> = (props) => {
           outline: none;
           font-size: 16px;
           transition: filter 0.2s ease;
+          width: 100%;
         }
         commonButton:acitive {
           filter: brightness(1.1);

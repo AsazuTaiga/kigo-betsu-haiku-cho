@@ -3,12 +3,12 @@ import colors from '../../colors.json'
 
 type Props = {
   onClick: OnClick
-  visibility: 'visible' | 'hidden'
+  isShown: boolean
   isDisabled: boolean
 }
 
 const WriteHaikuButton: React.VFC<Props> = (props) => {
-  const { onClick, visibility, isDisabled } = { ...props }
+  const { onClick, isShown, isDisabled } = { ...props }
   return (
     <>
       <button
@@ -21,14 +21,13 @@ const WriteHaikuButton: React.VFC<Props> = (props) => {
       </button>
       <style jsx>{`
         .writeHaikuButton {
-          visibility: ${visibility};
+          display: ${isShown ? 'flex' : 'none'};
           border: none;
           color: ${colors.theme};
           background: white;
           box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.25);
           font-size: 18px;
           font-weight: bold;
-          display: flex;
           justify-content: center;
           align-items: center;
           height: 40px;

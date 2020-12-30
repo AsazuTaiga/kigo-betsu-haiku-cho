@@ -1,7 +1,7 @@
 import { NextPage } from 'next'
 import router from 'next/router'
 import dynamic from 'next/dynamic'
-import { useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import AppHeader from '../../components/headers/app-header'
 import KigoDetail from '../../components/texts/kigo-detail'
 import spring from '../../kigo-resource/spring'
@@ -10,25 +10,37 @@ import fall from '../../kigo-resource/fall'
 import winter from '../../kigo-resource/winter'
 import newYear from '../../kigo-resource/newYear'
 import WriteHaikuButton from '../../components/buttons/write-haiku-button'
-import HaikuAddTextArea from '../../components/textareas/haiku-add-textarea'
+import HaikuForm from '../../components/forms/haiku-form'
 
 const Haiku: NextPage = () => {
   const currentUser = JSON.parse(sessionStorage.getItem('currentUser'))
   const kid = location.pathname.substring(
     location.pathname.lastIndexOf('/') + 1
   )
+
+  // 未ログインの場合はログイン画面へ
   useEffect(() => {
     !currentUser && router.push('/log-in')
   })
+
+  // 季語データ
   const kigo =
     spring.find((k) => String(k.id) === kid) ||
     summer.find((k) => String(k.id) === kid) ||
     fall.find((k) => String(k.id) === kid) ||
     winter.find((k) => String(k.id) === kid) ||
     newYear.find((k) => String(k.id) === kid)
-  if (!kigo) {
-    router.push('/kigo')
-  }
+
+  // 該当する季語データがない場合
+  useEffect(() => {
+    if (!kigo) {
+      router.push('/kigo')
+    }
+  }, [kigo])
+
+  // states
+  const [isAdding, setIsAdding] = useState(false)
+
   return (
     <>
       {currentUser && kigo ? (
@@ -37,20 +49,27 @@ const Haiku: NextPage = () => {
             <AppHeader />
             <main>
               <KigoDetail kigo={kigo}></KigoDetail>
-              <WriteHaikuButton
-                onClick={() => window.alert('hoge')}
-                visibility="visible"
-                isDisabled={false}
-              />
-              <HaikuAddTextArea
-                onChange={() => null}
-                visibility={'visible'}
-                isDisabled={false}
-              />
+              <div className="addHaikuWrapper">
+                <WriteHaikuButton
+                  onClick={() => {
+                    setIsAdding(true)
+                  }}
+                  isShown={!isAdding}
+                  isDisabled={false}
+                />
+                <HaikuForm
+                  onCancel={() => {
+                    setIsAdding(false)
+                  }}
+                  isShown={isAdding}
+                  isDisabled={false}
+                  kid={kid}
+                ></HaikuForm>
+              </div>
             </main>
           </div>
 
-          <style jsx global>{`
+          <style jsx>{`
             .container {
               margin-top: 56px;
               padding: 0 2rem;
@@ -66,8 +85,10 @@ const Haiku: NextPage = () => {
               flex-direction: column;
               max-width: 800px;
             }
-            .writeHaikuButton {
+            .addHaikuWrapper {
               margin-top: 30px;
+              display: flex;
+              flex-direction: column;
             }
           `}</style>
         </>
