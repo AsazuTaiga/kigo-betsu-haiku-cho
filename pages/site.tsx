@@ -1,7 +1,9 @@
 import fs from 'fs'
 import { NextPage, GetStaticProps } from 'next'
-// import TocList from '../components/tocs/toc-list'
-import Markdwon from 'react-markdown'
+import Router from 'next/router'
+import TermsToc from '../components/tocs/terms-toc'
+import Markdwon from '../components/markdown/markdown'
+import { useEffect, useRef } from 'react'
 
 type StaticProps = {
   privacy: string
@@ -13,8 +15,9 @@ const Site: NextPage<StaticProps> = (props) => {
   return (
     <>
       <main>
-        <Markdwon skipHtml={true}>{terms}</Markdwon>
-        <Markdwon skipHtml={true}>{privacy}</Markdwon>
+        <TermsToc></TermsToc>
+        <Markdwon source={terms}></Markdwon>
+        <Markdwon source={privacy}></Markdwon>
       </main>
     </>
   )

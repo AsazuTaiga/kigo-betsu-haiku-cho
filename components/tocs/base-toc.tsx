@@ -7,7 +7,7 @@ type Toc = {
   id: string
 }
 
-const TocList: React.VFC<Props> = (props) => {
+const BaseToc: React.VFC<Props> = (props) => {
   const { tocList } = { ...props }
   return (
     <>
@@ -28,4 +28,4 @@ const TocList: React.VFC<Props> = (props) => {
   )
 }
 
-export default TocList
+export default BaseToc
