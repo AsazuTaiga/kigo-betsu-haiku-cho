@@ -20,7 +20,6 @@ const LogIn: NextPage = () => {
         <>
           <Head>
             <title>ログイン - 季語別俳句帖</title>
-            <link rel="icon" href="/favicon.ico" />
           </Head>
           <div className="container">
             <img

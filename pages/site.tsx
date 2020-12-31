@@ -1,9 +1,8 @@
 import fs from 'fs'
 import { NextPage, GetStaticProps } from 'next'
-import Router from 'next/router'
+import Head from 'next/head'
 import TermsToc from '../components/tocs/terms-toc'
 import Markdwon from '../components/markdown/markdown'
-import { useEffect, useRef } from 'react'
 
 type StaticProps = {
   privacy: string
@@ -14,11 +13,37 @@ const Site: NextPage<StaticProps> = (props) => {
   const { privacy, terms } = { ...props }
   return (
     <>
-      <main>
-        <TermsToc></TermsToc>
-        <Markdwon source={terms}></Markdwon>
-        <Markdwon source={privacy}></Markdwon>
-      </main>
+      <Head>
+        <title>利用規約 - 季語別俳句帖</title>
+      </Head>
+      <div className="container">
+        <main className="main">
+          <img className="image" src="/top-logo.svg"></img>
+          <TermsToc></TermsToc>
+          <Markdwon source={terms}></Markdwon>
+          <Markdwon source={privacy}></Markdwon>
+        </main>
+      </div>
+      <style jsx>{`
+        .container {
+          display: flex;
+          width: 100%;
+          min-height: 100vh;
+          justify-content: center;
+          padding: 20px;
+        }
+        .main {
+          max-width: 1080px;
+          display: flex;
+          flex-direction: column;
+        }
+        .image {
+          width: 280px;
+          align-self: center;
+          max-width: 90%;
+          margin-bottom: 20px;
+        }
+      `}</style>
     </>
   )
 }

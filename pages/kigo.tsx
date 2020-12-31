@@ -16,7 +16,6 @@ const Kigo: NextPage = () => {
     <>
       <Head>
         <title>季語一覧・検索 - 季語別俳句帖</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       {currentUser ? (
         <>

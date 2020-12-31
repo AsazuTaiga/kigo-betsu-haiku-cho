@@ -10,9 +10,11 @@ type Props = {
   source: string
 }
 const Markdwon: React.VFC<Props> = (props) => (
-  <ReactMarkdown renderers={{ heading: HeadingRenderer }} skipHtml={true}>
-    {props.source}
-  </ReactMarkdown>
+  <>
+    <ReactMarkdown renderers={{ heading: HeadingRenderer }} skipHtml={true}>
+      {props.source}
+    </ReactMarkdown>
+  </>
 )
 
 export default Markdwon
