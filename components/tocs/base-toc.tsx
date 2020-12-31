@@ -41,6 +41,8 @@ const BaseToc: React.VFC<Props> = (props) => {
           .tocList li {
             list-style: none;
             position: relative;
+            height: 28px;
+            display: block;
           }
           .tocList li::before {
             content: '';

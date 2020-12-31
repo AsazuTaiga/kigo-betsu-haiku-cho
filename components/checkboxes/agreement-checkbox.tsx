@@ -14,8 +14,7 @@ const AgreementCheckbox: React.VFC<Props> = (props) => {
       <div className="wrapper">
         <input id="checkBox" type="checkbox" onChange={onChange} />
         <label id="checkBoxLabel" htmlFor="checkBox">
-          <Link href="/site#利用規約">利用規約</Link>および
-          <Link href="/site#プライバシーポリシー">プライバシーポリシー</Link>
+          <Link href="/site">利用規約およびプライバシーポリシー</Link>
           に同意します。
         </label>
       </div>
