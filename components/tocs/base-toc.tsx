@@ -33,7 +33,7 @@ const BaseToc: React.VFC<Props> = (props) => {
             content: '';
             width: 0px;
             height: 100%;
-            border: ${colors.silent} 1px solid;
+            border-left: ${colors.silent} 2px solid;
             position: absolute;
             top: 0;
             left: 15px;
