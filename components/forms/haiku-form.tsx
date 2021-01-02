@@ -21,7 +21,7 @@ const HaikuForm: React.VFC<Props> = (props) => {
   const database = firebase.database()
   const [text, setText] = useState('')
   const [isSaving, setIsSaving] = useState(false)
-  const onChange: OnChangeTextarea = (changeEvent) => {
+  const onChange: OnChangeTextArea = (changeEvent) => {
     setText(changeEvent.target.value)
   }
   const onSave: OnClick = () => {
