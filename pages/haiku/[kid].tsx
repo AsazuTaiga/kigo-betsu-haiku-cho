@@ -11,6 +11,7 @@ import winter from '../../kigo-resource/winter'
 import newYear from '../../kigo-resource/newYear'
 import WriteHaikuButton from '../../components/buttons/write-haiku-button'
 import HaikuForm from '../../components/forms/haiku-form'
+import HaikuEditTextarea from '../../components/textareas/haiku-edit-textarea'
 
 const Haiku: NextPage = () => {
   const currentUser = JSON.parse(sessionStorage.getItem('currentUser'))
@@ -65,6 +66,9 @@ const Haiku: NextPage = () => {
                   isDisabled={false}
                   kid={kid}
                 ></HaikuForm>
+              </div>
+              <div>
+                <HaikuEditTextarea haiku="古池や蛙飛び込む水の音"></HaikuEditTextarea>
               </div>
             </main>
           </div>

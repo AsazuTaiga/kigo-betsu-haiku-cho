@@ -27,13 +27,14 @@ const BaseToc: React.VFC<Props> = (props) => {
             flex-direction: column;
             font-size: 18px;
             position: relative;
-            padding-left: 30px;
+            padding-left: 40px;
           }
           .tocList::before {
             content: '';
-            width: 0px;
-            height: 100%;
-            border-left: ${colors.silent} 2px solid;
+            width: 2px;
+            height: calc(100% - 40px);
+            margin-top: 20px;
+            background: ${colors.silent};
             position: absolute;
             top: 0;
             left: 15px;
@@ -54,7 +55,7 @@ const BaseToc: React.VFC<Props> = (props) => {
             display: block;
             position: absolute;
             top: 8px;
-            left: -20px;
+            left: -30px;
           }
           .tocList li a {
             color: ${colors.weakBlack};

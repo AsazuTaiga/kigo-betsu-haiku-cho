@@ -1,15 +1,14 @@
 import colors from '../../colors.json'
 
 type Props = {
-  onChange: OnChangeTextarea
+  onChange: OnChangeTextArea
   valueRef: string
   isDisabled: boolean
 }
 
 const HaikuAddTextarea: React.VFC<Props> = (props) => {
   const { onChange, valueRef, isDisabled } = { ...props }
-  const placeholder =
-    '改行して複数の俳句を登録できます。\n\n※多行書きを有効化する場合は設定から変更してください。'
+  const placeholder = '改行して複数の俳句を登録できます。'
   return (
     <>
       <textarea
