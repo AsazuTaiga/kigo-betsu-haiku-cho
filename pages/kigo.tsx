@@ -8,8 +8,8 @@ import dynamic from 'next/dynamic'
 
 const Kigo: NextPage = () => {
   const currentUser =
-    sessionStorage.getItem('currentUser') &&
-    JSON.parse(sessionStorage.getItem('currentUser'))
+    sessionStorage.getItem('userCredential') &&
+    JSON.parse(sessionStorage.getItem('userCredential'))
   useEffect(() => {
     !currentUser && router.push('/log-in')
   })

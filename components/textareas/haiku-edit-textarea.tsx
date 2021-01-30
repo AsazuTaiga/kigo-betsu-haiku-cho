@@ -1,14 +1,24 @@
 import { useState, useRef, useEffect } from 'react'
 import EditTooltip from '../tooltips/edit-tooltip'
 import colors from '../../colors.json'
+import { Haiku } from '../../types/haiku'
+import {
+  OnClick,
+  OnClickDiv,
+  OnBlurTextArea,
+  OnKeyDownTextArea,
+} from '../../types/events'
+import Colors from '../../colors.json'
 
 type Props = {
-  haiku: string
+  data: Haiku
+  onSubmitHandler: (edittedHaiku: string, updateTarget: Haiku) => void
 }
 
 const HaikuEditTextarea: React.VFC<Props> = (props) => {
-  const { haiku: initialValue } = { ...props }
-  const [edittedValue, setEdittedValue] = useState(initialValue)
+  const { data: initialValue, onSubmitHandler } = { ...props }
+
+  const [edittedValue, setEdittedValue] = useState(initialValue.haiku)
   const [isMenuShown, setIsMenuShown] = useState(false)
   const [isDisabled, setIsDisabled] = useState(true)
   const [x, setX] = useState(0)
@@ -18,15 +28,15 @@ const HaikuEditTextarea: React.VFC<Props> = (props) => {
   const handleKeyDown: OnKeyDownTextArea = (keyDownEvent) => {
     if (keyDownEvent.key === 'Escape') {
       setIsDisabled(true)
-      setEdittedValue(initialValue)
+      setEdittedValue(initialValue.haiku)
       return
     }
     if (keyDownEvent.key === 'Enter') {
       setIsDisabled(true)
-      if (edittedValue === initialValue) {
+      if (edittedValue === initialValue.haiku) {
         return
       }
-      // 送信処理
+      onSubmitHandler(edittedValue, initialValue)
       return
     }
   }
@@ -38,13 +48,13 @@ const HaikuEditTextarea: React.VFC<Props> = (props) => {
   }
 
   const handleCopy: OnClick = () => {
-    navigator.clipboard.writeText(initialValue)
+    navigator.clipboard.writeText(edittedValue)
     setIsMenuShown(false)
   }
 
   const handleTweet: OnClick = () => {
     window.open(
-      `https://twitter.com/intent/tweet?text=${initialValue}&hashtags=季語別俳句帖`
+      `https://twitter.com/intent/tweet?text=${initialValue.haiku}&hashtags=季語別俳句帖`
     )
     setIsMenuShown(false)
   }
@@ -70,7 +80,7 @@ const HaikuEditTextarea: React.VFC<Props> = (props) => {
 
   const handleBlur: OnBlurTextArea = () => {
     setIsDisabled(true)
-    setEdittedValue(initialValue)
+    setEdittedValue(initialValue.haiku)
   }
 
   return (
@@ -156,6 +166,19 @@ const HaikuEditTextarea: React.VFC<Props> = (props) => {
           width: 100vw;
           height: 100vh;
           overflow: hidden;
+        }
+        .menuButton {
+          width: 40px;
+          height: 40px;
+          border-radius: 20px;
+          border: none;
+          background: transparent;
+          cursor: pointer;
+        }
+        .menuButton:focus,
+        .menuButton:hover {
+          outline: none;
+          background: ${Colors.silent};
         }
       `}</style>
     </>

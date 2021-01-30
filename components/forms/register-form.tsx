@@ -90,7 +90,7 @@ const RegisterForm: React.VFC = () => {
   }
 
   const handleSuccess = (response) => {
-    sessionStorage.setItem('currentUser', JSON.stringify(response))
+    sessionStorage.setItem('userCredential', JSON.stringify(response))
     router.push('/kigo')
   }
 

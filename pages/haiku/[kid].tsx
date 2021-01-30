@@ -2,6 +2,8 @@ import { NextPage } from 'next'
 import router from 'next/router'
 import dynamic from 'next/dynamic'
 import { useState, useEffect } from 'react'
+import firebase from 'firebase'
+
 import AppHeader from '../../components/headers/app-header'
 import KigoDetail from '../../components/texts/kigo-detail'
 import spring from '../../kigo-resource/spring'
@@ -12,20 +14,45 @@ import newYear from '../../kigo-resource/newYear'
 import WriteHaikuButton from '../../components/buttons/write-haiku-button'
 import HaikuForm from '../../components/forms/haiku-form'
 import HaikuEditTextarea from '../../components/textareas/haiku-edit-textarea'
+import { Haiku, HaikuResponse } from '../../types/haiku'
 
-const Haiku: NextPage = () => {
-  // 初期処理：ログインチェック
-  const currentUser =
-    sessionStorage.getItem('currentUser') &&
-    JSON.parse(sessionStorage.getItem('currentUser'))
+const HaikuDetailPage: NextPage = () => {
+  // 状態
+  const [isNewHaikuWriting, setIsNewHaikuWriting] = useState(false)
+  const [haikuList, setHaikuList] = useState<Haiku[]>([])
+
+  const credential: firebase.auth.UserCredential =
+    sessionStorage.getItem('userCredential') &&
+    JSON.parse(sessionStorage.getItem('userCredential'))
   const kid = location.pathname.substring(
     location.pathname.lastIndexOf('/') + 1
   )
 
-  // 未ログインの場合はログイン画面へ
+  // 初期処理：ログインチェック
   useEffect(() => {
-    !currentUser && router.push('/log-in')
-  })
+    // 未ログインの場合はログイン画面へ
+    !credential && router.push('/log-in')
+
+    // 対象季語データの取得
+    const userId = credential.user.uid
+    const db = firebase.database()
+    db.ref(`users/${userId}/haiku/${kid}`).on('value', (snapshot) => {
+      const res = snapshot.val() as HaikuResponse
+      if (!res) {
+        return
+      }
+
+      // データの成型とセット
+      const formatted = Object.entries(res).map(([id, haiku]) => {
+        return {
+          id: id,
+          haiku: haiku.haiku,
+          createdAt: haiku.createdAt,
+        } as Haiku
+      })
+      setHaikuList(formatted)
+    })
+  }, [])
 
   // パスパラメータの季語ID(kid)をもとに季語データを取得
   const kigo =
@@ -34,20 +61,34 @@ const Haiku: NextPage = () => {
     fall.find((k) => String(k.id) === kid) ||
     winter.find((k) => String(k.id) === kid) ||
     newYear.find((k) => String(k.id) === kid)
-  // 該当する季語データがない場合
+
   useEffect(() => {
+    // 該当する季語データがない場合
     if (!kigo) {
       router.push('/kigo')
     }
   }, [kigo])
 
-
-  // 状態
-  const [isNewHaikuWriting, setIsNewHaikuWriting] = useState(false)
+  // イベントハンドラ
+  // 編集後の俳句をDBに登録
+  const saveEdittedHaiku = (edittedHaiku: string, updateTarget: Haiku) => {
+    const userId = credential.user.uid
+    const db = firebase.database()
+    const updates = {
+      haiku: edittedHaiku,
+      createdAt: updateTarget.createdAt,
+    }
+    db.ref(`users/${userId}/haiku/${kid}/${updateTarget.id}`).update(
+      updates,
+      () => {
+        return
+      }
+    )
+  }
 
   return (
     <>
-      {currentUser && kigo ? (
+      {credential && kigo ? (
         <>
           <div className="container">
             <AppHeader />
@@ -58,6 +99,7 @@ const Haiku: NextPage = () => {
                 isDisabled={false}
                 isShown={!isNewHaikuWriting}
               />
+
               <HaikuForm
                 onCancel={() => {
                   setIsNewHaikuWriting(false)
@@ -67,12 +109,18 @@ const Haiku: NextPage = () => {
                 kid={kid}
               ></HaikuForm>
               <div>
-                <HaikuEditTextarea haiku="古池や蛙飛び込む水の音"></HaikuEditTextarea>
+                {haikuList.map((haikuData) => (
+                  <HaikuEditTextarea
+                    key={haikuData.id}
+                    data={haikuData}
+                    onSubmitHandler={saveEdittedHaiku}
+                  ></HaikuEditTextarea>
+                ))}
               </div>
             </main>
           </div>
 
-          <style jsx>{`
+          <style jsx global>{`
             .container {
               margin-top: 56px;
               padding: 0 2rem;
@@ -91,8 +139,6 @@ const Haiku: NextPage = () => {
             .writeHaikuButton,
             .haikuForm {
               margin-top: 30px;
-              display: flex;
-              flex-direction: column;
             }
           `}</style>
         </>
@@ -103,7 +149,7 @@ const Haiku: NextPage = () => {
 
 const dynamicHaiku = dynamic(
   {
-    loader: async () => Haiku,
+    loader: async () => HaikuDetailPage,
   },
   {
     ssr: false,

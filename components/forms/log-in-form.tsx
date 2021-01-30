@@ -77,7 +77,7 @@ const LogInForm: React.VFC = () => {
   const handleLogInSuccess = (
     response: firebase.auth.UserCredential | unknown
   ) => {
-    sessionStorage.setItem('currentUser', JSON.stringify(response))
+    sessionStorage.setItem('userCredential', JSON.stringify(response))
     router.push('/kigo')
   }
 

@@ -9,7 +9,7 @@ import router from 'next/router'
 import dynamic from 'next/dynamic'
 
 const Register: NextPage = () => {
-  const currentUser = JSON.parse(sessionStorage.getItem('currentUser'))
+  const currentUser = JSON.parse(sessionStorage.getItem('userCredential'))
   useEffect(() => {
     currentUser && router.push('/kigo')
   })
