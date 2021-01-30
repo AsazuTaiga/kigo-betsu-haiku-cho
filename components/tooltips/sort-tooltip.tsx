@@ -10,7 +10,7 @@ type Props = {
   visibility: 'visible' | 'hidden'
 }
 
-const SortTooltip: React.FC<Props> = (props) => {
+const SortTooltip: React.VFC<Props> = (props) => {
   const { newerHandler, olderHandler, visibility } = {
     ...props,
   }

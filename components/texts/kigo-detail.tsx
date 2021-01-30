@@ -5,7 +5,7 @@ type Props = {
   kigo: Kigo
 }
 
-const KigoDetail: React.FC<Props> = (props) => {
+const KigoDetail: React.VFC<Props> = (props) => {
   const { kigo } = { ...props }
   const seasonJa = {
     spring: '春',

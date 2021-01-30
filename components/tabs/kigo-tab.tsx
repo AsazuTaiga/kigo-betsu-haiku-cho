@@ -5,7 +5,7 @@ import colors from '../../colors.json'
 import { OnChange } from '../../types/events'
 import { Season } from '../../types/kigo'
 
-const KigoTab: React.FC = () => {
+const KigoTab: React.VFC = () => {
   const [filter, setFilter] = useState<string>('')
   const [season, setSeason] = useState<Season>('spring')
   let timeout: ReturnType<typeof setTimeout>

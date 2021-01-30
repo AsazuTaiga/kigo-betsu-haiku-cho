@@ -1,7 +1,7 @@
 import { NextPage } from 'next'
 import router from 'next/router'
 import dynamic from 'next/dynamic'
-import { useEffect, useState } from 'react'
+import { useState, useEffect } from 'react'
 import AppHeader from '../../components/headers/app-header'
 import KigoDetail from '../../components/texts/kigo-detail'
 import spring from '../../kigo-resource/spring'
@@ -11,6 +11,7 @@ import winter from '../../kigo-resource/winter'
 import newYear from '../../kigo-resource/newYear'
 import WriteHaikuButton from '../../components/buttons/write-haiku-button'
 import HaikuForm from '../../components/forms/haiku-form'
+import HaikuEditTextarea from '../../components/textareas/haiku-edit-textarea'
 
 const Haiku: NextPage = () => {
   // 初期処理：ログインチェック
@@ -20,6 +21,8 @@ const Haiku: NextPage = () => {
   const kid = location.pathname.substring(
     location.pathname.lastIndexOf('/') + 1
   )
+
+  // 未ログインの場合はログイン画面へ
   useEffect(() => {
     !currentUser && router.push('/log-in')
   })
@@ -31,13 +34,17 @@ const Haiku: NextPage = () => {
     fall.find((k) => String(k.id) === kid) ||
     winter.find((k) => String(k.id) === kid) ||
     newYear.find((k) => String(k.id) === kid)
-  // 該当する季語IDの季語が存在しない場合は一覧画面へ移動
-  if (!kigo) {
-    router.push('/kigo')
-  }
+  // 該当する季語データがない場合
+  useEffect(() => {
+    if (!kigo) {
+      router.push('/kigo')
+    }
+  }, [kigo])
+
 
   // 状態
   const [isNewHaikuWriting, setIsNewHaikuWriting] = useState(false)
+
   return (
     <>
       {currentUser && kigo ? (
@@ -59,10 +66,13 @@ const Haiku: NextPage = () => {
                 isDisabled={false}
                 kid={kid}
               ></HaikuForm>
+              <div>
+                <HaikuEditTextarea haiku="古池や蛙飛び込む水の音"></HaikuEditTextarea>
+              </div>
             </main>
           </div>
 
-          <style jsx global>{`
+          <style jsx>{`
             .container {
               margin-top: 56px;
               padding: 0 2rem;
@@ -81,6 +91,8 @@ const Haiku: NextPage = () => {
             .writeHaikuButton,
             .haikuForm {
               margin-top: 30px;
+              display: flex;
+              flex-direction: column;
             }
           `}</style>
         </>

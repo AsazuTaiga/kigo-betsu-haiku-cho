@@ -2,24 +2,33 @@ import { useEffect, useState } from 'react'
 import KigoLink from '../links/kigo-link'
 import colors from '../../colors.json'
 import { Season, Kigo } from '../../types/kigo'
+import spring from '../../kigo-resource/spring'
+import summer from '../../kigo-resource/summer'
+import fall from '../../kigo-resource/fall'
+import winter from '../../kigo-resource/winter'
+import newYear from '../../kigo-resource/newYear'
 
-// import KigoLink from "../links/kigo-link"
+const kigos = {
+  spring: spring,
+  summer: summer,
+  fall: fall,
+  winter: winter,
+  newYear: newYear,
+}
 
 type Props = {
   season: Season
   filter?: string
 }
 
-const KigoList: React.FC<Props> = (props) => {
+const KigoList: React.VFC<Props> = (props) => {
   const { season, filter } = { ...props }
   const [kigoArray, setKigoArray] = useState([])
   const [marker, setMarker] = useState(60)
   useEffect(() => {
     setMarker(60)
+    setKigoArray(kigos[season])
   }, [season])
-  import(`../../kigo-resource/${season}`).then((json) =>
-    setKigoArray(json.default)
-  )
   const isMatchFilterString = (kigo: Kigo) => {
     if (!filter) {
       return true

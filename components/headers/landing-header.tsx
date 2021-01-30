@@ -1,7 +1,7 @@
 import router from 'next/router'
 import colors from '../../colors.json'
 
-const LandingHeder: React.FC = () => (
+const LandingHeder: React.VFC = () => (
   <>
     <header>
       <button className="logIn" onClick={() => router.push('/log-in')}>

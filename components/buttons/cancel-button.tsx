@@ -7,7 +7,7 @@ type Props = {
   isLoading?: boolean
 }
 
-const CancelButton: React.FC<Props> = (props) => {
+const CancelButton: React.VFC<Props> = (props) => {
   const { onClick, isLoading } = { ...props }
   return (
     <BaseButton

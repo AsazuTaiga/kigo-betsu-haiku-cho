@@ -7,7 +7,7 @@ type Props = {
   isLoading?: boolean
 }
 
-const LogInButton: React.FC<Props> = (props) => {
+const LogInButton: React.VFC<Props> = (props) => {
   const { onClick, isLoading } = { ...props }
   return (
     <BaseButton

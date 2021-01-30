@@ -1,6 +1,6 @@
 import colors from '../../colors.json'
 
-const DataLicense: React.FC = () => (
+const DataLicense: React.VFC = () => (
   <>
     <div className="dataLicense">
       <p>

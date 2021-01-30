@@ -8,7 +8,7 @@ import LogInButton from '../buttons/log-in-button'
 import Validator from './validator'
 import { OnSubmit } from '../../types/events'
 
-const LogInForm: React.FC = () => {
+const LogInForm: React.VFC = () => {
   const router = useRouter()
   const [email, setEmail] = useState('')
   const [isEmailInvalid, setIsEmailInvalid] = useState(false)
@@ -42,26 +42,26 @@ const LogInForm: React.FC = () => {
 
   const validateEmail = () => {
     const emailValidationResult = Validator.test(email, 'email')
-    if (!emailValidationResult.result) {
+    if (!emailValidationResult.isValid) {
       setIsEmailInvalid(true)
       setEmailValidationMessage(emailValidationResult.message || '')
     } else {
       setIsEmailInvalid(false)
       setEmailValidationMessage('')
     }
-    return emailValidationResult.result
+    return emailValidationResult.isValid
   }
 
   const validatePasswordEmpty = () => {
     const passwordValidationResult = Validator.testEmpty(password, 'password')
-    if (!passwordValidationResult.result) {
+    if (!passwordValidationResult.isValid) {
       setIsPasswordInvalid(true)
       setPasswordValidationMessage(passwordValidationResult.message || '')
     } else {
       setIsPasswordInvalid(false)
       setPasswordValidationMessage('')
     }
-    return passwordValidationResult.result
+    return passwordValidationResult.isValid
   }
 
   const logIn = () => {

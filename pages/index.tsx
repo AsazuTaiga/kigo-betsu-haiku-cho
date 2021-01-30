@@ -2,17 +2,18 @@ import Head from 'next/head'
 import Link from 'next/link'
 import LandingHeder from '../components/headers/landing-header'
 import colors from '../colors.json'
+import ShareLinks from '../components/share/share-links'
 
 export const Home = (): JSX.Element => {
   return (
     <div className="container">
       <Head>
         <title>季語別俳句帖とは？</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <LandingHeder />
       <main>
         <img src="top-logo.svg" className="topLogo" alt="季語別俳句帖"></img>
+        <ShareLinks></ShareLinks>
         <div className="sectionWrapper">
           <section>
             <div>
@@ -87,6 +88,7 @@ export const Home = (): JSX.Element => {
         </div>
 
         <img src="top-logo.svg" className="topLogo" alt="季語別俳句帖" />
+        <ShareLinks></ShareLinks>
         <div className="linkWrap">
           <Link href="/log-in">ログイン</Link>
           <Link href="/register">新規登録</Link>
@@ -116,6 +118,7 @@ export const Home = (): JSX.Element => {
           width: 80%;
           max-width: 400px;
           margin-top: 100px;
+          margin-bottom: 20px;
         }
 
         .sectionWrapper {

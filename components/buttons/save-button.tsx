@@ -7,7 +7,7 @@ type Props = {
   isLoading?: boolean
 }
 
-const SaveButton: React.FC<Props> = (props) => {
+const SaveButton: React.VFC<Props> = (props) => {
   const { onClick, isLoading } = { ...props }
   return (
     <BaseButton

@@ -4,7 +4,7 @@ import Link from 'next/link'
 import MenuTooltip from '../tooltips/menu-tooltip'
 import colors from '../../colors.json'
 
-const AppHeader: React.FC = () => {
+const AppHeader: React.VFC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const router = useRouter()
   const toggleIsMenuOpen = () => setIsMenuOpen(!isMenuOpen)
@@ -33,7 +33,6 @@ const AppHeader: React.FC = () => {
             configHandler={() => router.push('/config')}
             logOutHandler={() => router.push('/config#log-out')}
             termsHandler={() => router.push('/site')}
-            privacyHandler={() => router.push('/site#privacy')}
             visibility={isMenuOpen ? 'visible' : 'hidden'}
           ></MenuTooltip>
         </div>

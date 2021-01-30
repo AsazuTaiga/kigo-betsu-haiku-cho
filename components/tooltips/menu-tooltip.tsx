@@ -9,18 +9,11 @@ type Props = {
   configHandler: OnClick
   logOutHandler: OnClick
   termsHandler: OnClick
-  privacyHandler: OnClick
   visibility: 'visible' | 'hidden'
 }
 
-const MenuTooltip: React.FC<Props> = (props) => {
-  const {
-    configHandler,
-    logOutHandler,
-    termsHandler,
-    privacyHandler,
-    visibility,
-  } = {
+const MenuTooltip: React.VFC<Props> = (props) => {
+  const { configHandler, logOutHandler, termsHandler, visibility } = {
     ...props,
   }
   return (
@@ -44,11 +37,6 @@ const MenuTooltip: React.FC<Props> = (props) => {
               text: '利用規約',
               icon: <AlertIcon htmlColor={colors.weakBlack}></AlertIcon>,
               onClick: termsHandler,
-            },
-            {
-              text: 'プライバシーポリシー',
-              icon: <AlertIcon htmlColor={colors.weakBlack}></AlertIcon>,
-              onClick: privacyHandler,
             },
           ]}
         ></BaseTooltip>

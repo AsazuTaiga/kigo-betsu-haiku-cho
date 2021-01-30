@@ -1,23 +1,22 @@
 import { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
-import LogInForm from '../components/forms/log-in-form'
+import RegisterForm from '../components/forms/register-form'
 import DataLicense from '../components/texts/data-license'
 import colors from '../colors.json'
 import { useEffect } from 'react'
 import router from 'next/router'
 import dynamic from 'next/dynamic'
 
-const LogIn: NextPage = () => {
-  const currentUser =
-    sessionStorage.getItem('currentUser') &&
-    JSON.parse(sessionStorage.getItem('currentUser'))
+const Register: NextPage = () => {
+  const currentUser = JSON.parse(sessionStorage.getItem('currentUser'))
   useEffect(() => {
     currentUser && router.push('/kigo')
   })
 
   return (
     <>
+      {' '}
       {!currentUser ? (
         <>
           <Head>
@@ -29,12 +28,12 @@ const LogIn: NextPage = () => {
               src="top-logo.svg"
               alt="季語別俳句帖"
             ></img>
-            <LogInForm />
+            <RegisterForm />
             <Link href="/reset-password">
               <span className="link">パスワードをお忘れですか？</span>
             </Link>
-            <Link href="/register">
-              <span className="link">新規登録</span>
+            <Link href="/log-in">
+              <span className="link">ログイン</span>
             </Link>
             <DataLicense />
           </div>
@@ -81,13 +80,13 @@ const LogIn: NextPage = () => {
   )
 }
 
-const DynamicLogIn = dynamic(
+const DynamiciRegister = dynamic(
   {
-    loader: async () => LogIn,
+    loader: async () => Register,
   },
   {
     ssr: false,
   }
 )
 
-export default DynamicLogIn
+export default DynamiciRegister
