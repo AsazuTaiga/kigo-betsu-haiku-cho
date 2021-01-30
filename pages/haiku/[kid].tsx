@@ -14,7 +14,9 @@ import HaikuForm from '../../components/forms/haiku-form'
 
 const Haiku: NextPage = () => {
   // 初期処理：ログインチェック
-  const currentUser = JSON.parse(sessionStorage.getItem('currentUser'))
+  const currentUser =
+    sessionStorage.getItem('currentUser') &&
+    JSON.parse(sessionStorage.getItem('currentUser'))
   const kid = location.pathname.substring(
     location.pathname.lastIndexOf('/') + 1
   )

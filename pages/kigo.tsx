@@ -7,7 +7,9 @@ import KigoTab from '../components/tabs/kigo-tab'
 import dynamic from 'next/dynamic'
 
 const Kigo: NextPage = () => {
-  const currentUser = JSON.parse(sessionStorage.getItem('currentUser'))
+  const currentUser =
+    sessionStorage.getItem('currentUser') &&
+    JSON.parse(sessionStorage.getItem('currentUser'))
   useEffect(() => {
     !currentUser && router.push('/log-in')
   })

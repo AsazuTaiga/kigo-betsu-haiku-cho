@@ -15,7 +15,9 @@ const HaikuAddTextarea: React.FC<Props> = (props) => {
 
   const textAreaRef = useRef<HTMLTextAreaElement>(null)
   useEffect(() => {
-    textAreaRef.current.value = valueRef
+    if (textAreaRef.current) {
+      textAreaRef.current.value = valueRef
+    }
   }, [valueRef])
   return (
     <>

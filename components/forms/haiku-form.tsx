@@ -18,9 +18,9 @@ type Props = {
 
 const HaikuForm: React.VFC<Props> = (props) => {
   const { onCancel, isShown, isDisabled, kid } = { ...props }
-  const currentUser: firebase.User = JSON.parse(
-    sessionStorage.getItem('currentUser')
-  ).user
+  const currentUser: firebase.User =
+    sessionStorage.getItem('currentUser') &&
+    JSON.parse(sessionStorage.getItem('currentUser')).user
   const database = firebase.database()
   const [text, setText] = useState('')
   const [isSaving, setIsSaving] = useState(false)

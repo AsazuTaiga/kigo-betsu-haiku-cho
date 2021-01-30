@@ -9,7 +9,9 @@ import router from 'next/router'
 import dynamic from 'next/dynamic'
 
 const LogIn: NextPage = () => {
-  const currentUser = JSON.parse(sessionStorage.getItem('currentUser'))
+  const currentUser =
+    sessionStorage.getItem('currentUser') &&
+    JSON.parse(sessionStorage.getItem('currentUser'))
   useEffect(() => {
     currentUser && router.push('/kigo')
   })

@@ -5,7 +5,7 @@ type Props = {
   backgroundColor: string
   textColor: string
   textContent: string | JSX.Element
-  onClick: OnClick
+  onClick?: OnClick
   isLoading?: boolean
   type: 'button' | 'submit' | 'reset'
 }
@@ -25,7 +25,7 @@ const BaseButton: React.FC<Props> = (props) => {
     <>
       <button className="commonButton" onClick={onClick} type={type}>
         {isLoading ? (
-          <img src="three-dots.svg" className="loading"></img>
+          <img src="/three-dots.svg" className="loading"></img>
         ) : (
           textContent
         )}

@@ -6,6 +6,7 @@ import 'firebase/database'
 import ValidationInput from '../inputs/validation-input'
 import LogInButton from '../buttons/log-in-button'
 import Validator from './validator'
+import { OnSubmit } from '../../types/events'
 
 const LogInForm: React.FC = () => {
   const router = useRouter()
@@ -17,7 +18,7 @@ const LogInForm: React.FC = () => {
   const [passwordValidationMessage, setPasswordValidationMessage] = useState('')
   const [isLoading, setIsLoading] = useState(false)
 
-  const handleSubmit = (event) => {
+  const handleSubmit: OnSubmit = (event) => {
     event.preventDefault()
     resetValidationState()
     if (!validateEmail() || !validatePasswordEmpty()) {
@@ -43,7 +44,7 @@ const LogInForm: React.FC = () => {
     const emailValidationResult = Validator.test(email, 'email')
     if (!emailValidationResult.result) {
       setIsEmailInvalid(true)
-      setEmailValidationMessage(emailValidationResult.message)
+      setEmailValidationMessage(emailValidationResult.message || '')
     } else {
       setIsEmailInvalid(false)
       setEmailValidationMessage('')
@@ -55,7 +56,7 @@ const LogInForm: React.FC = () => {
     const passwordValidationResult = Validator.testEmpty(password, 'password')
     if (!passwordValidationResult.result) {
       setIsPasswordInvalid(true)
-      setPasswordValidationMessage(passwordValidationResult.message)
+      setPasswordValidationMessage(passwordValidationResult.message || '')
     } else {
       setIsPasswordInvalid(false)
       setPasswordValidationMessage('')
@@ -73,12 +74,14 @@ const LogInForm: React.FC = () => {
     })
   }
 
-  const handleLogInSuccess = (response) => {
+  const handleLogInSuccess = (
+    response: firebase.auth.UserCredential | unknown
+  ) => {
     sessionStorage.setItem('currentUser', JSON.stringify(response))
     router.push('/kigo')
   }
 
-  const handleLogInFail = (error) => {
+  const handleLogInFail = (error: firebase.auth.Error) => {
     if (error.code === 'auth/user-not-found') {
       setIsEmailInvalid(true)
       setEmailValidationMessage(

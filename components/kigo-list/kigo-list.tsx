@@ -21,12 +21,14 @@ const KigoList: React.FC<Props> = (props) => {
     setKigoArray(json.default)
   )
   const isMatchFilterString = (kigo: Kigo) => {
+    if (!filter) {
+      return true
+    }
     return (
       kigo.name.includes(filter) ||
       kigo.yomigana.includes(filter) ||
       kigo.kyukana.includes(filter) ||
-      kigo.bodai.includes(filter) ||
-      !filter
+      kigo.bodai.includes(filter)
     )
   }
   return (

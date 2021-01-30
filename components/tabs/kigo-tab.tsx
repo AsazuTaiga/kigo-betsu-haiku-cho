@@ -8,7 +8,7 @@ import { Season } from '../../types/kigo'
 const KigoTab: React.FC = () => {
   const [filter, setFilter] = useState<string>('')
   const [season, setSeason] = useState<Season>('spring')
-  let timeout
+  let timeout: ReturnType<typeof setTimeout>
   const handleFilterChange: OnChange = (changeEvent) => {
     const filterValue = changeEvent.target.value
     if (timeout) {
