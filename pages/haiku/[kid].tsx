@@ -1,7 +1,7 @@
 import { NextPage } from 'next'
 import router from 'next/router'
 import dynamic from 'next/dynamic'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import AppHeader from '../../components/headers/app-header'
 import KigoDetail from '../../components/texts/kigo-detail'
 import spring from '../../kigo-resource/spring'
@@ -10,9 +10,10 @@ import fall from '../../kigo-resource/fall'
 import winter from '../../kigo-resource/winter'
 import newYear from '../../kigo-resource/newYear'
 import WriteHaikuButton from '../../components/buttons/write-haiku-button'
-import HaikuAddTextArea from '../../components/textareas/haiku-add-textarea'
+import HaikuForm from '../../components/forms/haiku-form'
 
 const Haiku: NextPage = () => {
+  // 初期処理：ログインチェック
   const currentUser = JSON.parse(sessionStorage.getItem('currentUser'))
   const kid = location.pathname.substring(
     location.pathname.lastIndexOf('/') + 1
@@ -20,15 +21,21 @@ const Haiku: NextPage = () => {
   useEffect(() => {
     !currentUser && router.push('/log-in')
   })
+
+  // パスパラメータの季語ID(kid)をもとに季語データを取得
   const kigo =
     spring.find((k) => String(k.id) === kid) ||
     summer.find((k) => String(k.id) === kid) ||
     fall.find((k) => String(k.id) === kid) ||
     winter.find((k) => String(k.id) === kid) ||
     newYear.find((k) => String(k.id) === kid)
+  // 該当する季語IDの季語が存在しない場合は一覧画面へ移動
   if (!kigo) {
     router.push('/kigo')
   }
+
+  // 状態
+  const [isNewHaikuWriting, setIsNewHaikuWriting] = useState(false)
   return (
     <>
       {currentUser && kigo ? (
@@ -38,15 +45,18 @@ const Haiku: NextPage = () => {
             <main>
               <KigoDetail kigo={kigo}></KigoDetail>
               <WriteHaikuButton
-                onClick={() => window.alert('hoge')}
-                visibility="visible"
+                onClick={() => setIsNewHaikuWriting(true)}
                 isDisabled={false}
+                isShown={!isNewHaikuWriting}
               />
-              <HaikuAddTextArea
-                onChange={() => null}
-                visibility={'visible'}
+              <HaikuForm
+                onCancel={() => {
+                  setIsNewHaikuWriting(false)
+                }}
+                isShown={isNewHaikuWriting}
                 isDisabled={false}
-              />
+                kid={kid}
+              ></HaikuForm>
             </main>
           </div>
 
@@ -66,7 +76,8 @@ const Haiku: NextPage = () => {
               flex-direction: column;
               max-width: 800px;
             }
-            .writeHaikuButton {
+            .writeHaikuButton,
+            .haikuForm {
               margin-top: 30px;
             }
           `}</style>

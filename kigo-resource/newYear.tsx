@@ -1,3 +1,5 @@
+import { Kigo } from '../types/kigo'
+
 const newYear: Kigo[] = [
   {
     name: '小豆粥',

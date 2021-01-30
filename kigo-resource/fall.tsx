@@ -1,3 +1,5 @@
+import { Kigo } from '../types/kigo'
+
 const fall: Kigo[] = [
   {
     name: '藍の花',

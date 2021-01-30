@@ -1,5 +1,6 @@
 import BaseButton from './base/base-button'
 import Colors from '../../colors.json'
+import { OnClick } from '../../types/events'
 
 type Props = {
   onClick?: OnClick

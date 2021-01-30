@@ -1,4 +1,5 @@
 import colors from '../../../colors.json'
+import { OnClick } from '../../../types/events'
 
 type Props = {
   backgroundColor: string
@@ -40,6 +41,7 @@ const BaseButton: React.FC<Props> = (props) => {
           outline: none;
           font-size: 16px;
           transition: filter 0.2s ease;
+          flex: 1;
         }
         commonButton:acitive {
           filter: brightness(1.1);

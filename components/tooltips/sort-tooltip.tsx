@@ -1,6 +1,7 @@
 import NewerIcon from '@material-ui/icons/ArrowDownward'
 import OlderIcon from '@material-ui/icons/ArrowUpward'
 import BaseTooltip from './base/base-tooltip'
+import { OnClick } from '../../types/events'
 import colors from '../../colors.json'
 
 type Props = {

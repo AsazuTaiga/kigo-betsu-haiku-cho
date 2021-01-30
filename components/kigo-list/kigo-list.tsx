@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import KigoLink from '../links/kigo-link'
 import colors from '../../colors.json'
+import { Season, Kigo } from '../../types/kigo'
 
 // import KigoLink from "../links/kigo-link"
 

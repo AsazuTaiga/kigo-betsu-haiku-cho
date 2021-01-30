@@ -2,6 +2,7 @@ import SettingsIcon from '@material-ui/icons/SettingsOutlined'
 import LogOutIcon from '@material-ui/icons/ExitToAppOutlined'
 import AlertIcon from '@material-ui/icons/ErrorOutline'
 import BaseTooltip from './base/base-tooltip'
+import { OnClick } from '../../types/events'
 import colors from '../../colors.json'
 
 type Props = {

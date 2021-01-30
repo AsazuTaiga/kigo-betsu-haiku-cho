@@ -4,6 +4,7 @@ import TwitterIcon from '@material-ui/icons/Twitter'
 import DeleteIcon from '@material-ui/icons/DeleteOutlined'
 import BaseTooltip from './base/base-tooltip'
 import colors from '../../colors.json'
+import { OnClick } from '../../types/events'
 
 type Props = {
   copyHandler: OnClick

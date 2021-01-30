@@ -2,6 +2,8 @@ import { useState } from 'react'
 import BaseInput from '../../components/inputs/base/base-input'
 import KigoList from '../../components/kigo-list/kigo-list'
 import colors from '../../colors.json'
+import { OnChange } from '../../types/events'
+import { Season } from '../../types/kigo'
 
 const KigoTab: React.FC = () => {
   const [filter, setFilter] = useState<string>('')

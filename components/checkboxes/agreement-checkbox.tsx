@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { OnChange } from '../../types/events'
 
 type Props = {
   onChange: OnChange
