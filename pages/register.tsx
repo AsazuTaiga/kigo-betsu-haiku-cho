@@ -6,7 +6,8 @@ import DataLicense from '../components/texts/data-license'
 import colors from '../colors.json'
 import { useEffect, useState } from 'react'
 import router from 'next/router'
-import firebase from 'firebase'
+import firebase from 'firebase/app'
+import 'firebase/auth'
 
 const Register: NextPage = () => {
   const [credential, setCredential] = useState<firebase.auth.UserCredential>()

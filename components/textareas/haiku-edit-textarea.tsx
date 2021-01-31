@@ -21,8 +21,6 @@ const HaikuEditTextarea: React.VFC<Props> = (props) => {
   const [edittedValue, setEdittedValue] = useState(initialValue.haiku)
   const [isMenuShown, setIsMenuShown] = useState(false)
   const [isDisabled, setIsDisabled] = useState(true)
-  const [x, setX] = useState(0)
-  const [y, setY] = useState(0)
   const textAreaRef = useRef<HTMLTextAreaElement>(null)
 
   const handleKeyDown: OnKeyDownTextArea = (keyDownEvent) => {
@@ -42,9 +40,7 @@ const HaikuEditTextarea: React.VFC<Props> = (props) => {
     }
   }
 
-  const handleMenuButtonClick: OnClick = (mouseEvent) => {
-    setX(mouseEvent.pageX)
-    setY(mouseEvent.pageY)
+  const handleMenuButtonClick: OnClick = () => {
     setIsMenuShown(true)
   }
 
@@ -101,30 +97,28 @@ const HaikuEditTextarea: React.VFC<Props> = (props) => {
           ></textarea>
           <span className="textAreaBottom"></span>
         </div>
-        <button className="menuButton" onClick={handleMenuButtonClick}>
-          <img src="/more.svg"></img>
-        </button>
-      </div>
-      {isMenuShown && (
-        <div className="modal" onClick={handleModalClick}>
+        <div className="menuButtonWrapper">
+          <button className="menuButton" onClick={handleMenuButtonClick}>
+            <img src="/more.svg"></img>
+          </button>
           <EditTooltip
-            visibility={isMenuShown ? 'visible' : 'hidden'}
+            isShown={isMenuShown}
             copyHandler={handleCopy}
             tweetHandler={handleTweet}
             editHandler={handleEditStart}
             deleteHandler={handleDelete}
-            positionX={x - 220}
-            positionY={y}
           ></EditTooltip>
+          {isMenuShown && (
+            <div className="modal" onClick={handleModalClick}></div>
+          )}
         </div>
-      )}
+      </div>
       <style jsx>{`
         .haikuEditWrapper {
           display: flex;
           width: 100%;
-          min-height: 80px;
-          max-height: 80px;
-          padding: 20px 0px;
+          min-height: 50px;
+          max-height: 50px;
         }
         .textArea {
           flex: 1;
@@ -134,7 +128,7 @@ const HaikuEditTextarea: React.VFC<Props> = (props) => {
           max-height: 40px;
           resize: none;
           padding: 6px;
-          font-size: 18px;
+          font-size: 16px;
         }
         .textArea:disabled {
           background-color: transparent;
@@ -146,6 +140,7 @@ const HaikuEditTextarea: React.VFC<Props> = (props) => {
           display: flex;
           flex: 1;
           position: relative;
+          height: 40px;
         }
         .textAreaBottom {
           content: '';
@@ -167,7 +162,10 @@ const HaikuEditTextarea: React.VFC<Props> = (props) => {
           width: 100vw;
           height: 100vh;
           overflow: hidden;
-          z-index: 100;
+          z-index: 50;
+        }
+        .menuButtonWrapper {
+          position: relative;
         }
         .menuButton {
           width: 40px;

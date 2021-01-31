@@ -2,7 +2,9 @@ import { NextPage } from 'next'
 import router from 'next/router'
 import dynamic from 'next/dynamic'
 import { useState, useEffect } from 'react'
-import firebase from 'firebase'
+import firebase from 'firebase/app'
+import 'firebase/auth'
+import 'firebase/database'
 
 import AppHeader from '../../components/headers/app-header'
 import KigoDetail from '../../components/texts/kigo-detail'
@@ -13,8 +15,8 @@ import winter from '../../kigo-resource/winter'
 import newYear from '../../kigo-resource/newYear'
 import WriteHaikuButton from '../../components/buttons/write-haiku-button'
 import HaikuForm from '../../components/forms/haiku-form'
-import HaikuEditTextarea from '../../components/textareas/haiku-edit-textarea'
 import { Haiku, HaikuResponse } from '../../types/haiku'
+import HaikuList from '../../components/haiku-list/haiku-list'
 
 const HaikuDetailPage: NextPage = () => {
   // state
@@ -114,15 +116,10 @@ const HaikuDetailPage: NextPage = () => {
                 isDisabled={false}
                 kid={kid}
               ></HaikuForm>
-              <div>
-                {haikuList.map((haikuData) => (
-                  <HaikuEditTextarea
-                    key={haikuData.id}
-                    data={haikuData}
-                    onSubmitHandler={saveEdittedHaiku}
-                  ></HaikuEditTextarea>
-                ))}
-              </div>
+              <HaikuList
+                haikuDataList={haikuList}
+                onSumitHandler={saveEdittedHaiku}
+              ></HaikuList>
             </main>
           </div>
 

@@ -4,7 +4,8 @@ import { useEffect, useState } from 'react'
 import router from 'next/router'
 import AppHeader from '../components/headers/app-header'
 import KigoTab from '../components/tabs/kigo-tab'
-import firebase from 'firebase'
+import firebase from 'firebase/app'
+import 'firebase/auth'
 
 const KigoPage: NextPage = () => {
   const [credential, setCredential] = useState<firebase.auth.UserCredential>()

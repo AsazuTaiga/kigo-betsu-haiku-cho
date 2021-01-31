@@ -33,7 +33,7 @@ const AppHeader: React.VFC = () => {
             configHandler={() => router.push('/config')}
             logOutHandler={() => router.push('/config#log-out')}
             termsHandler={() => router.push('/site')}
-            visibility={isMenuOpen ? 'visible' : 'hidden'}
+            isShown={isMenuOpen}
           ></MenuTooltip>
         </div>
       </header>
