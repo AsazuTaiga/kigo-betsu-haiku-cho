@@ -31,7 +31,8 @@ const HaikuEditTextarea: React.VFC<Props> = (props) => {
       setEdittedValue(initialValue.haiku)
       return
     }
-    if (keyDownEvent.key === 'Enter') {
+    // keyCodeはDeprecatedだが、IME確定時のEnterを弾きたいので利用する
+    if (keyDownEvent.keyCode === 13) {
       setIsDisabled(true)
       if (edittedValue === initialValue.haiku) {
         return
@@ -66,7 +67,7 @@ const HaikuEditTextarea: React.VFC<Props> = (props) => {
 
   useEffect(() => {
     if (!isDisabled) {
-      textAreaRef.current.focus()
+      textAreaRef.current?.focus()
     }
   }, [isDisabled])
 
