@@ -4,21 +4,27 @@ import Link from 'next/link'
 import LogInForm from '../components/forms/log-in-form'
 import DataLicense from '../components/texts/data-license'
 import colors from '../colors.json'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import router from 'next/router'
-import dynamic from 'next/dynamic'
+import firebase from 'firebase'
 
 const LogIn: NextPage = () => {
-  const currentUser =
-    sessionStorage.getItem('userCredential') &&
-    JSON.parse(sessionStorage.getItem('userCredential'))
+  const [credential, setCredential] = useState<firebase.auth.UserCredential>()
+
   useEffect(() => {
-    currentUser && router.push('/kigo')
-  })
+    const userCredentialStr = sessionStorage.getItem('userCredential')
+    if (!userCredentialStr) {
+      router.push('log-in')
+      return
+    }
+    const userCredential = JSON.parse(userCredentialStr)
+    userCredential && router.push('/kigo')
+    setCredential(userCredential)
+  }, [])
 
   return (
     <>
-      {!currentUser ? (
+      {!credential ? (
         <>
           <Head>
             <title>ログイン - 季語別俳句帖</title>
@@ -81,13 +87,4 @@ const LogIn: NextPage = () => {
   )
 }
 
-const DynamicLogIn = dynamic(
-  {
-    loader: async () => LogIn,
-  },
-  {
-    ssr: false,
-  }
-)
-
-export default DynamicLogIn
+export default LogIn

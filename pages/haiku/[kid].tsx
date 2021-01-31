@@ -17,24 +17,30 @@ import HaikuEditTextarea from '../../components/textareas/haiku-edit-textarea'
 import { Haiku, HaikuResponse } from '../../types/haiku'
 
 const HaikuDetailPage: NextPage = () => {
-  // 状態
+  // state
   const [isNewHaikuWriting, setIsNewHaikuWriting] = useState(false)
   const [haikuList, setHaikuList] = useState<Haiku[]>([])
+  const [credential, setCredential] = useState<firebase.auth.UserCredential>()
 
-  const credential: firebase.auth.UserCredential =
-    sessionStorage.getItem('userCredential') &&
-    JSON.parse(sessionStorage.getItem('userCredential'))
+  // path parameter
   const kid = location.pathname.substring(
     location.pathname.lastIndexOf('/') + 1
   )
 
-  // 初期処理：ログインチェック
   useEffect(() => {
+    const userCredentialStr = sessionStorage.getItem('userCredential')
+    if (!userCredentialStr) {
+      router.push('/log-in')
+      return
+    }
+    const credential: firebase.auth.UserCredential = JSON.parse(
+      userCredentialStr
+    )
+    setCredential(credential)
     // 未ログインの場合はログイン画面へ
-    !credential && router.push('/log-in')
 
     // 対象季語データの取得
-    const userId = credential.user.uid
+    const userId = credential.user?.uid
     const db = firebase.database()
     db.ref(`users/${userId}/haiku/${kid}`).on('value', (snapshot) => {
       const res = snapshot.val() as HaikuResponse
@@ -72,7 +78,7 @@ const HaikuDetailPage: NextPage = () => {
   // イベントハンドラ
   // 編集後の俳句をDBに登録
   const saveEdittedHaiku = (edittedHaiku: string, updateTarget: Haiku) => {
-    const userId = credential.user.uid
+    const userId = credential?.user?.uid
     const db = firebase.database()
     const updates = {
       haiku: edittedHaiku,
@@ -147,7 +153,7 @@ const HaikuDetailPage: NextPage = () => {
   )
 }
 
-const dynamicHaiku = dynamic(
+const dynamicHaikuDetailPage = dynamic(
   {
     loader: async () => HaikuDetailPage,
   },
@@ -156,4 +162,4 @@ const dynamicHaiku = dynamic(
   }
 )
 
-export default dynamicHaiku
+export default dynamicHaikuDetailPage

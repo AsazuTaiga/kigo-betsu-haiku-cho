@@ -12,6 +12,6 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       firebase.initializeApp(firebaseConfig)
       firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL)
     }
-  })
+  }, [])
   return <Component {...pageProps} />
 }

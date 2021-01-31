@@ -23,7 +23,7 @@ type Props = {
 
 const KigoList: React.VFC<Props> = (props) => {
   const { season, filter } = { ...props }
-  const [kigoArray, setKigoArray] = useState([])
+  const [kigoArray, setKigoArray] = useState<Kigo[]>([])
   const [marker, setMarker] = useState(60)
   useEffect(() => {
     setMarker(60)

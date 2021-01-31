@@ -1,25 +1,30 @@
 import { NextPage } from 'next'
 import Head from 'next/head'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import router from 'next/router'
 import AppHeader from '../components/headers/app-header'
 import KigoTab from '../components/tabs/kigo-tab'
-import dynamic from 'next/dynamic'
+import firebase from 'firebase'
 
-const Kigo: NextPage = () => {
-  const currentUser =
-    sessionStorage.getItem('userCredential') &&
-    JSON.parse(sessionStorage.getItem('userCredential'))
+const KigoPage: NextPage = () => {
+  const [credential, setCredential] = useState<firebase.auth.UserCredential>()
+
   useEffect(() => {
-    !currentUser && router.push('/log-in')
-  })
+    const userCredentialStr = sessionStorage.getItem('userCredential')
+    if (!userCredentialStr) {
+      router.push('log-int')
+      return
+    }
+    const userCredential = JSON.parse(userCredentialStr)
+    setCredential(userCredential)
+  }, [])
 
   return (
     <>
       <Head>
         <title>季語一覧・検索 - 季語別俳句帖</title>
       </Head>
-      {currentUser ? (
+      {credential ? (
         <>
           <div className="container">
             <AppHeader />
@@ -50,13 +55,4 @@ const Kigo: NextPage = () => {
   )
 }
 
-const DynamicKigo = dynamic(
-  {
-    loader: async () => Kigo,
-  },
-  {
-    ssr: false,
-  }
-)
-
-export default DynamicKigo
+export default KigoPage

@@ -3,7 +3,8 @@ import SaveButton from '../buttons/save-button'
 import HaikuAddTextarea from '../textareas/haiku-add-textarea'
 import { OnClick, OnChangeTextArea } from '../../types/events'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { useRouter } from 'next/router'
 
 import firebase from 'firebase/app'
 import 'firebase/auth'
@@ -18,12 +19,29 @@ type Props = {
 
 const HaikuForm: React.VFC<Props> = (props) => {
   const { onCancel, isShown, isDisabled, kid } = { ...props }
-  const currentUser: firebase.User =
-    sessionStorage.getItem('userCredential') &&
-    JSON.parse(sessionStorage.getItem('userCredential')).user
-  const database = firebase.database()
+
+  // state
+  const [user, setUser] = useState<firebase.User>()
+
+  // router
+  const router = useRouter()
+
+  // user info
+  useEffect(() => {
+    const userCredentialStr = sessionStorage.getItem('userCredential')
+    if (userCredentialStr === null) {
+      router.push('/log-in')
+      return
+    }
+    const user: firebase.User = JSON.parse(userCredentialStr).user
+    setUser(user)
+  }, [])
+
+  // state
   const [text, setText] = useState('')
   const [isSaving, setIsSaving] = useState(false)
+
+  // event handler
   const onChange: OnChangeTextArea = (changeEvent) => {
     setText(changeEvent.target.value)
   }
@@ -36,8 +54,9 @@ const HaikuForm: React.VFC<Props> = (props) => {
     setIsSaving(true)
     Promise.all(
       haikus.map((haiku) =>
-        database
-          .ref('users/' + currentUser.uid + '/haiku/' + kid)
+        firebase
+          .database()
+          .ref('users/' + user?.uid + '/haiku/' + kid)
           .push()
           .set({
             haiku: haiku,
