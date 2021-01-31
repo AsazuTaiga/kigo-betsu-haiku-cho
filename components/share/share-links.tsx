@@ -14,7 +14,7 @@ const ShareLinks: React.VFC = () => {
   const [url, setUrl] = useState('')
   useEffect(() => {
     setUrl(location.href)
-  })
+  }, [])
   return (
     <>
       <div className="shareLinks">

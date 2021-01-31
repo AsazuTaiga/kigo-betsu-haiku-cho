@@ -1,5 +1,6 @@
 import AddIcon from '@material-ui/icons/Add'
 import colors from '../../colors.json'
+import { OnClick } from '../../types/events'
 
 type Props = {
   onClick: OnClick

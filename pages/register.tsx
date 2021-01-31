@@ -4,20 +4,27 @@ import Link from 'next/link'
 import RegisterForm from '../components/forms/register-form'
 import DataLicense from '../components/texts/data-license'
 import colors from '../colors.json'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import router from 'next/router'
-import dynamic from 'next/dynamic'
+import firebase from 'firebase/app'
+import 'firebase/auth'
 
 const Register: NextPage = () => {
-  const currentUser = JSON.parse(sessionStorage.getItem('currentUser'))
+  const [credential, setCredential] = useState<firebase.auth.UserCredential>()
   useEffect(() => {
-    currentUser && router.push('/kigo')
-  })
+    const userCredentialStr = sessionStorage.getItem('userCredential')
+    if (!userCredentialStr) {
+      router.push('/log-in')
+      return
+    }
+    const userCredential = JSON.parse(userCredentialStr)
+    userCredential && router.push('/kigo')
+    setCredential(userCredential)
+  }, [])
 
   return (
     <>
-      {' '}
-      {!currentUser ? (
+      {!credential ? (
         <>
           <Head>
             <title>ログイン - 季語別俳句帖</title>
@@ -80,13 +87,4 @@ const Register: NextPage = () => {
   )
 }
 
-const DynamiciRegister = dynamic(
-  {
-    loader: async () => Register,
-  },
-  {
-    ssr: false,
-  }
-)
-
-export default DynamiciRegister
+export default Register

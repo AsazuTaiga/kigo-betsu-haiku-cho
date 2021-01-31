@@ -1,5 +1,6 @@
 import { Fragment } from 'react'
 import colors from '../../../colors.json'
+import { OnClick } from '../../../types/events'
 
 export type Props = {
   text: string

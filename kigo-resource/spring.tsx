@@ -1,3 +1,5 @@
+import { Kigo } from '../types/kigo'
+
 const spring: Kigo[] = [
   {
     name: '藍蒔く',

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import KigoLink from '../links/kigo-link'
 import colors from '../../colors.json'
+import { Season, Kigo } from '../../types/kigo'
 import spring from '../../kigo-resource/spring'
 import summer from '../../kigo-resource/summer'
 import fall from '../../kigo-resource/fall'
@@ -22,19 +23,21 @@ type Props = {
 
 const KigoList: React.VFC<Props> = (props) => {
   const { season, filter } = { ...props }
-  const [kigoArray, setKigoArray] = useState([])
+  const [kigoArray, setKigoArray] = useState<Kigo[]>([])
   const [marker, setMarker] = useState(60)
   useEffect(() => {
     setMarker(60)
     setKigoArray(kigos[season])
   }, [season])
   const isMatchFilterString = (kigo: Kigo) => {
+    if (!filter) {
+      return true
+    }
     return (
       kigo.name.includes(filter) ||
       kigo.yomigana.includes(filter) ||
       kigo.kyukana.includes(filter) ||
-      kigo.bodai.includes(filter) ||
-      !filter
+      kigo.bodai.includes(filter)
     )
   }
   return (

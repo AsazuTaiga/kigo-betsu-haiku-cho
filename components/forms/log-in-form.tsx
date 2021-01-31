@@ -6,6 +6,7 @@ import 'firebase/database'
 import ValidationInput from '../inputs/validation-input'
 import LogInButton from '../buttons/log-in-button'
 import Validator from './validator'
+import { OnSubmit } from '../../types/events'
 
 const LogInForm: React.VFC = () => {
   const router = useRouter()
@@ -43,7 +44,7 @@ const LogInForm: React.VFC = () => {
     const emailValidationResult = Validator.test(email, 'email')
     if (!emailValidationResult.isValid) {
       setIsEmailInvalid(true)
-      setEmailValidationMessage(emailValidationResult.message)
+      setEmailValidationMessage(emailValidationResult.message || '')
     } else {
       setIsEmailInvalid(false)
       setEmailValidationMessage('')
@@ -55,7 +56,7 @@ const LogInForm: React.VFC = () => {
     const passwordValidationResult = Validator.testEmpty(password, 'password')
     if (!passwordValidationResult.isValid) {
       setIsPasswordInvalid(true)
-      setPasswordValidationMessage(passwordValidationResult.message)
+      setPasswordValidationMessage(passwordValidationResult.message || '')
     } else {
       setIsPasswordInvalid(false)
       setPasswordValidationMessage('')
@@ -73,12 +74,14 @@ const LogInForm: React.VFC = () => {
     })
   }
 
-  const handleLogInSuccess = (response) => {
-    sessionStorage.setItem('currentUser', JSON.stringify(response))
+  const handleLogInSuccess = (
+    response: firebase.auth.UserCredential | unknown
+  ) => {
+    sessionStorage.setItem('userCredential', JSON.stringify(response))
     router.push('/kigo')
   }
 
-  const handleLogInFail = (error) => {
+  const handleLogInFail = (error: firebase.auth.Error) => {
     if (error.code === 'auth/user-not-found') {
       setIsEmailInvalid(true)
       setEmailValidationMessage(

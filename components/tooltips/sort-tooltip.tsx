@@ -1,21 +1,22 @@
 import NewerIcon from '@material-ui/icons/ArrowDownward'
 import OlderIcon from '@material-ui/icons/ArrowUpward'
 import BaseTooltip from './base/base-tooltip'
+import { OnClick } from '../../types/events'
 import colors from '../../colors.json'
 
 type Props = {
   newerHandler: OnClick
   olderHandler: OnClick
-  visibility: 'visible' | 'hidden'
+  isShown: boolean
 }
 
 const SortTooltip: React.VFC<Props> = (props) => {
-  const { newerHandler, olderHandler, visibility } = {
+  const { newerHandler, olderHandler, isShown } = {
     ...props,
   }
   return (
     <BaseTooltip
-      visibility={visibility}
+      isShown={isShown}
       innerTooltipAttrs={[
         {
           text: '新しい順',

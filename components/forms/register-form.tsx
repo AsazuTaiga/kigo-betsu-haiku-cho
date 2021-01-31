@@ -7,6 +7,7 @@ import ValidationInput from '../inputs/validation-input'
 import AgreementCheckbox from '../checkboxes/agreement-checkbox'
 import RegisterButton from '../buttons/register-button'
 import Validator from './validator'
+import { OnSubmit } from '../../types/events'
 
 const RegisterForm: React.VFC = () => {
   const router = useRouter()
@@ -89,12 +90,12 @@ const RegisterForm: React.VFC = () => {
     return await firebase.auth().signInWithEmailAndPassword(email, password)
   }
 
-  const handleSuccess = (response) => {
-    sessionStorage.setItem('currentUser', JSON.stringify(response))
+  const handleSuccess = (response: firebase.auth.UserCredential) => {
+    sessionStorage.setItem('userCredential', JSON.stringify(response))
     router.push('/kigo')
   }
 
-  const handleFail = (error) => {
+  const handleFail = (error: firebase.auth.Error) => {
     switch (error.code) {
       case 'auth/email-already-in-use': {
         setIsEmailInvalid(true)

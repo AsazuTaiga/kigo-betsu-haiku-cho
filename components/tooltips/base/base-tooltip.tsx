@@ -4,11 +4,11 @@ import BaseTooltipItem from './base-tooltip-item'
 
 type Props = {
   innerTooltipAttrs: Array<BaseTooltipItemAttr>
-  visibility: 'visible' | 'hidden'
+  isShown: boolean
 }
 
 const BaseTooltip: React.VFC<Props> = (props) => {
-  const { innerTooltipAttrs, visibility } = { ...props }
+  const { innerTooltipAttrs, isShown } = { ...props }
   return (
     <Fragment>
       <div className="baseToolTip">
@@ -29,7 +29,7 @@ const BaseTooltip: React.VFC<Props> = (props) => {
           background: white;
           box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
           border-radius: 4px;
-          visibility: ${visibility};
+          display: ${isShown ? 'block' : 'none'};
           animation: fade 0.3s ease-in-out;
         }
         .baseToolTipUL {

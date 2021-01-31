@@ -1,10 +1,11 @@
 import colors from '../../../colors.json'
+import { OnClick } from '../../../types/events'
 
 type Props = {
   backgroundColor: string
   textColor: string
   textContent: string | JSX.Element
-  onClick: OnClick
+  onClick?: OnClick
   isLoading?: boolean
   type: 'button' | 'submit' | 'reset'
 }
@@ -40,7 +41,7 @@ const BaseButton: React.VFC<Props> = (props) => {
           outline: none;
           font-size: 16px;
           transition: filter 0.2s ease;
-          width: 100%;
+          flex: 1;
         }
         commonButton:acitive {
           filter: brightness(1.1);

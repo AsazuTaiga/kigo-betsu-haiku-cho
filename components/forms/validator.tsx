@@ -9,7 +9,7 @@ class Validator {
     if (!Validator.pattern[valueType].test(value)) {
       return { isValid: false, message: Validator.message[valueType].format }
     }
-    return { isValid: true }
+    return { isValid: true, message: '' }
   }
 
   static testEmpty(value: string, valueType: 'email' | 'password') {

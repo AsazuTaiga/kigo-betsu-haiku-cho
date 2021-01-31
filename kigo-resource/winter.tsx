@@ -1,3 +1,5 @@
+import { Kigo } from '../types/kigo'
+
 const winter: Kigo[] = [
   {
     name: 'アイスホッケー',

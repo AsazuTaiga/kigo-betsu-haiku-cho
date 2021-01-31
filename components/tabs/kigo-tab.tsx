@@ -2,11 +2,13 @@ import { useState } from 'react'
 import BaseInput from '../../components/inputs/base/base-input'
 import KigoList from '../../components/kigo-list/kigo-list'
 import colors from '../../colors.json'
+import { OnChange } from '../../types/events'
+import { Season } from '../../types/kigo'
 
 const KigoTab: React.VFC = () => {
   const [filter, setFilter] = useState<string>('')
   const [season, setSeason] = useState<Season>('spring')
-  let timeout
+  let timeout: ReturnType<typeof setTimeout>
   const handleFilterChange: OnChange = (changeEvent) => {
     const filterValue = changeEvent.target.value
     if (timeout) {

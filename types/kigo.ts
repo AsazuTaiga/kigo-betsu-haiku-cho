@@ -1,4 +1,4 @@
-type Kigo = {
+export type Kigo = {
   id: number
   name: string
   season: Season
@@ -7,4 +7,4 @@ type Kigo = {
   bodai: Array<string>
 }
 
-type Season = 'spring' | 'summer' | 'fall' | 'winter' | 'newYear'
+export type Season = 'spring' | 'summer' | 'fall' | 'winter' | 'newYear'

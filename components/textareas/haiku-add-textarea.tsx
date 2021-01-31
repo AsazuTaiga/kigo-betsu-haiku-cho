@@ -1,4 +1,6 @@
+import { useEffect, useRef } from 'react'
 import colors from '../../colors.json'
+import { OnChangeTextArea } from '../../types/events'
 
 type Props = {
   onChange: OnChangeTextArea
@@ -6,9 +8,17 @@ type Props = {
   isDisabled: boolean
 }
 
-const HaikuAddTextarea: React.VFC<Props> = (props) => {
+const HaikuAddTextarea: React.FC<Props> = (props) => {
   const { onChange, valueRef, isDisabled } = { ...props }
-  const placeholder = '改行して複数の俳句を登録できます。'
+  const placeholder =
+    '改行して複数の俳句を登録できます。\n\n※多行書きを有効化する場合は設定から変更してください。'
+
+  const textAreaRef = useRef<HTMLTextAreaElement>(null)
+  useEffect(() => {
+    if (textAreaRef.current) {
+      textAreaRef.current.value = valueRef
+    }
+  }, [valueRef])
   return (
     <>
       <textarea
@@ -16,7 +26,7 @@ const HaikuAddTextarea: React.VFC<Props> = (props) => {
         onChange={onChange}
         disabled={isDisabled}
         placeholder={placeholder}
-        value={valueRef}
+        ref={textAreaRef}
       />
       <style jsx>
         {`

@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import colors from '../../colors.json'
+import { Kigo } from '../../types/kigo'
 
 type Props = {
   kigo: Kigo

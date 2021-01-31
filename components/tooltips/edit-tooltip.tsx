@@ -4,32 +4,25 @@ import TwitterIcon from '@material-ui/icons/Twitter'
 import DeleteIcon from '@material-ui/icons/DeleteOutlined'
 import BaseTooltip from './base/base-tooltip'
 import colors from '../../colors.json'
+import { OnClick } from '../../types/events'
 
 type Props = {
   copyHandler: OnClick
   editHandler: OnClick
   tweetHandler: OnClick
   deleteHandler: OnClick
-  visibility: 'visible' | 'hidden'
-  positionX: number
-  positionY: number
+  isShown: boolean
 }
 
 const EditTooltip: React.VFC<Props> = (props) => {
-  const {
-    copyHandler,
-    editHandler,
-    tweetHandler,
-    deleteHandler,
-    visibility,
-    positionX,
-    positionY,
-  } = { ...props }
+  const { copyHandler, editHandler, tweetHandler, deleteHandler, isShown } = {
+    ...props,
+  }
   return (
     <>
       <div className="wrapper">
         <BaseTooltip
-          visibility={visibility}
+          isShown={isShown}
           innerTooltipAttrs={[
             {
               text: '編集',
@@ -58,10 +51,10 @@ const EditTooltip: React.VFC<Props> = (props) => {
       <style jsx>
         {`
           .wrapper {
-            position: fixed;
+            position: absolute;
             z-index: 100;
-            left: ${positionX}px;
-            top: ${positionY}px;
+            right: 0;
+            top: 0;
           }
         `}
       </style>

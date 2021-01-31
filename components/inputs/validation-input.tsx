@@ -1,5 +1,6 @@
 import BaseInput from './base/base-input'
 import colors from '../../colors.json'
+import { OnChange } from '../../types/events'
 
 type Props = {
   isInvalid?: boolean
