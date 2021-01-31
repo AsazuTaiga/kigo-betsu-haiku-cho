@@ -167,6 +167,7 @@ const HaikuEditTextarea: React.VFC<Props> = (props) => {
           width: 100vw;
           height: 100vh;
           overflow: hidden;
+          z-index: 100;
         }
         .menuButton {
           width: 40px;
