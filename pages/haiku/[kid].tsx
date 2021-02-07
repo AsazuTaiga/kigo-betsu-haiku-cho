@@ -23,6 +23,7 @@ const HaikuDetailPage: NextPage = () => {
   const [isNewHaikuWriting, setIsNewHaikuWriting] = useState(false)
   const [haikuList, setHaikuList] = useState<Haiku[]>([])
   const [credential, setCredential] = useState<firebase.auth.UserCredential>()
+  const [isLoading, setIsLoading] = useState(true)
 
   // path parameter
   const kid = location.pathname.substring(
@@ -47,6 +48,7 @@ const HaikuDetailPage: NextPage = () => {
     db.ref(`users/${userId}/haiku/${kid}`).on('value', (snapshot) => {
       const res = snapshot.val() as HaikuResponse
       if (!res) {
+        setIsLoading(false)
         return
       }
 
@@ -59,6 +61,7 @@ const HaikuDetailPage: NextPage = () => {
         } as Haiku
       })
       setHaikuList(formatted)
+      setIsLoading(false)
     })
   }, [])
 
@@ -86,12 +89,14 @@ const HaikuDetailPage: NextPage = () => {
       haiku: edittedHaiku,
       createdAt: updateTarget.createdAt,
     }
-    db.ref(`users/${userId}/haiku/${kid}/${updateTarget.id}`).update(
-      updates,
-      () => {
-        return
-      }
-    )
+    db.ref(`users/${userId}/haiku/${kid}/${updateTarget.id}`).update(updates)
+  }
+
+  // 俳句の削除
+  const deleteHaiku = (delteTarget: Haiku) => {
+    const userId = credential?.user?.uid
+    const db = firebase.database()
+    db.ref(`users/${userId}/haiku/${kid}/${delteTarget.id}`).remove()
   }
 
   return (
@@ -116,10 +121,17 @@ const HaikuDetailPage: NextPage = () => {
                 isDisabled={false}
                 kid={kid}
               ></HaikuForm>
-              <HaikuList
-                haikuDataList={haikuList}
-                onSumitHandler={saveEdittedHaiku}
-              ></HaikuList>
+              {isLoading ? (
+                <div className="loading">
+                  <img src="/three-dots.svg" alt="loading"></img>
+                </div>
+              ) : (
+                <HaikuList
+                  haikuDataList={haikuList}
+                  onSumitHandler={saveEdittedHaiku}
+                  onDeleteHandler={deleteHaiku}
+                ></HaikuList>
+              )}
             </main>
           </div>
 
@@ -142,6 +154,16 @@ const HaikuDetailPage: NextPage = () => {
             .writeHaikuButton,
             .haikuForm {
               margin-top: 30px;
+            }
+            .loading {
+              margin-top: 60px;
+              width: 100%;
+              display: flex;
+              justify-content: center;
+            }
+            .loading img {
+              width: 80px;
+              filter: invert(0.3);
             }
           `}</style>
         </>

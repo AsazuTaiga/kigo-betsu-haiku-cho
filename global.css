@@ -10,6 +10,8 @@ body {
   box-sizing: border-box;
 }
 
-textarea {
+input,
+textarea,
+button {
   font-family: inherit;
 }

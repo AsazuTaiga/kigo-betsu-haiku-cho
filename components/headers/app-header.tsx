@@ -80,7 +80,7 @@ const AppHeader: React.VFC = () => {
           padding: 50px 40% 0px 10px;
         }
         .titleLogo {
-          height: 40%;
+          height: 60%;
           cursor: pointer;
         }
       `}</style>

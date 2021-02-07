@@ -13,10 +13,11 @@ import Colors from '../../colors.json'
 type Props = {
   data: Haiku
   onSubmitHandler: (edittedHaiku: string, updateTarget: Haiku) => void
+  onDeleteHandler: (deleteTarget: Haiku) => void
 }
 
 const HaikuEditTextarea: React.VFC<Props> = (props) => {
-  const { data: initialValue, onSubmitHandler } = { ...props }
+  const { data: initialValue, onSubmitHandler, onDeleteHandler } = { ...props }
 
   const [edittedValue, setEdittedValue] = useState(initialValue.haiku)
   const [isMenuShown, setIsMenuShown] = useState(false)
@@ -68,7 +69,8 @@ const HaikuEditTextarea: React.VFC<Props> = (props) => {
   }, [isDisabled])
 
   const handleDelete: OnClick = () => {
-    //
+    onDeleteHandler(initialValue)
+    setIsMenuShown(false)
   }
 
   const handleModalClick: OnClickDiv = () => {
