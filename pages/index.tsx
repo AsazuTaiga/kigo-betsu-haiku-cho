@@ -3,108 +3,103 @@ import Link from 'next/link'
 import LandingHeder from '../components/headers/landing-header'
 import colors from '../colors.json'
 import ShareLinks from '../components/share/share-links'
+import Container from '../components/layout/container'
+import { NextPage } from 'next'
 
-export const Home = (): JSX.Element => {
+export const Home: NextPage = () => {
   return (
-    <div className="container">
-      <Head>
-        <title>季語別俳句帖とは？</title>
-      </Head>
-      <LandingHeder />
-      <main>
-        <img src="top-logo.svg" className="topLogo" alt="季語別俳句帖"></img>
-        <ShareLinks></ShareLinks>
-        <div className="sectionWrapper">
-          <section>
-            <div>
-              <h2>手ぶらで散歩、そのまま吟行。</h2>
-              <p>あまりに突然のことだった。</p>
-              <p>
-                コンビニから帰る途中、
-                <br />
-                一羽の川鵜が、滑らかに飛来して、
-                <br />
-                水面に吸い込まれていく様を見た。
-              </p>
-              <p>
-                季寄せや句帳を持っていない時でも、
-                <br />
-                大切な「シャッターチャンス」は逃したくない。
-                <br />
-                そんな写生派のあなたに。
-              </p>
-            </div>
-            <img src="/dog_walking.svg" alt=""></img>
-          </section>
-          <section>
-            <div>
-              <h2>去年は蜜柑でどんな句を書いたっけ。</h2>
-              <p>
-                俳句を作るとき、
-                <br />
-                過去に自分がその季語で
-                <br />
-                どんな句を作ったのか
-                <br />
-                気になるときがありませんか？
-              </p>
-              <p>
-                それで、句帳をめっくてみたら、
-                <br />
-                「ああ、あんなこともあったな」なんて。
-              </p>
-              <p>
-                思い出に少し浸ってから、
-                <br />
-                さて、類想の海を抜け出そうか。
-              </p>
-            </div>
-            <img src="/reading_a_book.svg" alt=""></img>
-          </section>
-          <section>
-            <div>
-              <h2>もう、大切な俳句を失くさない。</h2>
-              <p>昔から、俳句の管理方法が定まらない。</p>
-              <p>
-                普段は句帳に書きつけているが、
-                <br />
-                ぱっと取り出せない時には、
-                <br />
-                仕事用のノートの最後のページだったり、
-                <br />
-                スマートフォンのメモアプリだったり、
-                <br />
-                果てはチラシの裏にまで。
-              </p>
-              <p>
-                知人はExcelで管理しているそうだ。
-                <br />
-                骨が折れそうだけど、それが一番かもしれない。
-              </p>
-              <p>でも、もっと手軽なものがあればなあ――。</p>
-            </div>
-            <img src="/data_storage.svg" alt=""></img>
-          </section>
-        </div>
+    <>
+      <Container>
+        <Head>
+          <title>季語別俳句帖とは？</title>
+        </Head>
+        <LandingHeder />
+        <main>
+          <img src="top-logo.svg" className="topLogo" alt="季語別俳句帖"></img>
+          <ShareLinks></ShareLinks>
+          <div className="sectionWrapper">
+            <section>
+              <div>
+                <h2>手ぶらで散歩、そのまま吟行。</h2>
+                <p>あまりに突然のことだった。</p>
+                <p>
+                  コンビニから帰る途中、
+                  <br />
+                  一羽の川鵜が、滑らかに飛来して、
+                  <br />
+                  水面に吸い込まれていく様を見た。
+                </p>
+                <p>
+                  季寄せや句帳を持っていない時でも、
+                  <br />
+                  大切な「シャッターチャンス」は逃したくない。
+                  <br />
+                  そんな写生派のあなたに。
+                </p>
+              </div>
+              <img src="/dog_walking.svg" alt=""></img>
+            </section>
+            <section>
+              <div>
+                <h2>去年は蜜柑でどんな句を書いたっけ。</h2>
+                <p>
+                  俳句を作るとき、
+                  <br />
+                  過去に自分がその季語で
+                  <br />
+                  どんな句を作ったのか
+                  <br />
+                  気になるときがありませんか？
+                </p>
+                <p>
+                  それで、句帳をめっくてみたら、
+                  <br />
+                  「ああ、あんなこともあったな」なんて。
+                </p>
+                <p>
+                  思い出に少し浸ってから、
+                  <br />
+                  さて、類想の海を抜け出そうか。
+                </p>
+              </div>
+              <img src="/reading_a_book.svg" alt=""></img>
+            </section>
+            <section>
+              <div>
+                <h2>もう、大切な俳句を失くさない。</h2>
+                <p>昔から、俳句の管理方法が定まらない。</p>
+                <p>
+                  普段は句帳に書きつけているが、
+                  <br />
+                  ぱっと取り出せない時には、
+                  <br />
+                  仕事用のノートの最後のページだったり、
+                  <br />
+                  スマートフォンのメモアプリだったり、
+                  <br />
+                  果てはチラシの裏にまで。
+                </p>
+                <p>
+                  知人はExcelで管理しているそうだ。
+                  <br />
+                  骨が折れそうだけど、それが一番かもしれない。
+                </p>
+                <p>でも、もっと手軽なものがあればなあ――。</p>
+              </div>
+              <img src="/data_storage.svg" alt=""></img>
+            </section>
+          </div>
 
-        <img src="top-logo.svg" className="topLogo" alt="季語別俳句帖" />
-        <ShareLinks></ShareLinks>
-        <div className="linkWrap">
-          <Link href="/log-in">ログイン</Link>
-          <Link href="/register">新規登録</Link>
-        </div>
-      </main>
+          <img src="top-logo.svg" className="topLogo" alt="季語別俳句帖" />
+          <ShareLinks></ShareLinks>
+          <div className="linkWrap">
+            <Link href="/log-in">ログイン</Link>
+            <Link href="/register">新規登録</Link>
+          </div>
+        </main>
+      </Container>
 
       <style jsx>{`
-        .container {
-          min-height: 100vh;
-          padding: 0 0.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
         main {
           padding: 5rem 0;
           flex: 1;
@@ -169,7 +164,7 @@ export const Home = (): JSX.Element => {
           font-size: 18px;
         }
       `}</style>
-    </div>
+    </>
   )
 }
 

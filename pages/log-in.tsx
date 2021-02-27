@@ -1,6 +1,7 @@
 import { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
+import Container from '../components/layout/container'
 import LogInForm from '../components/forms/log-in-form'
 import DataLicense from '../components/texts/data-license'
 import colors from '../colors.json'
@@ -30,7 +31,7 @@ const LogIn: NextPage = () => {
           <Head>
             <title>ログイン - 季語別俳句帖</title>
           </Head>
-          <div className="container">
+          <Container>
             <img
               className="topLogo"
               src="top-logo.svg"
@@ -44,7 +45,7 @@ const LogIn: NextPage = () => {
               <span className="link">新規登録</span>
             </Link>
             <DataLicense />
-          </div>
+          </Container>
           <style jsx>{`
             .container {
               display: flex;

@@ -13,7 +13,7 @@ const KigoPage: NextPage = () => {
   useEffect(() => {
     const userCredentialStr = sessionStorage.getItem('userCredential')
     if (!userCredentialStr) {
-      router.push('log-int')
+      router.push('log-in')
       return
     }
     const userCredential = JSON.parse(userCredentialStr)

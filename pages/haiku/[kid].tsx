@@ -1,4 +1,5 @@
 import { NextPage } from 'next'
+import Head from 'next/head'
 import router from 'next/router'
 import dynamic from 'next/dynamic'
 import { useState, useEffect } from 'react'
@@ -103,6 +104,9 @@ const HaikuDetailPage: NextPage = () => {
     <>
       {credential && kigo ? (
         <>
+          <Head>
+            <title>{kigo.name} - 季語別俳句帖</title>
+          </Head>
           <div className="container">
             <AppHeader />
             <main>
